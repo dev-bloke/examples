@@ -10,7 +10,7 @@
 
   <parent>
     <groupId>com.meridal.example</groupId>
-    <artifactId>parent</artifactId>
+    <artifactId>examples</artifactId>
     <version>1.0-SNAPSHOT</version>
     <relativePath>..</relativePath>
   </parent>

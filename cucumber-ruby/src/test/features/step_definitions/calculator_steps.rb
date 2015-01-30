@@ -8,5 +8,5 @@ When(/^the calculator is run$/) do
 end
 
 Then(/^the output should be "(.*?)"$/) do |expected_output|
-  expect(@output == expected_output)
+  expect(@output).to eq(expected_output)
 end
