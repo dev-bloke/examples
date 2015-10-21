@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Maps API Example</title>
+    <link rel="stylesheet" href="maps-example.css" type="text/css" media="screen">
+    <script src="maps-example.js"></script> 
+    <script type="text/javascript">
+      mapsExample.initMap("map", 52.49140425486888, 0.15535367114262844 ,10);
+    </script> 
+  </head>
+  <body>
+    <h1>Google Maps API Example</h1>
+    <div id="legend">
+      <div><img src="red-circle.svg" /> Red Circle</div>
+      <div><img src="green-triangle.svg" /> Green Triangle</div>
+      <div><img src="blue-star.svg" /> Blue Star</div>
+    </div>
+    <div id="map"></div>
+    <div class="info">
+      <h3>Map Information</h3>
+      <table>
+        <tr><td>Version</td><td id="version"></td></tr>
+        <tr><td>Centre</td><td id="centre"></td></tr>
+        <tr><td>North East</td><td id="ne"></td></tr>
+        <tr><td>South West</td><td id="sw"></td></tr>
+        <tr><td>Zoom</td><td id="zoom"></td></tr>
+      </table>
+    </div>
+    <div class="info">
+      <h3>Haversine Formula Results</h3>
+      <p>From the centre to the top of the map:</p>
+      <table>
+        <tr><td>Distance (metres)</td><td id="metres"></td></tr>
+        <tr><td>Distance (miles)</td><td id="miles"></td></tr>
+      </table>
+      <p><a href="https://en.wikipedia.org/wiki/Haversine_formula">More information about the Haversine Formula.</a><p>
+    </div>
+    <!-- NB: The key below will only work on http://www.devbloke.me.uk/ -->
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrnl6pTJr-0Oy8O6udj0eynK0JtYKb6w8&callback=mapsExample.createMap">
+    </script>
+  </body>
+</html>

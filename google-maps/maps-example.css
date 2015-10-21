@@ -1,0 +1,32 @@
+body {
+  font-family: Calibri, Helvetica, sans-serif;
+  font-size: 13px;
+  color: SlateGray;
+}
+
+#map { 
+  width: 80%;
+  height: 400px; 
+}
+
+div.info {
+  width: 50%;
+  float: left;
+}
+
+div#legend {
+  border: 1px solid black;
+  background-color: white;
+  padding: 5px;
+}
+
+h1, h3 {
+  color: DarkSlateGray;
+}
+
+div#legend img {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin: 5px;
+}
