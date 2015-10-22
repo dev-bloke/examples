@@ -8,6 +8,9 @@ var mapsExample = {
 	circles: 0,
 	triangles: 0,
 	stars: 0,
+	constrainZoom: false,
+	minZoom: 9,
+	lastZoomReset: false,
     
     initMap: function(id, latitude, longitude, zoomLevel) {
         mapsExample.id = id;
@@ -23,15 +26,49 @@ var mapsExample = {
     },
     
     createMap: function() {
+        mapsExample.controls = {
+            constrainZoom: document.getElementById("constrainZoom"),
+            circles: document.getElementById("circles"),
+            triangles: document.getElementById("triangles"),
+            stars: document.getElementById("stars")
+        };
+        mapsExample.controls.circles.value = mapsExample.addCircles;
+        mapsExample.controls.triangles.value = mapsExample.addTriangles;
+        mapsExample.controls.stars.value = mapsExample.addStars;
+        mapsExample.controls.constrainZoom.onchange = mapsExample.constrainZoomChanged;
+        mapsExample.controls.circles.onchange = mapsExample.circlesChanged;
+        mapsExample.controls.triangles.onchange = mapsExample.trianglesChanged;
+        mapsExample.controls.stars.onchange = mapsExample.starsChanged;
         mapsExample.container = document.getElementById(mapsExample.id);
         mapsExample.map = new google.maps.Map(mapsExample.container, mapsExample.setup);
         mapsExample.map.addListener("idle", mapsExample.idle);
+        mapsExample.map.addListener("zoom_changed", mapsExample.zoomChanged);
         document.getElementById("version").innerHTML = google.maps.version;
         mapsExample.redCircle = mapsExample.createImage("red-circle.svg");
         mapsExample.greenTriangle = mapsExample.createImage("green-triangle.svg");
         mapsExample.blueStar = mapsExample.createImage("blue-star.svg");
         mapsExample.map.controls[google.maps.ControlPosition.RIGHT_CENTER].push(
             document.getElementById('legend'));
+    },
+    
+    constrainZoomChanged : function() {
+        mapsExample.constrainZoom = this.checked;
+        console.log("constrainZoom=" + mapsExample.constrainZoom);
+    },
+    
+    circlesChanged : function() {
+        mapsExample.addCircles = this.value;
+        console.log("addCircles=" + mapsExample.addCircles);
+    },
+    
+    trianglesChanged : function() {
+        mapsExample.addTriangles = this.value;
+        console.log("addTriangles=" + mapsExample.addTriangles);
+    },
+    
+    starsChanged : function() {
+        mapsExample.addStars = this.value;
+        console.log("addStars=" + mapsExample.addStars);
     },
     
     createImage: function(url) {
@@ -92,24 +129,32 @@ var mapsExample = {
     },
     
     updatePage: function() {
-        document.getElementById("centre").innerHTML = mapsExample.centre;
-        document.getElementById("ne").innerHTML = mapsExample.northEast;
-        document.getElementById("sw").innerHTML = mapsExample.southWest;
-        document.getElementById("zoom").innerHTML = mapsExample.zoom;
-        document.getElementById("metres").innerHTML = mapsExample.distanceInMetres;
-        document.getElementById("miles").innerHTML = mapsExample.distanceInMiles;
-        for (var i = 0; i < mapsExample.addCircles; i++) {
-            mapsExample.circles++;
-            mapsExample.randomMarker(mapsExample.redCircle, "Circle " + mapsExample.circles);
+        console.log("Idle");
+        if (mapsExample.lastZoomReset) {
+            mapsExample.lastZoomReset = false;
+    		console.log("Zoom constraint reached.");
         }
-        for (var i = 0; i < mapsExample.addTriangles; i++) {
-            mapsExample.triangles++;
-            mapsExample.randomMarker(mapsExample.greenTriangle, "Triangle " + mapsExample.triangles);
-        }
-        for (var i = 0; i < mapsExample.addStars; i++) {
-            mapsExample.stars++;
-            mapsExample.randomMarker(mapsExample.blueStar, "Star " + mapsExample.stars);
-        }
+        else {
+            console.log("Updating page.");
+			document.getElementById("centre").innerHTML = mapsExample.centre;
+			document.getElementById("ne").innerHTML = mapsExample.northEast;
+			document.getElementById("sw").innerHTML = mapsExample.southWest;
+			document.getElementById("zoom").innerHTML = mapsExample.zoom;
+			document.getElementById("metres").innerHTML = mapsExample.distanceInMetres;
+			document.getElementById("miles").innerHTML = mapsExample.distanceInMiles;
+			for (var i = 0; i < mapsExample.addCircles; i++) {
+				mapsExample.circles++;
+				mapsExample.randomMarker(mapsExample.redCircle, "Circle " + mapsExample.circles);
+			}
+			for (var i = 0; i < mapsExample.addTriangles; i++) {
+				mapsExample.triangles++;
+				mapsExample.randomMarker(mapsExample.greenTriangle, "Triangle " + mapsExample.triangles);
+			}
+			for (var i = 0; i < mapsExample.addStars; i++) {
+				mapsExample.stars++;
+				mapsExample.randomMarker(mapsExample.blueStar, "Star " + mapsExample.stars);
+			}
+		}
     },
     
     randomMarker: function(icon, title) {
@@ -123,6 +168,14 @@ var mapsExample = {
             icon: icon
         });
         marker.setMap(mapsExample.map);
+    },
+    
+    zoomChanged: function() {
+        if (mapsExample.constrainZoom && mapsExample.map.zoom < mapsExample.minZoom) {
+    		mapsExample.map.setZoom(mapsExample.minZoom);
+    		mapsExample.lastZoomReset = true;
+    		console.log("Zoom reset to minimum.");
+        }
     }
     
 };
