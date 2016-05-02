@@ -38,3 +38,23 @@ div#container input {
 div#container input:focus {
   outline:none;
 }
+
+div#pills {
+  width: 200px;
+  margin: 0 360px;
+}
+
+span.pill {
+  width: 16px;
+  height: 16px;
+  margin: 0 2px;
+  float: left;
+}
+
+span.active {
+  background-image: url(../images/pill-active.png);
+}
+
+span.inactive {
+  background-image: url(../images/pill.png);
+}
