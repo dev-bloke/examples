@@ -1,0 +1,40 @@
+body {
+  font-family: Calibri, Helvetica, sans-serif;
+  font-size: 16px;
+  color: SlateGray;
+}
+
+div#carousel {
+  width: 810px;
+  overflow: hidden;
+  float: left;
+}
+
+div.floated:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+div#carousel ul {
+  width: 2700px;
+  -webkit-padding-start: 0px;
+}
+
+div#carousel ul li {
+  width: 250px;
+  padding: 10px;
+  list-style: none;
+  float: left;
+}
+
+div#container input {
+  float: left;
+  margin: 100px 10px 0px 10px;
+}
+
+div#container input:focus {
+  outline:none;
+}
