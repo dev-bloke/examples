@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Maps API - Load On Demand Example</title>
+    <link rel="stylesheet" href="maps-example.css" type="text/css" media="screen">
+    <script src="maps-example.js"></script> 
+    <script src="ondemand.js"></script> 
+    <script type="text/javascript">
+      mapsExample.initMap("map", 52.49140425486888, 0.15535367114262844 ,10);
+    </script> 
+  </head>
+  <body>
+    <h1>Google Maps API - Load On Demand Example</h1>
+    <p>This demo is identical to the <a href="index.html">Google Maps API demo</a>, but illustrates
+    how the API can be loaded on demand rather than asynchronously with the main page content.</p>
+    <div id="controls">
+      <button id="loadjquery">Load jQuery</button>
+      <button id="loadgooglemaps">Load Google Maps</button>
+    </div>
+    <div class="hidden">
+      <div id="legend">
+        <div><img src="red-circle.svg" /> Red Circle</div>
+        <div><img src="green-triangle.svg" /> Green Triangle</div>
+        <div><img src="blue-star.svg" /> Blue Star</div>
+      </div>
+    </div>    
+    <div id="map"></div>
+    <div id="info">
+      <div class="panel">
+        <h3>Map Information</h3>
+        <table>
+          <tr><td>Version</td><td id="version"></td></tr>
+          <tr><td>Centre</td><td id="centre"></td></tr>
+          <tr><td>North East</td><td id="ne"></td></tr>
+          <tr><td>South West</td><td id="sw"></td></tr>
+          <tr><td>Zoom</td><td id="zoom"></td></tr>
+        </table>
+      </div>
+      <div class="hidden">
+        <h3>Haversine Formula Results</h3>
+        <p>From the centre to the top of the map:</p>
+        <table>
+          <tr><td>Distance (metres)</td><td id="metres"></td></tr>
+          <tr><td>Distance (miles)</td><td id="miles"></td></tr>
+        </table>
+        <p><a href="https://en.wikipedia.org/wiki/Haversine_formula">More information about the Haversine Formula.</a><p>
+      </div>
+      <div class="panel">
+        <h3>Load Times</h3>
+        <table>
+          <tr><td>Google Maps API</td><td id="googlemapstime"></td></tr>
+          <tr><td>jQuery</td><td id="jquerytime"></td></tr>
+        </table>
+      </div>
+      <div class="controls">
+        <h3>Controls</h3>
+        <div>
+          <label for="constrainZoom">Constrain zoom?</label>
+          <input type="checkbox" id="constrainZoom" />
+        </div>
+        <div>
+          <label for="stars">Number of circles</label>
+          <input type="text" id="circles" />
+        </div>
+        <div>
+          <label for="stars">Number of triangles</label>
+          <input type="text" id="triangles" />
+        </div>
+        <div>
+          <label for="stars">Number of stars</label>
+          <input type="text" id="stars" />
+        </div>
+      </div>
+    </div>   
+  </body>
+</html>

@@ -39,6 +39,10 @@ div#legend {
   padding: 5px;
 }
 
+div#controls {
+  margin-bottom: 10px;
+}
+
 h1, h3 {
   color: DarkSlateGray;
 }
