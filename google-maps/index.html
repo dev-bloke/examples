@@ -3,6 +3,7 @@
   <head>
     <title>Google Maps API Example</title>
     <link rel="stylesheet" href="maps-example.css" type="text/css" media="screen">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?callback=mapsExample.createMap"></script>
     <script src="maps-example.js"></script> 
     <script type="text/javascript">
       mapsExample.initMap("map", 52.49140425486888, 0.15535367114262844 ,10);
@@ -10,6 +11,10 @@
   </head>
   <body>
     <h1>Google Maps API Example</h1>
+    <p>This demo illustrates how content can be added to a map after each pan or zoom.</p>
+    <p>The points plotted on this map are purely for illustration, i.e. there are no server side
+    calls being made to collect data in this demo.</p>
+    <p>You can control the number of each marker added per map change in the control panel below.</p>
     <div class="hidden">
       <div id="legend">
         <div><img src="red-circle.svg" /> Red Circle</div>
@@ -57,9 +62,6 @@
           <input type="text" id="stars" />
         </div>
       </div>
-    </div>
-    <script async defer
-      src="https://maps.googleapis.com/maps/api/js?callback=mapsExample.createMap">
-    </script>
+    </div>   
   </body>
 </html>
