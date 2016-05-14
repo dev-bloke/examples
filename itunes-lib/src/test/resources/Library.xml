@@ -1,0 +1,2963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Major Version</key><integer>1</integer>
+	<key>Minor Version</key><integer>1</integer>
+	<key>Date</key><date>2016-05-12T12:42:26Z</date>
+	<key>Application Version</key><string>12.3.3.17</string>
+	<key>Features</key><integer>5</integer>
+	<key>Show Content Ratings</key><true/>
+	<key>Music Folder</key><string>file:///Users/martin/Music/iTunesTemp/iTunes%20Media/</string>
+	<key>Library Persistent ID</key><string>5C03D4DB7A651D23</string>
+	<key>Tracks</key>
+	<dict>
+		<key>86</key>
+		<dict>
+			<key>Track ID</key><integer>86</integer>
+			<key>Name</key><string>The Lamb Lies Down On Broadway</string>
+			<key>Artist</key><string>Genesis</string>
+			<key>Album Artist</key><string>Genesis</string>
+			<key>Composer</key><string>Gabriel, Peter</string>
+			<key>Album</key><string>The Lamb Lies Down On Broadway</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>34917658</integer>
+			<key>Total Time</key><integer>292240</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>1974</integer>
+			<key>Date Modified</key><date>2015-04-17T07:37:50Z</date>
+			<key>Date Added</key><date>2016-05-12T12:33:03Z</date>
+			<key>Bit Rate</key><integer>955</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>4979</integer>
+			<key>Sort Album</key><string>Lamb Lies Down On Broadway</string>
+			<key>Sort Name</key><string>Lamb Lies Down On Broadway</string>
+			<key>Persistent ID</key><string>A4328F36EC9233A3</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/Genesis/The%20Lamb%20Lies%20Down%20On%20Broadway/1-01%20The%20Lamb%20Lies%20Down%20On%20Broadway.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>88</key>
+		<dict>
+			<key>Track ID</key><integer>88</integer>
+			<key>Name</key><string>Fly On A Windshield</string>
+			<key>Artist</key><string>Genesis</string>
+			<key>Album Artist</key><string>Genesis</string>
+			<key>Composer</key><string>Gabriel, Peter</string>
+			<key>Album</key><string>The Lamb Lies Down On Broadway</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>18427345</integer>
+			<key>Total Time</key><integer>165053</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>1974</integer>
+			<key>Date Modified</key><date>2015-04-17T07:38:05Z</date>
+			<key>Date Added</key><date>2016-05-12T12:33:03Z</date>
+			<key>Bit Rate</key><integer>891</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>3545</integer>
+			<key>Sort Album</key><string>Lamb Lies Down On Broadway</string>
+			<key>Persistent ID</key><string>FF7D84502E371FF9</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/Genesis/The%20Lamb%20Lies%20Down%20On%20Broadway/1-02%20Fly%20On%20A%20Windshield.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>90</key>
+		<dict>
+			<key>Track ID</key><integer>90</integer>
+			<key>Name</key><string>Broadway Melody Of 1974</string>
+			<key>Artist</key><string>Genesis</string>
+			<key>Album Artist</key><string>Genesis</string>
+			<key>Composer</key><string>Gabriel, Peter</string>
+			<key>Album</key><string>The Lamb Lies Down On Broadway</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>14079489</integer>
+			<key>Total Time</key><integer>131320</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>1974</integer>
+			<key>Date Modified</key><date>2015-04-17T07:38:16Z</date>
+			<key>Date Added</key><date>2016-05-12T12:33:03Z</date>
+			<key>Bit Rate</key><integer>856</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>2025</integer>
+			<key>Sort Album</key><string>Lamb Lies Down On Broadway</string>
+			<key>Persistent ID</key><string>627BF0FBD826F63C</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/Genesis/The%20Lamb%20Lies%20Down%20On%20Broadway/1-03%20Broadway%20Melody%20Of%201974.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>92</key>
+		<dict>
+			<key>Track ID</key><integer>92</integer>
+			<key>Name</key><string>Cuckoo Cocoon</string>
+			<key>Artist</key><string>Genesis</string>
+			<key>Album Artist</key><string>Genesis</string>
+			<key>Composer</key><string>Gabriel, Peter</string>
+			<key>Album</key><string>The Lamb Lies Down On Broadway</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>12683780</integer>
+			<key>Total Time</key><integer>132520</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>1974</integer>
+			<key>Date Modified</key><date>2015-04-17T07:38:26Z</date>
+			<key>Date Added</key><date>2016-05-12T12:33:03Z</date>
+			<key>Bit Rate</key><integer>764</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>2447</integer>
+			<key>Sort Album</key><string>Lamb Lies Down On Broadway</string>
+			<key>Persistent ID</key><string>EFA24037AD475A5B</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/Genesis/The%20Lamb%20Lies%20Down%20On%20Broadway/1-04%20Cuckoo%20Cocoon.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>94</key>
+		<dict>
+			<key>Track ID</key><integer>94</integer>
+			<key>Name</key><string>In The Cage</string>
+			<key>Artist</key><string>Genesis</string>
+			<key>Album Artist</key><string>Genesis</string>
+			<key>Composer</key><string>Gabriel, Peter</string>
+			<key>Album</key><string>The Lamb Lies Down On Broadway</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>57066840</integer>
+			<key>Total Time</key><integer>492466</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>1974</integer>
+			<key>Date Modified</key><date>2015-04-17T07:39:01Z</date>
+			<key>Date Added</key><date>2016-05-12T12:33:03Z</date>
+			<key>Bit Rate</key><integer>926</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>4303</integer>
+			<key>Sort Album</key><string>Lamb Lies Down On Broadway</string>
+			<key>Persistent ID</key><string>7A0E2C13930BC4AB</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/Genesis/The%20Lamb%20Lies%20Down%20On%20Broadway/1-05%20In%20The%20Cage.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>96</key>
+		<dict>
+			<key>Track ID</key><integer>96</integer>
+			<key>Name</key><string>The Grand Parade Of Lifeless Packaging</string>
+			<key>Artist</key><string>Genesis</string>
+			<key>Album Artist</key><string>Genesis</string>
+			<key>Composer</key><string>Gabriel, Peter</string>
+			<key>Album</key><string>The Lamb Lies Down On Broadway</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>18470577</integer>
+			<key>Total Time</key><integer>166306</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>1974</integer>
+			<key>Date Modified</key><date>2015-04-17T07:39:13Z</date>
+			<key>Date Added</key><date>2016-05-12T12:33:03Z</date>
+			<key>Bit Rate</key><integer>887</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>4463</integer>
+			<key>Sort Album</key><string>Lamb Lies Down On Broadway</string>
+			<key>Sort Name</key><string>Grand Parade Of Lifeless Packaging</string>
+			<key>Persistent ID</key><string>D6A05650E5717AC1</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/Genesis/The%20Lamb%20Lies%20Down%20On%20Broadway/1-06%20The%20Grand%20Parade%20Of%20Lifeless%20Packaging.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>98</key>
+		<dict>
+			<key>Track ID</key><integer>98</integer>
+			<key>Name</key><string>Back In N.Y.C.</string>
+			<key>Artist</key><string>Genesis</string>
+			<key>Album Artist</key><string>Genesis</string>
+			<key>Composer</key><string>Gabriel, Peter</string>
+			<key>Album</key><string>The Lamb Lies Down On Broadway</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>41839905</integer>
+			<key>Total Time</key><integer>345440</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>1974</integer>
+			<key>Date Modified</key><date>2015-04-17T07:39:34Z</date>
+			<key>Date Added</key><date>2016-05-12T12:33:03Z</date>
+			<key>Bit Rate</key><integer>968</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>5895</integer>
+			<key>Sort Album</key><string>Lamb Lies Down On Broadway</string>
+			<key>Persistent ID</key><string>F8D4CA4D0144D97D</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/Genesis/The%20Lamb%20Lies%20Down%20On%20Broadway/1-07%20Back%20In%20N.Y.C..m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>100</key>
+		<dict>
+			<key>Track ID</key><integer>100</integer>
+			<key>Name</key><string>Hairless Heart</string>
+			<key>Artist</key><string>Genesis</string>
+			<key>Album Artist</key><string>Genesis</string>
+			<key>Composer</key><string>Gabriel, Peter</string>
+			<key>Album</key><string>The Lamb Lies Down On Broadway</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>12529196</integer>
+			<key>Total Time</key><integer>130386</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>1974</integer>
+			<key>Date Modified</key><date>2015-04-17T07:39:42Z</date>
+			<key>Date Added</key><date>2016-05-12T12:33:03Z</date>
+			<key>Bit Rate</key><integer>767</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>2117</integer>
+			<key>Sort Album</key><string>Lamb Lies Down On Broadway</string>
+			<key>Persistent ID</key><string>06A4257DD2095335</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/Genesis/The%20Lamb%20Lies%20Down%20On%20Broadway/1-08%20Hairless%20Heart.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>102</key>
+		<dict>
+			<key>Track ID</key><integer>102</integer>
+			<key>Name</key><string>Counting Out Time</string>
+			<key>Artist</key><string>Genesis</string>
+			<key>Album Artist</key><string>Genesis</string>
+			<key>Composer</key><string>Gabriel, Peter</string>
+			<key>Album</key><string>The Lamb Lies Down On Broadway</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>26405743</integer>
+			<key>Total Time</key><integer>220813</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>9</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>1974</integer>
+			<key>Date Modified</key><date>2015-04-17T07:39:55Z</date>
+			<key>Date Added</key><date>2016-05-12T12:33:03Z</date>
+			<key>Bit Rate</key><integer>955</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>4800</integer>
+			<key>Sort Album</key><string>Lamb Lies Down On Broadway</string>
+			<key>Persistent ID</key><string>DA22748EEE7B7E53</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/Genesis/The%20Lamb%20Lies%20Down%20On%20Broadway/1-09%20Counting%20Out%20Time.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>104</key>
+		<dict>
+			<key>Track ID</key><integer>104</integer>
+			<key>Name</key><string>Carpet Crawlers</string>
+			<key>Artist</key><string>Genesis</string>
+			<key>Album Artist</key><string>Genesis</string>
+			<key>Composer</key><string>Gabriel, Peter</string>
+			<key>Album</key><string>The Lamb Lies Down On Broadway</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>34466646</integer>
+			<key>Total Time</key><integer>315146</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>10</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>1974</integer>
+			<key>Date Modified</key><date>2015-04-17T07:40:12Z</date>
+			<key>Date Added</key><date>2016-05-12T12:33:03Z</date>
+			<key>Bit Rate</key><integer>874</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>2241</integer>
+			<key>Sort Album</key><string>Lamb Lies Down On Broadway</string>
+			<key>Persistent ID</key><string>59CBD1BC2C227BFC</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/Genesis/The%20Lamb%20Lies%20Down%20On%20Broadway/1-10%20Carpet%20Crawlers.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>106</key>
+		<dict>
+			<key>Track ID</key><integer>106</integer>
+			<key>Name</key><string>The Chamber Of 32 Doors</string>
+			<key>Artist</key><string>Genesis</string>
+			<key>Album Artist</key><string>Genesis</string>
+			<key>Composer</key><string>Gabriel, Peter</string>
+			<key>Album</key><string>The Lamb Lies Down On Broadway</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>36172391</integer>
+			<key>Total Time</key><integer>345146</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>11</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>1974</integer>
+			<key>Date Modified</key><date>2015-04-17T07:40:30Z</date>
+			<key>Date Added</key><date>2016-05-12T12:33:03Z</date>
+			<key>Bit Rate</key><integer>837</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>2255</integer>
+			<key>Sort Album</key><string>Lamb Lies Down On Broadway</string>
+			<key>Sort Name</key><string>Chamber Of 32 Doors</string>
+			<key>Persistent ID</key><string>BFD18851D49BB5AC</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/Genesis/The%20Lamb%20Lies%20Down%20On%20Broadway/1-11%20The%20Chamber%20Of%2032%20Doors.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>108</key>
+		<dict>
+			<key>Track ID</key><integer>108</integer>
+			<key>Name</key><string>Lilywhite Lilith</string>
+			<key>Artist</key><string>Genesis</string>
+			<key>Album Artist</key><string>Genesis</string>
+			<key>Composer</key><string>Mike Rutherford</string>
+			<key>Album</key><string>The Lamb Lies Down On Broadway</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>20072467</integer>
+			<key>Total Time</key><integer>168560</integer>
+			<key>Disc Number</key><integer>2</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>1974</integer>
+			<key>Date Modified</key><date>2015-04-17T07:42:00Z</date>
+			<key>Date Added</key><date>2016-05-12T12:33:03Z</date>
+			<key>Bit Rate</key><integer>951</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>5324</integer>
+			<key>Sort Album</key><string>Lamb Lies Down On Broadway</string>
+			<key>Persistent ID</key><string>050C6D08F5632B32</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/Genesis/The%20Lamb%20Lies%20Down%20On%20Broadway/2-01%20Lilywhite%20Lilith.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>110</key>
+		<dict>
+			<key>Track ID</key><integer>110</integer>
+			<key>Name</key><string>The Waiting Room</string>
+			<key>Artist</key><string>Genesis</string>
+			<key>Album Artist</key><string>Genesis</string>
+			<key>Composer</key><string>Mike Rutherford</string>
+			<key>Album</key><string>The Lamb Lies Down On Broadway</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>36848179</integer>
+			<key>Total Time</key><integer>317333</integer>
+			<key>Disc Number</key><integer>2</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>1974</integer>
+			<key>Date Modified</key><date>2015-04-17T08:39:06Z</date>
+			<key>Date Added</key><date>2016-05-12T12:33:03Z</date>
+			<key>Bit Rate</key><integer>928</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>3131</integer>
+			<key>Sort Album</key><string>Lamb Lies Down On Broadway</string>
+			<key>Sort Name</key><string>Waiting Room</string>
+			<key>Persistent ID</key><string>8E2E898825E26DAE</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/Genesis/The%20Lamb%20Lies%20Down%20On%20Broadway/2-02%20The%20Waiting%20Room.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>112</key>
+		<dict>
+			<key>Track ID</key><integer>112</integer>
+			<key>Name</key><string>Anyway</string>
+			<key>Artist</key><string>Genesis</string>
+			<key>Album Artist</key><string>Genesis</string>
+			<key>Composer</key><string>Mike Rutherford</string>
+			<key>Album</key><string>The Lamb Lies Down On Broadway</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>22449020</integer>
+			<key>Total Time</key><integer>197280</integer>
+			<key>Disc Number</key><integer>2</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>1974</integer>
+			<key>Date Modified</key><date>2015-04-17T08:39:11Z</date>
+			<key>Date Added</key><date>2016-05-12T12:33:03Z</date>
+			<key>Bit Rate</key><integer>909</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>4059</integer>
+			<key>Sort Album</key><string>Lamb Lies Down On Broadway</string>
+			<key>Persistent ID</key><string>A2731EA9FDC9C1FB</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/Genesis/The%20Lamb%20Lies%20Down%20On%20Broadway/2-03%20Anyway.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>114</key>
+		<dict>
+			<key>Track ID</key><integer>114</integer>
+			<key>Name</key><string>Here Comes The Supernatural Anaesthetist</string>
+			<key>Artist</key><string>Genesis</string>
+			<key>Album Artist</key><string>Genesis</string>
+			<key>Composer</key><string>Mike Rutherford</string>
+			<key>Album</key><string>The Lamb Lies Down On Broadway</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>18707936</integer>
+			<key>Total Time</key><integer>169133</integer>
+			<key>Disc Number</key><integer>2</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>1974</integer>
+			<key>Date Modified</key><date>2015-04-17T08:39:15Z</date>
+			<key>Date Added</key><date>2016-05-12T12:33:03Z</date>
+			<key>Bit Rate</key><integer>884</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>5193</integer>
+			<key>Sort Album</key><string>Lamb Lies Down On Broadway</string>
+			<key>Persistent ID</key><string>7C82F948DD55AC2F</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/Genesis/The%20Lamb%20Lies%20Down%20On%20Broadway/2-04%20Here%20Comes%20The%20Supernatural%20Anaesthetist.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>116</key>
+		<dict>
+			<key>Track ID</key><integer>116</integer>
+			<key>Name</key><string>The Lamia</string>
+			<key>Artist</key><string>Genesis</string>
+			<key>Album Artist</key><string>Genesis</string>
+			<key>Composer</key><string>Mike Rutherford</string>
+			<key>Album</key><string>The Lamb Lies Down On Broadway</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>43624167</integer>
+			<key>Total Time</key><integer>417626</integer>
+			<key>Disc Number</key><integer>2</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>1974</integer>
+			<key>Date Modified</key><date>2015-04-17T08:39:19Z</date>
+			<key>Date Added</key><date>2016-05-12T12:33:03Z</date>
+			<key>Bit Rate</key><integer>835</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>2877</integer>
+			<key>Sort Album</key><string>Lamb Lies Down On Broadway</string>
+			<key>Sort Name</key><string>Lamia</string>
+			<key>Persistent ID</key><string>B7AB4EE2BC74CFF4</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/Genesis/The%20Lamb%20Lies%20Down%20On%20Broadway/2-05%20The%20Lamia.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>118</key>
+		<dict>
+			<key>Track ID</key><integer>118</integer>
+			<key>Name</key><string>Silent Sorrow In Empty Boats</string>
+			<key>Artist</key><string>Genesis</string>
+			<key>Album Artist</key><string>Genesis</string>
+			<key>Composer</key><string>Mike Rutherford</string>
+			<key>Album</key><string>The Lamb Lies Down On Broadway</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>14471142</integer>
+			<key>Total Time</key><integer>181453</integer>
+			<key>Disc Number</key><integer>2</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>1974</integer>
+			<key>Date Modified</key><date>2015-04-17T08:39:24Z</date>
+			<key>Date Added</key><date>2016-05-12T12:33:03Z</date>
+			<key>Bit Rate</key><integer>637</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>1241</integer>
+			<key>Sort Album</key><string>Lamb Lies Down On Broadway</string>
+			<key>Persistent ID</key><string>14EBF4D31FCC5AC1</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/Genesis/The%20Lamb%20Lies%20Down%20On%20Broadway/2-06%20Silent%20Sorrow%20In%20Empty%20Boats.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>120</key>
+		<dict>
+			<key>Track ID</key><integer>120</integer>
+			<key>Name</key><string>The Colony Of Slippermen</string>
+			<key>Artist</key><string>Genesis</string>
+			<key>Album Artist</key><string>Genesis</string>
+			<key>Composer</key><string>Stephen Hackett</string>
+			<key>Album</key><string>The Lamb Lies Down On Broadway</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>57741259</integer>
+			<key>Total Time</key><integer>491746</integer>
+			<key>Disc Number</key><integer>2</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>1974</integer>
+			<key>Date Modified</key><date>2015-04-17T08:39:50Z</date>
+			<key>Date Added</key><date>2016-05-12T12:33:03Z</date>
+			<key>Bit Rate</key><integer>938</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>The Arrival / A Visit To The Doktor /Raven</string>
+			<key>Normalization</key><integer>3435</integer>
+			<key>Sort Album</key><string>Lamb Lies Down On Broadway</string>
+			<key>Sort Name</key><string>Colony Of Slippermen</string>
+			<key>Persistent ID</key><string>EE9D285777750133</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/Genesis/The%20Lamb%20Lies%20Down%20On%20Broadway/2-07%20The%20Colony%20Of%20Slippermen.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>122</key>
+		<dict>
+			<key>Track ID</key><integer>122</integer>
+			<key>Name</key><string>Ravine</string>
+			<key>Artist</key><string>Genesis</string>
+			<key>Album Artist</key><string>Genesis</string>
+			<key>Composer</key><string>Mike Rutherford</string>
+			<key>Album</key><string>The Lamb Lies Down On Broadway</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>10330638</integer>
+			<key>Total Time</key><integer>125600</integer>
+			<key>Disc Number</key><integer>2</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>1974</integer>
+			<key>Date Modified</key><date>2015-04-17T08:40:02Z</date>
+			<key>Date Added</key><date>2016-05-12T12:33:03Z</date>
+			<key>Bit Rate</key><integer>656</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>1106</integer>
+			<key>Sort Album</key><string>Lamb Lies Down On Broadway</string>
+			<key>Persistent ID</key><string>A4E2FB45EF0D80AF</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/Genesis/The%20Lamb%20Lies%20Down%20On%20Broadway/2-08%20Ravine.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>124</key>
+		<dict>
+			<key>Track ID</key><integer>124</integer>
+			<key>Name</key><string>The Light Dies Down On Broadway</string>
+			<key>Artist</key><string>Genesis</string>
+			<key>Album Artist</key><string>Genesis</string>
+			<key>Composer</key><string>Mike Rutherford</string>
+			<key>Album</key><string>The Lamb Lies Down On Broadway</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>25334940</integer>
+			<key>Total Time</key><integer>212426</integer>
+			<key>Disc Number</key><integer>2</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>9</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>1974</integer>
+			<key>Date Modified</key><date>2015-04-17T08:40:06Z</date>
+			<key>Date Added</key><date>2016-05-12T12:33:03Z</date>
+			<key>Bit Rate</key><integer>953</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>4966</integer>
+			<key>Sort Album</key><string>Lamb Lies Down On Broadway</string>
+			<key>Sort Name</key><string>Light Dies Down On Broadway</string>
+			<key>Persistent ID</key><string>96D590194A6DA098</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/Genesis/The%20Lamb%20Lies%20Down%20On%20Broadway/2-09%20The%20Light%20Dies%20Down%20On%20Broadway.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>126</key>
+		<dict>
+			<key>Track ID</key><integer>126</integer>
+			<key>Name</key><string>Riding The Scree</string>
+			<key>Artist</key><string>Genesis</string>
+			<key>Album Artist</key><string>Genesis</string>
+			<key>Composer</key><string>Mike Rutherford</string>
+			<key>Album</key><string>The Lamb Lies Down On Broadway</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>28598010</integer>
+			<key>Total Time</key><integer>247213</integer>
+			<key>Disc Number</key><integer>2</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>10</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>1974</integer>
+			<key>Date Modified</key><date>2015-04-17T08:40:09Z</date>
+			<key>Date Added</key><date>2016-05-12T12:33:03Z</date>
+			<key>Bit Rate</key><integer>924</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>3699</integer>
+			<key>Sort Album</key><string>Lamb Lies Down On Broadway</string>
+			<key>Persistent ID</key><string>55D1B4D90CD2FDF8</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/Genesis/The%20Lamb%20Lies%20Down%20On%20Broadway/2-10%20Riding%20The%20Scree.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>128</key>
+		<dict>
+			<key>Track ID</key><integer>128</integer>
+			<key>Name</key><string>In The Rapids</string>
+			<key>Artist</key><string>Genesis</string>
+			<key>Album Artist</key><string>Genesis</string>
+			<key>Composer</key><string>Mike Rutherford</string>
+			<key>Album</key><string>The Lamb Lies Down On Broadway</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>14210308</integer>
+			<key>Total Time</key><integer>142306</integer>
+			<key>Disc Number</key><integer>2</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>11</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>1974</integer>
+			<key>Date Modified</key><date>2015-04-17T08:40:13Z</date>
+			<key>Date Added</key><date>2016-05-12T12:33:03Z</date>
+			<key>Bit Rate</key><integer>797</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>1960</integer>
+			<key>Sort Album</key><string>Lamb Lies Down On Broadway</string>
+			<key>Persistent ID</key><string>DDF4185D1E2D9BE4</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/Genesis/The%20Lamb%20Lies%20Down%20On%20Broadway/2-11%20In%20The%20Rapids.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>130</key>
+		<dict>
+			<key>Track ID</key><integer>130</integer>
+			<key>Name</key><string>It</string>
+			<key>Artist</key><string>Genesis</string>
+			<key>Album Artist</key><string>Genesis</string>
+			<key>Composer</key><string>Mike Rutherford</string>
+			<key>Album</key><string>The Lamb Lies Down On Broadway</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>32611691</integer>
+			<key>Total Time</key><integer>258893</integer>
+			<key>Disc Number</key><integer>2</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>12</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>1974</integer>
+			<key>Date Modified</key><date>2015-04-17T08:40:17Z</date>
+			<key>Date Added</key><date>2016-05-12T12:33:03Z</date>
+			<key>Bit Rate</key><integer>1006</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>6976</integer>
+			<key>Sort Album</key><string>Lamb Lies Down On Broadway</string>
+			<key>Persistent ID</key><string>790701EAD857D7C4</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/Genesis/The%20Lamb%20Lies%20Down%20On%20Broadway/2-12%20It.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>132</key>
+		<dict>
+			<key>Track ID</key><integer>132</integer>
+			<key>Name</key><string>In The Dead Of Night</string>
+			<key>Artist</key><string>U.K.</string>
+			<key>Album Artist</key><string>U.K.</string>
+			<key>Composer</key><string>John Wetton</string>
+			<key>Album</key><string>U.K.</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>39725927</integer>
+			<key>Total Time</key><integer>334040</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>8</integer>
+			<key>Year</key><integer>1978</integer>
+			<key>Date Modified</key><date>2015-05-07T16:38:21Z</date>
+			<key>Date Added</key><date>2016-05-12T12:33:32Z</date>
+			<key>Bit Rate</key><integer>944</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>1714</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>E75BE762DC41D518</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/UK/UK/01%20In%20The%20Dead%20Of%20Night.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>134</key>
+		<dict>
+			<key>Track ID</key><integer>134</integer>
+			<key>Name</key><string>By The Light Of Day</string>
+			<key>Artist</key><string>U.K.</string>
+			<key>Album Artist</key><string>U.K.</string>
+			<key>Composer</key><string>John Wetton</string>
+			<key>Album</key><string>U.K.</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>28691128</integer>
+			<key>Total Time</key><integer>269760</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>8</integer>
+			<key>Year</key><integer>1978</integer>
+			<key>Date Modified</key><date>2015-05-07T16:38:22Z</date>
+			<key>Date Added</key><date>2016-05-12T12:33:32Z</date>
+			<key>Bit Rate</key><integer>842</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>555</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>9BC74C1D9A261ACD</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/UK/UK/02%20By%20The%20Light%20Of%20Day.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>136</key>
+		<dict>
+			<key>Track ID</key><integer>136</integer>
+			<key>Name</key><string>Presto Vivace And Reprise</string>
+			<key>Artist</key><string>U.K.</string>
+			<key>Album Artist</key><string>U.K.</string>
+			<key>Composer</key><string>John Wetton</string>
+			<key>Album</key><string>U.K.</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>22287919</integer>
+			<key>Total Time</key><integer>185733</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>8</integer>
+			<key>Year</key><integer>1978</integer>
+			<key>Date Modified</key><date>2015-05-07T16:38:23Z</date>
+			<key>Date Added</key><date>2016-05-12T12:33:32Z</date>
+			<key>Bit Rate</key><integer>947</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>1819</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>85D475D77F1EF5AF</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/UK/UK/03%20Presto%20Vivace%20And%20Reprise.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>138</key>
+		<dict>
+			<key>Track ID</key><integer>138</integer>
+			<key>Name</key><string>Thirty Years</string>
+			<key>Artist</key><string>U.K.</string>
+			<key>Album Artist</key><string>U.K.</string>
+			<key>Composer</key><string>John Wetton/Bill Bruford</string>
+			<key>Album</key><string>U.K.</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>53479134</integer>
+			<key>Total Time</key><integer>488533</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Track Count</key><integer>8</integer>
+			<key>Year</key><integer>1978</integer>
+			<key>Date Modified</key><date>2015-05-07T16:38:25Z</date>
+			<key>Date Added</key><date>2016-05-12T12:33:32Z</date>
+			<key>Bit Rate</key><integer>870</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>1202</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>EF95FD459F4F42F0</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/UK/UK/04%20Thirty%20Years.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>140</key>
+		<dict>
+			<key>Track ID</key><integer>140</integer>
+			<key>Name</key><string>Alaska</string>
+			<key>Artist</key><string>U.K.</string>
+			<key>Album Artist</key><string>U.K.</string>
+			<key>Composer</key><string>Eddie Jobson</string>
+			<key>Album</key><string>U.K.</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>27442962</integer>
+			<key>Total Time</key><integer>279306</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>8</integer>
+			<key>Year</key><integer>1978</integer>
+			<key>Date Modified</key><date>2015-05-07T16:38:26Z</date>
+			<key>Date Added</key><date>2016-05-12T12:33:32Z</date>
+			<key>Bit Rate</key><integer>777</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>1202</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>822E27504351EFE8</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/UK/UK/05%20Alaska.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>142</key>
+		<dict>
+			<key>Track ID</key><integer>142</integer>
+			<key>Name</key><string>Time To Kill</string>
+			<key>Artist</key><string>U.K.</string>
+			<key>Album Artist</key><string>U.K.</string>
+			<key>Composer</key><string>Bill Bruford/John Wetton</string>
+			<key>Album</key><string>U.K.</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>36221322</integer>
+			<key>Total Time</key><integer>297133</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Track Count</key><integer>8</integer>
+			<key>Year</key><integer>1978</integer>
+			<key>Date Modified</key><date>2015-05-07T16:38:28Z</date>
+			<key>Date Added</key><date>2016-05-12T12:33:32Z</date>
+			<key>Bit Rate</key><integer>967</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>1703</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>717D667CB3CDD8C5</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/UK/UK/06%20Time%20To%20Kill.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>144</key>
+		<dict>
+			<key>Track ID</key><integer>144</integer>
+			<key>Name</key><string>Nevermore</string>
+			<key>Artist</key><string>U.K.</string>
+			<key>Album Artist</key><string>U.K.</string>
+			<key>Composer</key><string>John Wetton/Holdsworth</string>
+			<key>Album</key><string>U.K.</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>54210721</integer>
+			<key>Total Time</key><integer>492160</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Track Count</key><integer>8</integer>
+			<key>Year</key><integer>1978</integer>
+			<key>Date Modified</key><date>2015-05-07T16:38:30Z</date>
+			<key>Date Added</key><date>2016-05-12T12:33:32Z</date>
+			<key>Bit Rate</key><integer>876</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>909</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>0E442AF855D0A512</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/UK/UK/07%20Nevermore.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>146</key>
+		<dict>
+			<key>Track ID</key><integer>146</integer>
+			<key>Name</key><string>Mental Medication</string>
+			<key>Artist</key><string>U.K.</string>
+			<key>Album Artist</key><string>U.K.</string>
+			<key>Composer</key><string>Bill Bruford/Holdsworth</string>
+			<key>Album</key><string>U.K.</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>47288803</integer>
+			<key>Total Time</key><integer>446440</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Track Count</key><integer>8</integer>
+			<key>Year</key><integer>1978</integer>
+			<key>Date Modified</key><date>2015-05-07T16:38:32Z</date>
+			<key>Date Added</key><date>2016-05-12T12:33:32Z</date>
+			<key>Bit Rate</key><integer>841</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>1202</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>F3116AE88F4076F5</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/UK/UK/08%20Mental%20Medication.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>148</key>
+		<dict>
+			<key>Track ID</key><integer>148</integer>
+			<key>Name</key><string>Milky Way</string>
+			<key>Artist</key><string>Weather Report</string>
+			<key>Composer</key><string>Wayne Shorter/J. Zawinul</string>
+			<key>Album</key><string>Weather Report</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>12916897</integer>
+			<key>Total Time</key><integer>153600</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>8</integer>
+			<key>Year</key><integer>1971</integer>
+			<key>Date Modified</key><date>2016-05-07T07:52:18Z</date>
+			<key>Date Added</key><date>2016-05-12T12:34:33Z</date>
+			<key>Bit Rate</key><integer>663</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>1237</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>EC160E8DF2FC3A81</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/iTunes/iTunes%20Media/Music/Weather%20Report/Weather%20Report/01%20Milky%20Way.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>150</key>
+		<dict>
+			<key>Track ID</key><integer>150</integer>
+			<key>Name</key><string>Volcano for Hire</string>
+			<key>Artist</key><string>Weather Report</string>
+			<key>Composer</key><string>Zawinul</string>
+			<key>Album</key><string>Weather Report</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>37719700</integer>
+			<key>Total Time</key><integer>326093</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>7</integer>
+			<key>Year</key><integer>1982</integer>
+			<key>Date Modified</key><date>2016-05-07T07:43:10Z</date>
+			<key>Date Added</key><date>2016-05-12T12:34:33Z</date>
+			<key>Bit Rate</key><integer>909</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>1044</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>0CE6CC70A8AF7C7A</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/iTunes/iTunes%20Media/Music/Weather%20Report/Weather%20Report/01%20Volcano%20for%20Hire.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>152</key>
+		<dict>
+			<key>Track ID</key><integer>152</integer>
+			<key>Name</key><string>Current Affairs</string>
+			<key>Artist</key><string>Weather Report</string>
+			<key>Composer</key><string>Zawinul</string>
+			<key>Album</key><string>Weather Report</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>34897252</integer>
+			<key>Total Time</key><integer>355306</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>7</integer>
+			<key>Year</key><integer>1982</integer>
+			<key>Date Modified</key><date>2016-05-07T07:43:42Z</date>
+			<key>Date Added</key><date>2016-05-12T12:34:33Z</date>
+			<key>Bit Rate</key><integer>770</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>1220</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>45724A5C003B9590</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/iTunes/iTunes%20Media/Music/Weather%20Report/Weather%20Report/02%20Current%20Affairs.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>154</key>
+		<dict>
+			<key>Track ID</key><integer>154</integer>
+			<key>Name</key><string>Umbrellas</string>
+			<key>Artist</key><string>Weather Report</string>
+			<key>Composer</key><string>Wayne Shorter/M. Vitous/J. Zawinul</string>
+			<key>Album</key><string>Weather Report</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>23775239</integer>
+			<key>Total Time</key><integer>208133</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>8</integer>
+			<key>Year</key><integer>1971</integer>
+			<key>Date Modified</key><date>2016-05-07T07:52:39Z</date>
+			<key>Date Added</key><date>2016-05-12T12:34:33Z</date>
+			<key>Bit Rate</key><integer>906</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>1630</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>DD2C1C57C661A7E0</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/iTunes/iTunes%20Media/Music/Weather%20Report/Weather%20Report/02%20Umbrellas.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>156</key>
+		<dict>
+			<key>Track ID</key><integer>156</integer>
+			<key>Name</key><string>N.Y.C.: Part One: 41st Parallel; Part Two: The Dance; Part Three: Crazy about Jazz</string>
+			<key>Artist</key><string>Weather Report</string>
+			<key>Composer</key><string>Zawinul</string>
+			<key>Album</key><string>Weather Report</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>61538357</integer>
+			<key>Total Time</key><integer>611600</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>7</integer>
+			<key>Year</key><integer>1982</integer>
+			<key>Date Modified</key><date>2016-05-07T07:44:25Z</date>
+			<key>Date Added</key><date>2016-05-12T12:34:33Z</date>
+			<key>Bit Rate</key><integer>804</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>706</integer>
+			<key>Persistent ID</key><string>1977C49C8BD9CE37</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/iTunes/iTunes%20Media/Music/Weather%20Report/Weather%20Report/03%20N.Y.C._%20Part%20One_%2041st%20Parallel%3B%20Part%20Two_%20The%20Dance%3B%20Part%20Three_%20Crazy%20about%20Jazz.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>158</key>
+		<dict>
+			<key>Track ID</key><integer>158</integer>
+			<key>Name</key><string>Seventh Arrow</string>
+			<key>Artist</key><string>Weather Report</string>
+			<key>Composer</key><string>M. Vitous</string>
+			<key>Album</key><string>Weather Report</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>38095402</integer>
+			<key>Total Time</key><integer>324093</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>8</integer>
+			<key>Year</key><integer>1971</integer>
+			<key>Date Modified</key><date>2016-05-07T07:53:08Z</date>
+			<key>Date Added</key><date>2016-05-12T12:34:33Z</date>
+			<key>Bit Rate</key><integer>935</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>2862</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>E5FFCA7E613DF1B6</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/iTunes/iTunes%20Media/Music/Weather%20Report/Weather%20Report/03%20Seventh%20Arrow.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>160</key>
+		<dict>
+			<key>Track ID</key><integer>160</integer>
+			<key>Name</key><string>Dara Factor One</string>
+			<key>Artist</key><string>Weather Report</string>
+			<key>Composer</key><string>Zawinul</string>
+			<key>Album</key><string>Weather Report</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>37902066</integer>
+			<key>Total Time</key><integer>327093</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Track Count</key><integer>7</integer>
+			<key>Year</key><integer>1982</integer>
+			<key>Date Modified</key><date>2016-05-07T07:45:01Z</date>
+			<key>Date Added</key><date>2016-05-12T12:34:33Z</date>
+			<key>Bit Rate</key><integer>910</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>1010</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>67868E460981FC8F</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/iTunes/iTunes%20Media/Music/Weather%20Report/Weather%20Report/04%20Dara%20Factor%20One.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>162</key>
+		<dict>
+			<key>Track ID</key><integer>162</integer>
+			<key>Name</key><string>Orange Lady</string>
+			<key>Artist</key><string>Weather Report</string>
+			<key>Composer</key><string>J. Zawinul</string>
+			<key>Album</key><string>Weather Report</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>50852024</integer>
+			<key>Total Time</key><integer>524333</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Track Count</key><integer>8</integer>
+			<key>Year</key><integer>1971</integer>
+			<key>Date Modified</key><date>2016-05-07T07:53:48Z</date>
+			<key>Date Added</key><date>2016-05-12T12:34:33Z</date>
+			<key>Bit Rate</key><integer>772</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>1293</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>128D1CDC4F4224D0</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/iTunes/iTunes%20Media/Music/Weather%20Report/Weather%20Report/04%20Orange%20Lady.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>164</key>
+		<dict>
+			<key>Track ID</key><integer>164</integer>
+			<key>Name</key><string>Morning Lake</string>
+			<key>Artist</key><string>Weather Report</string>
+			<key>Composer</key><string>M. Vitous</string>
+			<key>Album</key><string>Weather Report</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>25561828</integer>
+			<key>Total Time</key><integer>267133</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>8</integer>
+			<key>Year</key><integer>1971</integer>
+			<key>Date Modified</key><date>2016-05-07T07:54:08Z</date>
+			<key>Date Added</key><date>2016-05-12T12:34:33Z</date>
+			<key>Bit Rate</key><integer>759</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>995</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>78E7CEAD5839A2A3</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/iTunes/iTunes%20Media/Music/Weather%20Report/Weather%20Report/05%20Morning%20Lake.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>166</key>
+		<dict>
+			<key>Track ID</key><integer>166</integer>
+			<key>Name</key><string>When It Was Now</string>
+			<key>Artist</key><string>Weather Report</string>
+			<key>Composer</key><string>Wayne Shorter</string>
+			<key>Album</key><string>Weather Report</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>28680760</integer>
+			<key>Total Time</key><integer>287573</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>7</integer>
+			<key>Year</key><integer>1982</integer>
+			<key>Date Modified</key><date>2016-05-07T07:45:21Z</date>
+			<key>Date Added</key><date>2016-05-12T12:34:33Z</date>
+			<key>Bit Rate</key><integer>779</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>556</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>703A7823FBC811F1</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/iTunes/iTunes%20Media/Music/Weather%20Report/Weather%20Report/05%20When%20It%20Was%20Now.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>168</key>
+		<dict>
+			<key>Track ID</key><integer>168</integer>
+			<key>Name</key><string>Speechless</string>
+			<key>Artist</key><string>Weather Report</string>
+			<key>Composer</key><string>J. Zawinul</string>
+			<key>Album</key><string>Weather Report</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>30793225</integer>
+			<key>Total Time</key><integer>358733</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Track Count</key><integer>7</integer>
+			<key>Year</key><integer>1982</integer>
+			<key>Date Modified</key><date>2016-05-07T07:45:45Z</date>
+			<key>Date Added</key><date>2016-05-12T12:34:33Z</date>
+			<key>Bit Rate</key><integer>671</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>644</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>6B7021671D5E9007</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/iTunes/iTunes%20Media/Music/Weather%20Report/Weather%20Report/06%20Speechless.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>170</key>
+		<dict>
+			<key>Track ID</key><integer>170</integer>
+			<key>Name</key><string>Waterfall</string>
+			<key>Artist</key><string>Weather Report</string>
+			<key>Composer</key><string>J. Zawinul</string>
+			<key>Album</key><string>Weather Report</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>37302255</integer>
+			<key>Total Time</key><integer>381306</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Track Count</key><integer>8</integer>
+			<key>Year</key><integer>1971</integer>
+			<key>Date Modified</key><date>2016-05-07T07:54:34Z</date>
+			<key>Date Added</key><date>2016-05-12T12:34:33Z</date>
+			<key>Bit Rate</key><integer>778</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>1215</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>D40A2971D9DF5D3F</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/iTunes/iTunes%20Media/Music/Weather%20Report/Weather%20Report/06%20Waterfall.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>172</key>
+		<dict>
+			<key>Track ID</key><integer>172</integer>
+			<key>Name</key><string>Dara Factor Two</string>
+			<key>Artist</key><string>Weather Report</string>
+			<key>Composer</key><string>Jaco Pastorius/Wayne Shorter/R. Thomas, Jr./J. Zawinul/P Erskine</string>
+			<key>Album</key><string>Weather Report</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>31246431</integer>
+			<key>Total Time</key><integer>267560</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Track Count</key><integer>7</integer>
+			<key>Year</key><integer>1982</integer>
+			<key>Date Modified</key><date>2016-05-07T07:46:07Z</date>
+			<key>Date Added</key><date>2016-05-12T12:34:33Z</date>
+			<key>Bit Rate</key><integer>914</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>927</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>BFF32907F9565DD4</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/iTunes/iTunes%20Media/Music/Weather%20Report/Weather%20Report/07%20Dara%20Factor%20Two.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>174</key>
+		<dict>
+			<key>Track ID</key><integer>174</integer>
+			<key>Name</key><string>Tears</string>
+			<key>Artist</key><string>Weather Report</string>
+			<key>Composer</key><string>Wayne Shorter</string>
+			<key>Album</key><string>Weather Report</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>22312159</integer>
+			<key>Total Time</key><integer>207093</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Track Count</key><integer>8</integer>
+			<key>Year</key><integer>1971</integer>
+			<key>Date Modified</key><date>2016-05-07T07:54:49Z</date>
+			<key>Date Added</key><date>2016-05-12T12:34:33Z</date>
+			<key>Bit Rate</key><integer>854</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>2130</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>78101708DD86A3EB</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/iTunes/iTunes%20Media/Music/Weather%20Report/Weather%20Report/07%20Tears.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>176</key>
+		<dict>
+			<key>Track ID</key><integer>176</integer>
+			<key>Name</key><string>Eurydice</string>
+			<key>Artist</key><string>Weather Report</string>
+			<key>Composer</key><string>Wayne Shorter</string>
+			<key>Album</key><string>Weather Report</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>37594509</integer>
+			<key>Total Time</key><integer>344400</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Track Count</key><integer>8</integer>
+			<key>Year</key><integer>1971</integer>
+			<key>Date Modified</key><date>2016-05-07T07:55:11Z</date>
+			<key>Date Added</key><date>2016-05-12T12:34:33Z</date>
+			<key>Bit Rate</key><integer>868</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>1596</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>E46C26BF03699DE1</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/iTunes/iTunes%20Media/Music/Weather%20Report/Weather%20Report/08%20Eurydice.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>178</key>
+		<dict>
+			<key>Track ID</key><integer>178</integer>
+			<key>Name</key><string>Hot Doggie</string>
+			<key>Artist</key><string>Colourbox</string>
+			<key>Composer</key><string>M. Young</string>
+			<key>Album</key><string>Lonely is an Eyesore</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>17727974</integer>
+			<key>Total Time</key><integer>177066</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>9</integer>
+			<key>Year</key><integer>1987</integer>
+			<key>Date Modified</key><date>2015-02-01T17:55:47Z</date>
+			<key>Date Added</key><date>2016-05-12T12:36:06Z</date>
+			<key>Bit Rate</key><integer>799</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>662</integer>
+			<key>Compilation</key><true/>
+			<key>Persistent ID</key><string>FC4A98804D753C7D</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/4AD/Lonely%20is%20an%20Eyesore/01%20Hot%20Doggie.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>180</key>
+		<dict>
+			<key>Track ID</key><integer>180</integer>
+			<key>Name</key><string>Acid, Bitter And Sad</string>
+			<key>Artist</key><string>This Mortal Coil</string>
+			<key>Composer</key><string>This Mortal Coil</string>
+			<key>Album</key><string>Lonely is an Eyesore</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>25552135</integer>
+			<key>Total Time</key><integer>326866</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>9</integer>
+			<key>Year</key><integer>1987</integer>
+			<key>Date Modified</key><date>2015-02-01T17:56:41Z</date>
+			<key>Date Added</key><date>2016-05-12T12:36:06Z</date>
+			<key>Bit Rate</key><integer>624</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>537</integer>
+			<key>Compilation</key><true/>
+			<key>Persistent ID</key><string>9A19A0F35DA0787C</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/4AD/Lonely%20is%20an%20Eyesore/02%20Acid,%20Bitter%20And%20Sad.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>182</key>
+		<dict>
+			<key>Track ID</key><integer>182</integer>
+			<key>Name</key><string>Cut The Tree</string>
+			<key>Artist</key><string>The Wolfgang Press</string>
+			<key>Composer</key><string>Allen/Gray/Cox</string>
+			<key>Album</key><string>Lonely is an Eyesore</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>30679969</integer>
+			<key>Total Time</key><integer>335373</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>9</integer>
+			<key>Year</key><integer>1987</integer>
+			<key>Date Modified</key><date>2015-02-01T17:57:30Z</date>
+			<key>Date Added</key><date>2016-05-12T12:36:06Z</date>
+			<key>Bit Rate</key><integer>731</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>659</integer>
+			<key>Compilation</key><true/>
+			<key>Sort Artist</key><string>Wolfgang Press</string>
+			<key>Persistent ID</key><string>56AFECB6AA24F4E4</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/4AD/Lonely%20is%20an%20Eyesore/03%20Cut%20The%20Tree.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>184</key>
+		<dict>
+			<key>Track ID</key><integer>184</integer>
+			<key>Name</key><string>Fish</string>
+			<key>Artist</key><string>Throwing Muses</string>
+			<key>Composer</key><string>Kristin Hersh</string>
+			<key>Album</key><string>Lonely is an Eyesore</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>31117901</integer>
+			<key>Total Time</key><integer>268733</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Track Count</key><integer>9</integer>
+			<key>Year</key><integer>1987</integer>
+			<key>Date Modified</key><date>2015-02-01T17:58:06Z</date>
+			<key>Date Added</key><date>2016-05-12T12:36:06Z</date>
+			<key>Bit Rate</key><integer>925</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>1317</integer>
+			<key>Compilation</key><true/>
+			<key>Persistent ID</key><string>B9A09236049E0DA7</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/4AD/Lonely%20is%20an%20Eyesore/04%20Fish.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>186</key>
+		<dict>
+			<key>Track ID</key><integer>186</integer>
+			<key>Name</key><string>Frontier</string>
+			<key>Artist</key><string>Dead Can Dance</string>
+			<key>Composer</key><string>Lisa Gerrard/Brendan Perry</string>
+			<key>Album</key><string>Lonely is an Eyesore</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>14958411</integer>
+			<key>Total Time</key><integer>178026</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>9</integer>
+			<key>Year</key><integer>1987</integer>
+			<key>Date Modified</key><date>2015-02-01T17:58:28Z</date>
+			<key>Date Added</key><date>2016-05-12T12:36:06Z</date>
+			<key>Bit Rate</key><integer>671</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>579</integer>
+			<key>Compilation</key><true/>
+			<key>Persistent ID</key><string>B8B90FA6ABF507D9</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/4AD/Lonely%20is%20an%20Eyesore/05%20Frontier.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>188</key>
+		<dict>
+			<key>Track ID</key><integer>188</integer>
+			<key>Name</key><string>Crushed</string>
+			<key>Artist</key><string>Cocteau Twins</string>
+			<key>Composer</key><string>Cocteau Twins</string>
+			<key>Album</key><string>Lonely is an Eyesore</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>20200901</integer>
+			<key>Total Time</key><integer>196506</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Track Count</key><integer>9</integer>
+			<key>Year</key><integer>1987</integer>
+			<key>Date Modified</key><date>2015-02-01T17:58:52Z</date>
+			<key>Date Added</key><date>2016-05-12T12:36:06Z</date>
+			<key>Bit Rate</key><integer>821</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>1468</integer>
+			<key>Compilation</key><true/>
+			<key>Persistent ID</key><string>CFC58B6EE0C8DE70</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/4AD/Lonely%20is%20an%20Eyesore/06%20Crushed.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>190</key>
+		<dict>
+			<key>Track ID</key><integer>190</integer>
+			<key>Name</key><string>No Motion</string>
+			<key>Artist</key><string>Dif Juz</string>
+			<key>Composer</key><string>Dif Juz</string>
+			<key>Album</key><string>Lonely is an Eyesore</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>31528824</integer>
+			<key>Total Time</key><integer>289493</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Track Count</key><integer>9</integer>
+			<key>Year</key><integer>1987</integer>
+			<key>Date Modified</key><date>2015-02-01T17:59:26Z</date>
+			<key>Date Added</key><date>2016-05-12T12:36:06Z</date>
+			<key>Bit Rate</key><integer>870</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>2422</integer>
+			<key>Compilation</key><true/>
+			<key>Persistent ID</key><string>3779E07EF9175CC8</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/4AD/Lonely%20is%20an%20Eyesore/07%20No%20Motion.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>192</key>
+		<dict>
+			<key>Track ID</key><integer>192</integer>
+			<key>Name</key><string>Muscoviet Musquito</string>
+			<key>Artist</key><string>Clan Of Xymox</string>
+			<key>Composer</key><string>Clan Of Xymox</string>
+			<key>Album</key><string>Lonely is an Eyesore</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>26000654</integer>
+			<key>Total Time</key><integer>243066</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Track Count</key><integer>9</integer>
+			<key>Year</key><integer>1987</integer>
+			<key>Date Modified</key><date>2015-02-01T17:59:53Z</date>
+			<key>Date Added</key><date>2016-05-12T12:36:06Z</date>
+			<key>Bit Rate</key><integer>854</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>803</integer>
+			<key>Compilation</key><true/>
+			<key>Persistent ID</key><string>8F6479E8D81D6D66</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/4AD/Lonely%20is%20an%20Eyesore/08%20Muscoviet%20Musquito.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>194</key>
+		<dict>
+			<key>Track ID</key><integer>194</integer>
+			<key>Name</key><string>The Protagonist</string>
+			<key>Artist</key><string>Dead Can Dance</string>
+			<key>Composer</key><string>Brendan Perry</string>
+			<key>Album</key><string>Lonely is an Eyesore</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Lossless audio file</string>
+			<key>Size</key><integer>39594890</integer>
+			<key>Total Time</key><integer>527840</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>9</integer>
+			<key>Track Count</key><integer>9</integer>
+			<key>Year</key><integer>1987</integer>
+			<key>Date Modified</key><date>2015-02-01T18:00:47Z</date>
+			<key>Date Added</key><date>2016-05-12T12:36:06Z</date>
+			<key>Bit Rate</key><integer>599</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>454</integer>
+			<key>Compilation</key><true/>
+			<key>Sort Name</key><string>Protagonist</string>
+			<key>Persistent ID</key><string>BBF83466AD467385</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/ALAC/4AD/Lonely%20is%20an%20Eyesore/09%20The%20Protagonist.m4a</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>196</key>
+		<dict>
+			<key>Track ID</key><integer>196</integer>
+			<key>Name</key><string>Into The Frying Pan</string>
+			<key>Artist</key><string>King Crimson</string>
+			<key>Album</key><string>Shepherds Bush Empire, London, 3 Jul 2000</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>9509291</integer>
+			<key>Total Time</key><integer>391575</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2000</integer>
+			<key>Date Modified</key><date>2009-05-30T11:29:03Z</date>
+			<key>Date Added</key><date>2016-05-12T12:37:00Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>626C8B51E7CAC26F</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1297106739</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/Downloads/King%20Crimson/Shepherds%20Bush%20Empire,%20London,%203%20Jul%202000/01%20Into%20The%20Frying%20Pan.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>198</key>
+		<dict>
+			<key>Track ID</key><integer>198</integer>
+			<key>Name</key><string>The ConstruKction Of Light</string>
+			<key>Artist</key><string>King Crimson</string>
+			<key>Album</key><string>Shepherds Bush Empire, London, 3 Jul 2000</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>13080968</integer>
+			<key>Total Time</key><integer>540395</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2000</integer>
+			<key>Date Modified</key><date>2009-05-30T11:29:04Z</date>
+			<key>Date Added</key><date>2016-05-12T12:37:00Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Name</key><string>ConstruKction Of Light</string>
+			<key>Persistent ID</key><string>02F8027419A952F0</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1297106739</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/Downloads/King%20Crimson/Shepherds%20Bush%20Empire,%20London,%203%20Jul%202000/02%20The%20ConstruKction%20Of%20Light.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>200</key>
+		<dict>
+			<key>Track ID</key><integer>200</integer>
+			<key>Name</key><string>VROOOM</string>
+			<key>Artist</key><string>King Crimson</string>
+			<key>Album</key><string>Shepherds Bush Empire, London, 3 Jul 2000</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6495583</integer>
+			<key>Total Time</key><integer>266004</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2000</integer>
+			<key>Date Modified</key><date>2009-05-30T11:29:05Z</date>
+			<key>Date Added</key><date>2016-05-12T12:37:00Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>0EEE9C8D0C853416</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1297106739</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/Downloads/King%20Crimson/Shepherds%20Bush%20Empire,%20London,%203%20Jul%202000/03%20VROOOM.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>202</key>
+		<dict>
+			<key>Track ID</key><integer>202</integer>
+			<key>Name</key><string>One Time</string>
+			<key>Artist</key><string>King Crimson</string>
+			<key>Album</key><string>Shepherds Bush Empire, London, 3 Jul 2000</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8138165</integer>
+			<key>Total Time</key><integer>334445</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2000</integer>
+			<key>Date Modified</key><date>2009-05-30T11:29:05Z</date>
+			<key>Date Added</key><date>2016-05-12T12:37:00Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>3763446FEC968A5A</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1297106739</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/Downloads/King%20Crimson/Shepherds%20Bush%20Empire,%20London,%203%20Jul%202000/04%20One%20Time.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>204</key>
+		<dict>
+			<key>Track ID</key><integer>204</integer>
+			<key>Name</key><string>Improv I Blasticus SS Blastica</string>
+			<key>Artist</key><string>King Crimson</string>
+			<key>Album</key><string>Shepherds Bush Empire, London, 3 Jul 2000</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>19216195</integer>
+			<key>Total Time</key><integer>796029</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2000</integer>
+			<key>Date Modified</key><date>2009-05-30T11:29:07Z</date>
+			<key>Date Added</key><date>2016-05-12T12:37:00Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>2CE45987C47890DA</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1297106739</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/Downloads/King%20Crimson/Shepherds%20Bush%20Empire,%20London,%203%20Jul%202000/05%20Improv%20I%20Blasticus%20SS%20Blastica.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>206</key>
+		<dict>
+			<key>Track ID</key><integer>206</integer>
+			<key>Name</key><string>Dinosaur</string>
+			<key>Artist</key><string>King Crimson</string>
+			<key>Album</key><string>Shepherds Bush Empire, London, 3 Jul 2000</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8005881</integer>
+			<key>Total Time</key><integer>328933</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2000</integer>
+			<key>Date Modified</key><date>2009-05-30T11:29:08Z</date>
+			<key>Date Added</key><date>2016-05-12T12:37:00Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>E152123E080C85F9</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1297106739</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/Downloads/King%20Crimson/Shepherds%20Bush%20Empire,%20London,%203%20Jul%202000/06%20Dinosaur.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>208</key>
+		<dict>
+			<key>Track ID</key><integer>208</integer>
+			<key>Name</key><string>The Worlds My Oyster Soup Kitchen Floor Wax Museum</string>
+			<key>Artist</key><string>King Crimson</string>
+			<key>Album</key><string>Shepherds Bush Empire, London, 3 Jul 2000</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>10230928</integer>
+			<key>Total Time</key><integer>421642</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2000</integer>
+			<key>Date Modified</key><date>2009-05-30T11:29:09Z</date>
+			<key>Date Added</key><date>2016-05-12T12:37:00Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Name</key><string>Worlds My Oyster Soup Kitchen Floor Wax Museum</string>
+			<key>Persistent ID</key><string>301746445E11A8C3</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1297106739</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/Downloads/King%20Crimson/Shepherds%20Bush%20Empire,%20London,%203%20Jul%202000/07%20The%20Worlds%20My%20Oyster%20Soup%20Kitchen%20Floor%20Wax%20Museum.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>210</key>
+		<dict>
+			<key>Track ID</key><integer>210</integer>
+			<key>Name</key><string>Improv II C Blasticum</string>
+			<key>Artist</key><string>King Crimson</string>
+			<key>Album</key><string>Shepherds Bush Empire, London, 3 Jul 2000</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>9883575</integer>
+			<key>Total Time</key><integer>407170</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2000</integer>
+			<key>Date Modified</key><date>2009-05-30T11:29:10Z</date>
+			<key>Date Added</key><date>2016-05-12T12:37:00Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>D6734CF1987B56A2</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1297106739</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/Downloads/King%20Crimson/Shepherds%20Bush%20Empire,%20London,%203%20Jul%202000/08%20Improv%20II%20C%20Blasticum.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>212</key>
+		<dict>
+			<key>Track ID</key><integer>212</integer>
+			<key>Name</key><string>Cage</string>
+			<key>Artist</key><string>King Crimson</string>
+			<key>Album</key><string>Shepherds Bush Empire, London, 3 Jul 2000</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8769488</integer>
+			<key>Total Time</key><integer>360751</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>9</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2000</integer>
+			<key>Date Modified</key><date>2009-05-30T11:29:11Z</date>
+			<key>Date Added</key><date>2016-05-12T12:37:00Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>BD31CE849F22430C</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1297106739</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/Downloads/King%20Crimson/Shepherds%20Bush%20Empire,%20London,%203%20Jul%202000/09%20Cage.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>214</key>
+		<dict>
+			<key>Track ID</key><integer>214</integer>
+			<key>Name</key><string>ProzaKc Blues</string>
+			<key>Artist</key><string>King Crimson</string>
+			<key>Album</key><string>Shepherds Bush Empire, London, 3 Jul 2000</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8216538</integer>
+			<key>Total Time</key><integer>337711</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>10</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2000</integer>
+			<key>Date Modified</key><date>2009-05-30T11:29:11Z</date>
+			<key>Date Added</key><date>2016-05-12T12:37:00Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>7091A921C328C865</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1297106739</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/Downloads/King%20Crimson/Shepherds%20Bush%20Empire,%20London,%203%20Jul%202000/10%20ProzaKc%20Blues.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>216</key>
+		<dict>
+			<key>Track ID</key><integer>216</integer>
+			<key>Name</key><string>Larks Tongues In Aspic Pt IV</string>
+			<key>Artist</key><string>King Crimson</string>
+			<key>Album</key><string>Shepherds Bush Empire, London, 3 Jul 2000</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>19970402</integer>
+			<key>Total Time</key><integer>827454</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>11</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2000</integer>
+			<key>Date Modified</key><date>2009-05-30T11:29:13Z</date>
+			<key>Date Added</key><date>2016-05-12T12:37:00Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>09B90DB5911DCA8E</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1297106739</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/Downloads/King%20Crimson/Shepherds%20Bush%20Empire,%20London,%203%20Jul%202000/11%20Larks%20Tongues%20In%20Aspic%20Pt%20IV.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>218</key>
+		<dict>
+			<key>Track ID</key><integer>218</integer>
+			<key>Name</key><string>Three Of A Perfect Pair</string>
+			<key>Artist</key><string>King Crimson</string>
+			<key>Album</key><string>Shepherds Bush Empire, London, 3 Jul 2000</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5520085</integer>
+			<key>Total Time</key><integer>225358</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>12</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2000</integer>
+			<key>Date Modified</key><date>2009-05-30T11:29:14Z</date>
+			<key>Date Added</key><date>2016-05-12T12:37:00Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>9BF487F4CC1D3898</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1297106739</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/Downloads/King%20Crimson/Shepherds%20Bush%20Empire,%20London,%203%20Jul%202000/12%20Three%20Of%20A%20Perfect%20Pair.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>220</key>
+		<dict>
+			<key>Track ID</key><integer>220</integer>
+			<key>Name</key><string>The Deception Of The Thrush</string>
+			<key>Artist</key><string>King Crimson</string>
+			<key>Album</key><string>Shepherds Bush Empire, London, 3 Jul 2000</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>14902855</integer>
+			<key>Total Time</key><integer>616306</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>13</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2000</integer>
+			<key>Date Modified</key><date>2009-05-30T11:29:15Z</date>
+			<key>Date Added</key><date>2016-05-12T12:37:00Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Name</key><string>Deception Of The Thrush</string>
+			<key>Persistent ID</key><string>7DF79E66950F1961</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1297106739</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/Downloads/King%20Crimson/Shepherds%20Bush%20Empire,%20London,%203%20Jul%202000/13%20The%20Deception%20Of%20The%20Thrush.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>222</key>
+		<dict>
+			<key>Track ID</key><integer>222</integer>
+			<key>Name</key><string>Sex Sleep Eat Drink Dream</string>
+			<key>Artist</key><string>King Crimson</string>
+			<key>Album</key><string>Shepherds Bush Empire, London, 3 Jul 2000</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>11562523</integer>
+			<key>Total Time</key><integer>477126</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>14</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2000</integer>
+			<key>Date Modified</key><date>2009-05-30T11:29:16Z</date>
+			<key>Date Added</key><date>2016-05-12T12:37:00Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>1360689D48C66B6F</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1297106739</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/Downloads/King%20Crimson/Shepherds%20Bush%20Empire,%20London,%203%20Jul%202000/14%20Sex%20Sleep%20Eat%20Drink%20Dream.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>224</key>
+		<dict>
+			<key>Track ID</key><integer>224</integer>
+			<key>Name</key><string>Heroes</string>
+			<key>Artist</key><string>King Crimson</string>
+			<key>Album</key><string>Shepherds Bush Empire, London, 3 Jul 2000</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>8901149</integer>
+			<key>Total Time</key><integer>366236</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>15</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2000</integer>
+			<key>Date Modified</key><date>2009-05-30T11:29:17Z</date>
+			<key>Date Added</key><date>2016-05-12T12:37:00Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>A5C0649DD7470766</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1297106739</integer>
+			<key>Location</key><string>file:///Volumes/Portable%20HD/Music/Downloads/King%20Crimson/Shepherds%20Bush%20Empire,%20London,%203%20Jul%202000/15%20Heroes.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+	</dict>
+	<key>Playlists</key>
+	<array>
+		<dict>
+			<key>Name</key><string>Library</string>
+			<key>Description</key><string></string>
+			<key>Master</key><true/>
+			<key>Playlist ID</key><integer>226</integer>
+			<key>Playlist Persistent ID</key><string>2D2C44D062455151</string>
+			<key>Visible</key><false/>
+			<key>All Items</key><true/>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>86</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>88</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>90</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>92</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>94</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>96</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>98</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>100</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>102</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>104</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>106</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>108</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>110</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>112</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>114</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>116</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>118</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>120</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>122</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>124</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>126</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>128</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>130</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>132</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>134</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>136</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>138</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>140</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>142</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>144</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>146</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>148</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>150</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>152</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>154</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>156</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>158</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>160</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>162</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>164</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>166</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>168</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>170</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>172</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>174</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>176</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>178</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>180</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>182</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>184</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>186</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>188</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>190</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>192</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>194</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>196</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>198</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>200</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>202</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>204</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>206</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>208</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>210</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>212</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>214</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>216</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>218</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>220</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>222</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>224</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key><string>Music</string>
+			<key>Description</key><string></string>
+			<key>Playlist ID</key><integer>299</integer>
+			<key>Playlist Persistent ID</key><string>21731A788AFA3901</string>
+			<key>Distinguished Kind</key><integer>4</integer>
+			<key>Music</key><true/>
+			<key>All Items</key><true/>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>86</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>88</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>90</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>92</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>94</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>96</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>98</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>100</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>102</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>104</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>106</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>108</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>110</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>112</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>114</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>116</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>118</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>120</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>122</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>124</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>126</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>128</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>130</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>132</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>134</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>136</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>138</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>140</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>142</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>144</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>146</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>148</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>150</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>152</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>154</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>156</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>158</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>160</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>162</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>164</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>166</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>168</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>170</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>172</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>174</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>176</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>192</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>188</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>178</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>186</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>194</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>190</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>180</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>184</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>182</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>196</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>198</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>200</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>202</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>204</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>206</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>208</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>210</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>212</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>214</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>216</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>218</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>220</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>222</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>224</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key><string>Movies</string>
+			<key>Description</key><string></string>
+			<key>Playlist ID</key><integer>378</integer>
+			<key>Playlist Persistent ID</key><string>F7D022388B24E861</string>
+			<key>Distinguished Kind</key><integer>2</integer>
+			<key>Movies</key><true/>
+			<key>All Items</key><true/>
+		</dict>
+		<dict>
+			<key>Name</key><string>TV Shows</string>
+			<key>Description</key><string></string>
+			<key>Playlist ID</key><integer>384</integer>
+			<key>Playlist Persistent ID</key><string>C67C08D646047981</string>
+			<key>Distinguished Kind</key><integer>3</integer>
+			<key>TV Shows</key><true/>
+			<key>All Items</key><true/>
+		</dict>
+		<dict>
+			<key>Name</key><string>Podcasts</string>
+			<key>Description</key><string></string>
+			<key>Playlist ID</key><integer>387</integer>
+			<key>Playlist Persistent ID</key><string>5FCAEB9147D85E1E</string>
+			<key>Distinguished Kind</key><integer>10</integer>
+			<key>Podcasts</key><true/>
+			<key>All Items</key><true/>
+		</dict>
+		<dict>
+			<key>Name</key><string>iTunes U</string>
+			<key>Description</key><string></string>
+			<key>Playlist ID</key><integer>394</integer>
+			<key>Playlist Persistent ID</key><string>14AD62C937F308F5</string>
+			<key>Distinguished Kind</key><integer>31</integer>
+			<key>iTunesU</key><true/>
+			<key>All Items</key><true/>
+		</dict>
+		<dict>
+			<key>Name</key><string>Audiobooks</string>
+			<key>Description</key><string></string>
+			<key>Playlist ID</key><integer>397</integer>
+			<key>Playlist Persistent ID</key><string>C5AD09AE6F502122</string>
+			<key>Distinguished Kind</key><integer>5</integer>
+			<key>Audiobooks</key><true/>
+			<key>All Items</key><true/>
+		</dict>
+		<dict>
+			<key>Name</key><string>Tones</string>
+			<key>Description</key><string></string>
+			<key>Playlist ID</key><integer>409</integer>
+			<key>Playlist Persistent ID</key><string>2C14C70627C3C38C</string>
+			<key>Distinguished Kind</key><integer>6</integer>
+			<key>All Items</key><true/>
+		</dict>
+		<dict>
+			<key>Name</key><string>Genius</string>
+			<key>Description</key><string></string>
+			<key>Playlist ID</key><integer>412</integer>
+			<key>Playlist Persistent ID</key><string>8DC766724A6C72E3</string>
+			<key>Distinguished Kind</key><integer>26</integer>
+			<key>All Items</key><true/>
+		</dict>
+		<dict>
+			<key>Name</key><string>90’s Music</string>
+			<key>Description</key><string></string>
+			<key>Playlist ID</key><integer>415</integer>
+			<key>Playlist Persistent ID</key><string>78E02053398B6502</string>
+			<key>Distinguished Kind</key><integer>200</integer>
+			<key>All Items</key><true/>
+			<key>Smart Info</key>
+			<data>
+			AQEAAwAAAAIAAAAZAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAA==
+			</data>
+			<key>Smart Criteria</key>
+			<data>
+			U0xzdAABAAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAEAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAAB8YAAAAAAAAAAAAAAAAAAAAB
+			AAAAAAAAB88AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgFNMc3QAAQAB
+			AAAAAgAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAB
+			AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPAAABAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQAAAAAAAAAIAAAAAAAAAAA
+			AAAAAAAAAAEAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+		</dict>
+		<dict>
+			<key>Name</key><string>Classical Music</string>
+			<key>Description</key><string></string>
+			<key>Playlist ID</key><integer>418</integer>
+			<key>Playlist Persistent ID</key><string>5D6698649172DF4B</string>
+			<key>Distinguished Kind</key><integer>206</integer>
+			<key>All Items</key><true/>
+			<key>Smart Info</key>
+			<data>
+			AQEAAwAAAAIAAAAZAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAA==
+			</data>
+			<key>Smart Criteria</key>
+			<data>
+			U0xzdAABAAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAU0xzdAABAAEAAAACAAAAAQAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAADwAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAABEAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAB
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAg
+			AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABVxTTHN0AAEAAQAAABEAAAAB
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAACAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAABIAQwBsAGEAcwBzAGkAYwBhAGwAAAAIAQAAAQAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEABLAGwAYQBzAHMAaQBlAGsAAAAI
+			AQAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEgBD
+			AGwAYQBzAHMAaQBxAHUAZQAAAAgBAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAOAEsAbABhAHMAcwBpAGsAAAAIAQAAAQAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEABDAGwAYQBzAHMAaQBjAGEAAAAI
+			AQAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACjCv
+			MOkwtzDDMK8AAAAIAQAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAADgBDAGwA4QBzAGkAYwBhAAAACAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAASwBsAGEAcwBzAGkAcwBrAAAACAEAAAEAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAQwBsAOEAcwBz
+			AGkAYwBhAAAACAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAABIASwBsAGEAcwBzAGkAcwBrAHQAAAAIAQAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAQaBDsEMARBBEEEOARHBDUEQQQ6BDAETwAA
+			AAgBAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAS
+			AEsAbABhAHMAeQBjAHoAbgBhAAAACAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAABIASwBsAGEAcwBzAGkAbgBlAG4AAAAIAQAAAQAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADABLAGwAYQBzAGkAawAA
+			AAgBAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAU
+			AEsAbABhAHMAcwB6AGkAawB1AHMAAAAIAQAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAFgBWAOEBfgBuAOEAIABoAHUAZABiAGEAAAAIAQAAAQAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgZDBkQGJwYz
+			BkoGQwZK
+			</data>
+		</dict>
+		<dict>
+			<key>Name</key><string>My Top Rated</string>
+			<key>Description</key><string></string>
+			<key>Playlist ID</key><integer>421</integer>
+			<key>Playlist Persistent ID</key><string>06D0EF8D0C08B78B</string>
+			<key>Distinguished Kind</key><integer>201</integer>
+			<key>All Items</key><true/>
+			<key>Smart Info</key>
+			<data>
+			AQEAAwAAAAIAAAAZAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAA==
+			</data>
+			<key>Smart Criteria</key>
+			<data>
+			U0xzdAABAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkAAAAQAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAB
+			AAAAAAAAADwAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+			</data>
+		</dict>
+		<dict>
+			<key>Name</key><string>Recently Added</string>
+			<key>Description</key><string></string>
+			<key>Playlist ID</key><integer>424</integer>
+			<key>Playlist Persistent ID</key><string>68FB6756A16AD933</string>
+			<key>Distinguished Kind</key><integer>204</integer>
+			<key>All Items</key><true/>
+			<key>Smart Info</key>
+			<data>
+			AQEAAwAAAAIAAAAZAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAA==
+			</data>
+			<key>Smart Criteria</key>
+			<data>
+			U0xzdAABAAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABELa4tri2uLa7//////////gAAAAAACTqA
+			La4tri2uLa4AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA5AgAAAQAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAB
+			AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA
+			AAAAAAAA
+			</data>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>86</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>88</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>90</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>92</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>94</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>96</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>98</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>100</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>102</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>104</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>106</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>108</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>110</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>112</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>114</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>116</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>118</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>120</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>122</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>124</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>126</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>128</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>130</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>132</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>134</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>136</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>138</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>140</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>142</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>144</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>146</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>148</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>150</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>152</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>154</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>156</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>158</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>160</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>162</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>164</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>166</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>168</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>170</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>172</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>174</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>176</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>192</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>188</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>178</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>186</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>194</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>190</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>180</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>184</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>182</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>196</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>198</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>200</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>202</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>204</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>206</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>208</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>210</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>212</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>214</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>216</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>218</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>220</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>222</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>224</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key><string>Recently Played</string>
+			<key>Description</key><string></string>
+			<key>Playlist ID</key><integer>497</integer>
+			<key>Playlist Persistent ID</key><string>492957B215D46D24</string>
+			<key>Distinguished Kind</key><integer>203</integer>
+			<key>All Items</key><true/>
+			<key>Smart Info</key>
+			<data>
+			AQEAAwAAAAIAAAAZAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAA==
+			</data>
+			<key>Smart Criteria</key>
+			<data>
+			U0xzdAABAAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcAAAIAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABELa4tri2uLa7//////////gAAAAAACTqA
+			La4tri2uLa4AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA5AgAAAQAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAB
+			AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA
+			AAAAAAAA
+			</data>
+		</dict>
+		<dict>
+			<key>Name</key><string>Top 25 Most Played</string>
+			<key>Description</key><string></string>
+			<key>Playlist ID</key><integer>500</integer>
+			<key>Playlist Persistent ID</key><string>72B176A6E1ABAA27</string>
+			<key>Distinguished Kind</key><integer>202</integer>
+			<key>All Items</key><true/>
+			<key>Smart Info</key>
+			<data>
+			AQEBAwAAABkAAAAZAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAA==
+			</data>
+			<key>Smart Criteria</key>
+			<data>
+			U0xzdAABAAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADkCAAABAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAB
+			AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAAAEAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA
+			AAAAAAAA
+			</data>
+		</dict>
+	</array>
+</dict>
+</plist>
