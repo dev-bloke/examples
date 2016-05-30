@@ -1,6 +1,5 @@
 package com.meridal.itunes.service;
 
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
@@ -17,6 +16,7 @@ import com.dd.plist.PropertyListParser;
 import com.meridal.itunes.domain.Recording;
 import com.meridal.itunes.domain.RecordingKey;
 import com.meridal.itunes.domain.Song;
+import com.meridal.itunes.helper.PathHelper;
 
 public class ITunesService {
 
@@ -29,9 +29,7 @@ public class ITunesService {
 	private static final String FILE_NAME = "Location";
 	private static final String FILE_SIZE = "Size";
 	private static final String FILE_TYPE = "Kind";
-	private static final String LOCALHOST = "file://localhost";
 	private static final String NAME = "Name";
-    private static final String PREFIX = "file://";
 	private static final String SAMPLE_RATE = "Sample Rate";
 	private static final String TRACK_NO = "Track Number";	
 	private static final String TIME = "Total Time";	
@@ -55,7 +53,7 @@ public class ITunesService {
     private static final Logger LOG = LoggerFactory.getLogger(ITunesService.class);
        
     public Map<RecordingKey, Recording> getAlbumsFromResource(String fileName) {
-    	String path = this.findResourceOnClassPath(fileName);
+    	String path = PathHelper.findResourceOnClassPath(fileName);
     	return this.getAlbums(path);
     }
     	
@@ -64,7 +62,8 @@ public class ITunesService {
     	Collection<NSDictionary> tracks = this.getTracksFromFile(path);
     	for (NSDictionary track : tracks) {
     		Song song = this.getSongFromTrack(track);
-    		if (song != null && !IGNORE_TYPE_LIST.contains(song.getFileType())) {
+    		if (song != null && !IGNORE_TYPE_LIST.contains(song.getFileType()) &&
+    			!song.getFileName().startsWith("http://")) {
     			RecordingKey albumID = this.getAlbumIDFromTrack(track);
     			Recording album = albums.get(albumID);
     			if (album == null) {
@@ -80,11 +79,6 @@ public class ITunesService {
     	return albums;
     }
     
-    protected String findResourceOnClassPath(String resource) {
-    	URL url = this.getClass().getResource(resource);
-    	return this.cleanPath(url.getPath());
-    }
-
     protected Collection<NSDictionary> getTracksFromFile(String path) {
     	Collection<NSDictionary> tracks = new ArrayList<>();
     	try {
@@ -115,7 +109,7 @@ public class ITunesService {
     	song.setBitRate(this.getInteger(track, BIT_RATE));
     	song.setComments(this.getString(track, COMMENTS));
     	song.setDiscNo(this.getInteger(track, DISC_NO));
-    	song.setFileName(this.cleanPath(this.getString(track, FILE_NAME)));
+    	song.setFileName(PathHelper.cleanPath(this.getString(track, FILE_NAME)));
     	song.setFileSize(this.getInteger(track,FILE_SIZE));
     	song.setFileType(this.getString(track,FILE_TYPE));
     	song.setName(this.getString(track, NAME));
@@ -149,16 +143,5 @@ public class ITunesService {
     		}
     	}
     	return value;
-    }
-    
-    private String cleanPath(String path) {
-    	String clean = path.replace("%20", " ");
-    	if (clean.startsWith(LOCALHOST)) {
-    		clean = clean.substring(LOCALHOST.length());
-    	}
-    	else if (clean.startsWith(PREFIX)) {
-    		clean = clean.substring(PREFIX.length());
-    	}
-    	return clean;
     }   
 }

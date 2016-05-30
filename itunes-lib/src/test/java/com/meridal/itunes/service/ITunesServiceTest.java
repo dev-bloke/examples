@@ -15,6 +15,7 @@ import com.dd.plist.NSDictionary;
 import com.meridal.itunes.domain.Recording;
 import com.meridal.itunes.domain.RecordingKey;
 import com.meridal.itunes.domain.Song;
+import com.meridal.itunes.helper.PathHelper;
 
 public class ITunesServiceTest {
     
@@ -24,15 +25,8 @@ public class ITunesServiceTest {
     private ITunesService service = new ITunesService();
     
     @Test
-    public void testFindResourceOnClassPath() {
-	    String path = this.service.findResourceOnClassPath(FILE);
-	    LOG.debug("path={}", path);
-	    assertNotNull(path);
-    }
-
-    @Test
     public void testGetTracksFromFile() {
-	    String path = this.service.findResourceOnClassPath(FILE);
+	    String path = PathHelper.findResourceOnClassPath(FILE);
 	    Collection<NSDictionary> tracks = this.service.getTracksFromFile(path);
 	    assertNotNull(tracks);
 	    assertTrue(tracks.size() > 0);
@@ -40,7 +34,7 @@ public class ITunesServiceTest {
     
     @Test
     public void testGetSongFromTrack() {
-	    String path = this.service.findResourceOnClassPath(FILE);
+	    String path = PathHelper.findResourceOnClassPath(FILE);
 	    Collection<NSDictionary> tracks = this.service.getTracksFromFile(path);
 	    List<NSDictionary> trackList = new ArrayList<>(tracks);
 	    Song song = this.service.getSongFromTrack(trackList.get(0));
@@ -50,7 +44,7 @@ public class ITunesServiceTest {
     
     @Test
     public void testGetAlbumIDFromTrack() {
-	    String path = this.service.findResourceOnClassPath(FILE);
+	    String path = PathHelper.findResourceOnClassPath(FILE);
 	    Collection<NSDictionary> tracks = this.service.getTracksFromFile(path);
 	    List<NSDictionary> trackList = new ArrayList<>(tracks);
 	    RecordingKey id = this.service.getAlbumIDFromTrack(trackList.get(0));

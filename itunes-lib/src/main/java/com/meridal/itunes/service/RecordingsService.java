@@ -1,5 +1,6 @@
 package com.meridal.itunes.service;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import com.meridal.itunes.domain.Recording;
@@ -25,6 +26,10 @@ public class RecordingsService {
 		}
 	}
 	
+	public List<Recording> findAllRecordings() {
+		return this.repository.findAllRecordings();
+	}
+	
 	public Recording findRecording(Integer id) {
 		Recording recording = this.repository.findRecording(id);
 		if (recording != null) {
@@ -41,6 +46,15 @@ public class RecordingsService {
 			}
 			this.repository.deleteRecording(recording);
 		}
+	}
+	
+	public List<String> getAllRecordingDirectories() {
+		List<String> directories = new ArrayList<>();
+		List<Recording> recordings = this.findAllRecordings();
+		for (Recording recording : recordings) {
+			directories.add(recording.getDirectory());
+		}
+		return directories;
 	}
 	
 	public void close() {

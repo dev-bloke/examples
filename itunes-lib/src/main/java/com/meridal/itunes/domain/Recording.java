@@ -65,7 +65,7 @@ public class Recording {
     	this.id = null;
     	this.artist = key.getArtist();
     	this.title = key.getTitle();
-    	this.year = key.getYear();
+    	this.year = song.getYear();
     	this.compilation = compilation;
     	this.songs = new ArrayList<>();
     	this.songs.add(song);
@@ -86,6 +86,9 @@ public class Recording {
     		}   		
     		if ((this.discCount == null) || (song.getDiscNo() != null && song.getDiscNo() > this.discCount)) {
     			this.discCount = song.getDiscNo();
+    		}
+    		if (this.year == null || (song.getYear() != null && song.getYear() > this.year)) {
+    			this.year = song.getYear();
     		}
     	}
     }

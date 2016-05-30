@@ -14,24 +14,24 @@ import com.meridal.itunes.domain.Song;
 import com.meridal.itunes.service.ITunesService;
 import com.meridal.itunes.service.RecordingsService;
 
-public class ITunesDatabase implements Runnable {
+public class ITunesCreateDatabase implements Runnable {
 	
-	private static final Logger LOG = LoggerFactory.getLogger(ITunesDatabase.class);
+	private static final Logger LOG = LoggerFactory.getLogger(ITunesCreateDatabase.class);
 
 	private static final int MAX_STRING_SIZE = 255;
 	
 	public static void main(String[] args) {
-		ITunesDatabase app = new ITunesDatabase(args);
+		ITunesCreateDatabase app = new ITunesCreateDatabase(args);
 		app.run();
 	}
 	
 	private String fileName;
 	
-	public ITunesDatabase(String fileName) {
+	public ITunesCreateDatabase(String fileName) {
 		this.fileName = fileName;
 	}
 	
-	public ITunesDatabase(String[] args) {
+	public ITunesCreateDatabase(String[] args) {
 		this.getFileNameFromCommandLineArgs(args);
 	}
 

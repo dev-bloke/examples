@@ -17,12 +17,10 @@ public class RecordingKey implements Serializable {
 	
 	private final String artist;
 	private final String title;
-	private final Integer year;
 	
 	public RecordingKey(String artist, String title, Integer year) {
 		this.artist = artist;
 		this.title = title;
-		this.year = year;
 	}
 	
 	public String getArtist() {
@@ -32,11 +30,7 @@ public class RecordingKey implements Serializable {
 	public String getTitle() {
 		return this.title;
 	}
-	
-	public Integer getYear() {
-		return this.year;
-	}
-	
+		
 	@Override
 	public boolean equals(Object o) {
 		return EqualsBuilder.reflectionEquals(this, o);

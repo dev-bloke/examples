@@ -28,6 +28,15 @@ public class RecordingsRepository {
 		this.delete(song);
 	}
 	
+	public List<Recording> findAllRecordings() {
+		this.manager.getTransaction().begin();
+		String select = "FROM Recording";
+		TypedQuery<Recording> query = this.manager.createQuery(select, Recording.class);
+		List<Recording> recordings = (List<Recording>) query.getResultList();
+		this.manager.getTransaction().commit();
+		return recordings;
+	}
+	
 	public Recording findRecording(Integer id) {
 		return this.find(Recording.class, id);
 	}
