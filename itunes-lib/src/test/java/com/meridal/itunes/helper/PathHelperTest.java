@@ -2,9 +2,7 @@ package com.meridal.itunes.helper;
 
 import static org.junit.Assert.assertNotNull;
 
-import java.io.File;
 import java.io.IOException;
-import java.net.URLEncoder;
 
 import org.junit.Test;
 import org.slf4j.Logger;

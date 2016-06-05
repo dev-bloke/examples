@@ -59,15 +59,4 @@ public class ITunesMissingFolders implements Runnable {
 			this.path = args[0];
 		}
 	}
-	
-	private String checkFor(List<String> recordings, String recording) {
-		String found = "";
-		for (String title : recordings) {
-			if (title.contains(recording)) {
-				LOG.debug("Found '{}'", title);
-				found = title;
-			}
-		}
-		return found;
-	}
 }

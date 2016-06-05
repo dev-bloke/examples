@@ -30,8 +30,10 @@ public class ITunesService {
 	private static final String FILE_SIZE = "Size";
 	private static final String FILE_TYPE = "Kind";
 	private static final String NAME = "Name";
+	private static final String REMOTE = "Remote";
 	private static final String SAMPLE_RATE = "Sample Rate";
 	private static final String TRACK_NO = "Track Number";	
+	private static final String TRACK_TYPE = "Track Type";
 	private static final String TIME = "Total Time";	
 	private static final String TRACKS = "Tracks";
 	private static final String VARIOUS = "Various Artists";
@@ -62,7 +64,9 @@ public class ITunesService {
     	Collection<NSDictionary> tracks = this.getTracksFromFile(path);
     	for (NSDictionary track : tracks) {
     		Song song = this.getSongFromTrack(track);
-    		if (song != null && !IGNORE_TYPE_LIST.contains(song.getFileType()) &&
+    		if (song != null && 
+    			song.isLocal() && 
+    			!IGNORE_TYPE_LIST.contains(song.getFileType()) &&
     			!song.getFileName().startsWith("http://")) {
     			RecordingKey albumID = this.getAlbumIDFromTrack(track);
     			Recording album = albums.get(albumID);
@@ -105,18 +109,24 @@ public class ITunesService {
 
     protected Song getSongFromTrack(NSDictionary track) {
     	Song song = new Song();
-    	song.setArtist(this.getString(track, ARTIST));
-    	song.setBitRate(this.getInteger(track, BIT_RATE));
-    	song.setComments(this.getString(track, COMMENTS));
-    	song.setDiscNo(this.getInteger(track, DISC_NO));
-    	song.setFileName(PathHelper.cleanPath(this.getString(track, FILE_NAME)));
-    	song.setFileSize(this.getInteger(track,FILE_SIZE));
-    	song.setFileType(this.getString(track,FILE_TYPE));
-    	song.setName(this.getString(track, NAME));
-    	song.setSampleRate(this.getInteger(track, SAMPLE_RATE));
-    	song.setTimeMs(this.getInteger(track, TIME));
-    	song.setTrackNo(this.getInteger(track, TRACK_NO));
-    	song.setYear(this.getInteger(track, YEAR));
+    	String type = this.getString(track, TRACK_TYPE);
+    	if (REMOTE.equals(type)) {
+    		song.setLocal(false);
+    	}
+    	else {
+    		song.setArtist(this.getString(track, ARTIST));
+    		song.setBitRate(this.getInteger(track, BIT_RATE));
+    		song.setComments(this.getString(track, COMMENTS));
+    		song.setDiscNo(this.getInteger(track, DISC_NO));
+    		song.setFileName(PathHelper.cleanPath(this.getString(track, FILE_NAME)));
+    		song.setFileSize(this.getInteger(track,FILE_SIZE));
+    		song.setFileType(this.getString(track,FILE_TYPE));
+    		song.setName(this.getString(track, NAME));
+    		song.setSampleRate(this.getInteger(track, SAMPLE_RATE));
+    		song.setTimeMs(this.getInteger(track, TIME));
+    		song.setTrackNo(this.getInteger(track, TRACK_NO));
+    		song.setYear(this.getInteger(track, YEAR));
+    	}
     	return song;
     }
     

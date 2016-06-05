@@ -6,6 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.persistence.Transient;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
@@ -44,6 +45,9 @@ public class Song {
 	@Column(name="file_type")
     private String fileType;
 	
+	@Transient
+	private boolean local;
+	
 	@Column(name="name")
     private String name;
 	
@@ -61,6 +65,10 @@ public class Song {
 	
 	@Column(name="year")
     private Integer year;
+	
+	public Song() {
+		this.local = true;
+	}
     
     public String getArtist() {
         return this.artist;
@@ -121,6 +129,10 @@ public class Song {
 	public Integer getYear() {
 		return year;
 	}
+	
+	public boolean isLocal() {
+		return this.local;
+	}
 
 	public void setArtist(String artist) {
         this.artist = artist;
@@ -152,6 +164,10 @@ public class Song {
 
     public void setFileType(String fileType) {
         this.fileType = fileType;
+    }
+    
+    public void setLocal(boolean local) {
+    	this.local = local;
     }
 
     public void setName(String name) {
