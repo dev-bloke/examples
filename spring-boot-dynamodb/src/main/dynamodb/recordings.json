@@ -1,0 +1,64 @@
+{
+  "artist": "New Order",
+  "title": "Blue Monday",
+  "songs": [
+    {
+      "duration": "7:28",
+      "title": "Blue Monday"
+    },
+    {
+      "duration": "7:12",
+      "title": "The Beach"
+    }
+  ],
+  "year": 1983
+}
+
+
+{
+  "artist": "Mike Oldfield",
+  "title": "Tubular Bells",
+  "songs": [
+    {
+      "duration": "25:30",
+      "title": "Part One"
+    },
+    {
+      "duration": "23:18",
+      "title": "Part Two"
+    }
+  ],
+  "year": 1973
+}
+
+{
+  "artist": "Porcupine Tree",
+  "title": "Fear Of A Blank Planet",
+  "songs": [
+    {
+      "duration": "7:30",
+      "title": "Fear Of A Blank Planet"
+    },
+    {
+      "duration": "5:06",
+      "title": "My Ashes"
+    },
+    {
+      "duration": "17:42",
+      "title": "Anesthetise"
+    },
+    {
+      "duration": "5:27",
+      "title": "Sentimental"
+    },
+    {
+      "duration": "7:38",
+      "title": "Way Out Of Here"
+    },
+    {
+      "duration": "7:33",
+      "title": "Sleep Together"
+    }
+  ],
+  "year": 2007
+}

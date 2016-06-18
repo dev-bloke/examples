@@ -37,56 +37,46 @@ div#container input {
   margin: 100px 10px 0px 10px;
 }
 
-div#container input:focus {
+div#container input:focus, div#pills input:focus {
   outline:none;
 }
-
-/* Pills */
 
 div#pills {
   width: 200px;
   margin: 0 360px;
 }
 
-span.pill {
-  width: 16px;
-  height: 16px;
-  margin: 0 2px;
-  float: left;
-}
-
-span.active {
-  background-image: url(../images/pill-active.png);
-}
-
-span.inactive {
-  background-image: url(../images/pill.png);
-}
-
 /* Photo frame pop-up */
 
 div#fullSizeFrame {
   position: relative;
-  top: -100px;
-  left: 30px;
   width: 830px;
-  padding: 20px 0px 20px 20px;
+  padding: 5px 0px 25px 25px;
+  margin: 10px 30px;
   border-radius: 8px;
   border: 1px solid SlateGray;
   box-shadow: 5px 5px 5px LightGray;
   z-index: 1000;
+  background-color: white;
   display: none;
 }
 
 img#fullSizePhoto {
   border: 1px solid SlateGray;
-  float: left;
 }
 
 input#fullSizeClose {
-  float: left;
+  position: absolute;
+  top: 5;
+  right: 5;
+  z-index: 1001;
 }
 
 input#fullSizeClose:focus {
   outline: none;
+}
+
+div#fullSizeCaption {
+  margin-bottom: 5px;
+  text-align: center;
 }

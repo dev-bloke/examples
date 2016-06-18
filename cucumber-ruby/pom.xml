@@ -9,7 +9,7 @@
   <description>Run a simple Cucumber example written in Ruby under Maven.</description>
 
   <parent>
-    <groupId>com.meridal.example</groupId>
+    <groupId>com.meridal.examples</groupId>
     <artifactId>examples</artifactId>
     <version>1.0-SNAPSHOT</version>
     <relativePath>..</relativePath>
@@ -21,7 +21,6 @@
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>exec-maven-plugin</artifactId>
-        <version>1.3.2</version>
         <executions>
           <execution>
             <id>cucumber</id>  

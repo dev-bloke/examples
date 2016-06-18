@@ -1,0 +1,24 @@
+swagger:
+  contact:
+    name: Developer Bloke
+    url: http://www.devbloke.me.uk/
+    email: this.will.bounce@devbloke.me.uk
+  description: An example Spring Boot microservice with MySQL persistence.
+  license:
+    type: License Type
+    url: http://license.url/
+  regex: /api/.*
+  tos:
+    url: http://termsofservice.url/
+  title: Spring Boot MySQL
+  version: 1.0
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/examples?useSSL:false&requireSSL:false
+    username: examples
+    password: 3x4mpl35
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    show-sql: true
+    hibernate.ddl-auto: none

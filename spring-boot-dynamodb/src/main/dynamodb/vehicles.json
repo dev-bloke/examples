@@ -1,0 +1,20 @@
+{
+  "make": "Ford",
+  "model": "Focus ST",
+  "type": "Hot hatch",
+  "doors": 4
+}
+
+{
+  "make": "Vauxhall",
+  "model": "Astra",
+  "type": "Hatchback",
+  "doors": 4
+}
+
+{
+  "make": "Ferrari",
+  "model": "F12",
+  "type": "Supercar",
+  "doors": 2
+}

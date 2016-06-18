@@ -1,0 +1,5 @@
+server:
+  context:
+    path: /example
+foo: 1234
+bar: 5678

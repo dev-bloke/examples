@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<project 
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.meridal.examples</groupId>
+    <artifactId>examples</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <relativePath>..</relativePath>
+  </parent>
+  
+  <artifactId>qunit</artifactId>
+  <name>qunit</name>
+  
+  <dependencies>
+  
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+    </dependency>
+    
+  </dependencies>
+  
+  <build>
+  
+    <plugins>
+    
+      <plugin>
+        <groupId>com.github.klieber</groupId>
+        <artifactId>phantomjs-maven-plugin</artifactId>
+        <executions>
+          <execution>
+            <goals>
+              <goal>install</goal>
+              <goal>exec</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <version>1.9.7</version>
+          <checkSystemPath>false</checkSystemPath>
+          <script>src/test/resources/js/lib/run-qunit.js</script>
+          <arguments>
+            <argument>src/test/resources/js/test-arithmetic.html</argument>
+          </arguments>
+        </configuration>
+      </plugin>
+   
+    </plugins>
+
+    <pluginManagement>
+    
+      <plugins>
+      
+        <plugin>
+          <groupId>org.eclipse.m2e</groupId>
+          <artifactId>lifecycle-mapping</artifactId>
+          <version>1.0.0</version>
+          <configuration>
+            <lifecycleMappingMetadata>
+              <pluginExecutions>
+                <pluginExecution>
+                  <pluginExecutionFilter>
+                    <groupId>
+                      com.github.klieber
+                    </groupId>
+                    <artifactId>
+                      phantomjs-maven-plugin
+                    </artifactId>
+                    <versionRange>[0.7,)</versionRange>
+                    <goals>
+                      <goal>install</goal>
+                    </goals>
+                  </pluginExecutionFilter>
+                  <action>
+                    <ignore></ignore>
+                  </action>
+                </pluginExecution>
+              </pluginExecutions>
+            </lifecycleMappingMetadata>
+          </configuration>
+        </plugin>
+        
+      </plugins>
+      
+    </pluginManagement>
+    
+  </build>
+  
+</project>

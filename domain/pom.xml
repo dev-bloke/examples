@@ -10,9 +10,10 @@
   <description>A simple domain model used by the other example modules.</description>
   
   <parent>
-    <groupId>com.meridal.example</groupId>
+    <groupId>com.meridal.examples</groupId>
     <artifactId>examples</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <relativePath>..</relativePath>
   </parent>
 
   <dependencies>

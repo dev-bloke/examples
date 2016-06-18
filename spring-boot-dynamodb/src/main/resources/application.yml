@@ -1,0 +1,20 @@
+swagger:
+  title: Spring Boot DynamoDB
+  version: 1.0
+  description: An example Spring Boot microservice with DynamoDB persistence.
+  contact:
+    name: Developer Bloke
+    url: http://www.devbloke.me.uk/
+    email: this.will.bounce@devbloke.me.uk
+  license:
+    type: License Type
+    url: http://license.url/
+  regex: /api/.*
+  tos:
+    url: http://termsofservice.url/
+    
+dynamodb: 
+  endpoint: http://localhost:8000/
+  key:
+    access: martin
+    secret: secret
