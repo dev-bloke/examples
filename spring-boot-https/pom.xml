@@ -11,8 +11,8 @@
     <relativePath>..</relativePath>
   </parent>
   
-  <artifactId>spring-boot-freemarker</artifactId>
-  <name>spring-boot-freemarker</name>
+  <artifactId>spring-boot-https</artifactId>
+  <name>spring-boot-https</name>
     
   <dependencies>
   
@@ -42,14 +42,27 @@
   <build>
   
     <plugins>
-    
+   
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
       </plugin>
       
+      <!-- Ensure keystore files are treated as binary. -->
+      
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-resources-plugin</artifactId>
+        <configuration>
+          <nonFilteredFileExtensions>
+            <nonFilteredFileExtension>p12</nonFilteredFileExtension>
+            <nonFilteredFileExtension>jks</nonFilteredFileExtension>
+          </nonFilteredFileExtensions>
+        </configuration>
+      </plugin>
+      
     </plugins>
-    
+     
   </build>
   
 </project>

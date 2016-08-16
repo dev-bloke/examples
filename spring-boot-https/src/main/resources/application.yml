@@ -1,0 +1,12 @@
+server:
+  context:
+    path: /example
+  port: 8443
+  ssl:
+    key-store: classpath:ssl/keystore.jks
+    key-store-password: development
+    key-password: development
+    keyAlias: tomcat
+
+foo: 1234
+bar: 5678
