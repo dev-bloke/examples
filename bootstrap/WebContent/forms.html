@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style/examples.css">
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Forms</h1>
+    
+    <h3>Buttons</h3>
+    
+    <div class="example">
+      <button type="button" class="btn btn-default">Default</button>
+	  <button type="button" class="btn btn-primary">Primary</button>
+	  <button type="button" class="btn btn-info">Info</button>
+	  <button type="button" class="btn btn-success">Success</button>
+	  <button type="button" class="btn btn-warning">Warning</button>
+	  <button type="button" class="btn btn-danger">Danger</button>
+	  <button type="button" class="btn btn-link">Link</button>
+	</div>
+	
+	<div class="example">
+      <button type="button" class="btn btn-primary btn-lg">Large button</button>
+      <button type="button" class="btn btn-primary">Default button</button>
+      <button type="button" class="btn btn-primary btn-sm">Small button</button>
+      <button type="button" class="btn btn-primary btn-xs">Extra small button</button>
+    </div>     
+      
+    <div class="example">
+      <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+    </div>
+    
+    <div class="example">
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary">Left</button>
+        <button type="button" class="btn btn-primary">Middle</button>
+        <button type="button" class="btn btn-primary">Right</button>
+      </div>
+    </div>
+    
+    <h3>Vertical Forms</h3>
+    <form>
+      <div class="form-group">
+        <label for="inputEmail">Email</label>
+        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+      </div>
+      <div class="form-group">
+        <label for="inputPassword">Password</label>
+        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+      </div>
+      <div class="checkbox">
+        <label><input type="checkbox"> Remember me</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Login</button>
+    </form> 
+    
+    <h3>Horizonal Forms</h3>
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label for="inputEmail" class="control-label col-xs-2">Email</label>
+        <div class="col-xs-10">
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputPassword" class="control-label col-xs-2">Password</label>
+        <div class="col-xs-10">
+            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-xs-offset-2 col-xs-10">
+            <div class="checkbox">
+                <label><input type="checkbox"> Remember me</label>
+            </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-xs-offset-2 col-xs-10">
+            <button type="submit" class="btn btn-primary">Login</button>
+        </div>
+      </div>
+    </form>
+    
+    <h3>Inline Forms</h3>
+    
+    <form class="form-inline">
+      <div class="form-group">
+        <label class="sr-only" for="inputEmail">Email</label>
+        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+      </div>
+      <div class="form-group">
+        <label class="sr-only" for="inputPassword">Password</label>
+        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+      </div>
+      <div class="checkbox">
+        <label><input type="checkbox"> Remember me</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+    
+    <h3>Form With Help Text</h3>
+    
+    <form>
+      <input type="text" class="form-control">
+      <span class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+    </form>
+    
+    <h3>Form With Validation</h3>
+    
+    <form class="form-horizontal">
+      <div class="form-group has-success">
+        <label class="col-xs-2 control-label" for="inputSuccess">Username</label>
+        <div class="col-xs-10">
+            <input type="text" id="inputSuccess" class="form-control" placeholder="Input with success">
+            <span class="help-block">Username is available</span>
+        </div>
+      </div>
+      <div class="form-group has-warning">
+        <label class="col-xs-2 control-label" for="inputWarning">Password</label>
+        <div class="col-xs-10">
+            <input type="password" id="inputWarning" class="form-control" placeholder="Input with warning">
+            <span class="help-block">Password strength: Weak</span>
+        </div>
+      </div>
+      <div class="form-group has-error">
+        <label class="col-xs-2 control-label" for="inputError">Email</label>
+        <div class="col-xs-10">
+            <input type="email" id="inputError" class="form-control" placeholder="Input with error">
+            <span class="help-block">Please enter a valid email address</span>
+        </div>
+      </div>
+    </form>
+    
+    <h3>HTML5 Form Controls</h3>
+    
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label class="control-label col-xs-3" for="inputEmail">Email:</label>
+        <div class="col-xs-9">
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-xs-3" for="inputPassword">Password:</label>
+        <div class="col-xs-9">
+            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-xs-3" for="confirmPassword">Confirm Password:</label>
+        <div class="col-xs-9">
+            <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-xs-3" for="firstName">First Name:</label>
+        <div class="col-xs-9">
+            <input type="text" class="form-control" id="firstName" placeholder="First Name">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-xs-3" for="lastName">Last Name:</label>
+        <div class="col-xs-9">
+            <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-xs-3" for="phoneNumber">Phone:</label>
+        <div class="col-xs-9">
+            <input type="tel" class="form-control" id="phoneNumber" placeholder="Phone Number">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-xs-3">Date of Birth:</label>
+        <div class="col-xs-3">
+            <select class="form-control">
+                <option>Date</option>
+            </select>
+        </div>
+        <div class="col-xs-3">
+            <select class="form-control">
+                <option>Month</option>
+            </select>
+        </div>
+        <div class="col-xs-3">
+            <select class="form-control">
+                <option>Year</option>
+            </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-xs-3" for="postalAddress">Address:</label>
+        <div class="col-xs-9">
+            <textarea rows="3" class="form-control" id="postalAddress" placeholder="Postal Address"></textarea>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-xs-3" for="ZipCode">Zip Code:</label>
+        <div class="col-xs-9">
+            <input type="text" class="form-control" id="ZipCode" placeholder="Zip Code">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-xs-3">Gender:</label>
+        <div class="col-xs-2">
+            <label class="radio-inline">
+                <input type="radio" name="genderRadios" value="male"> Male
+            </label>
+        </div>
+        <div class="col-xs-2">
+            <label class="radio-inline">
+                <input type="radio" name="genderRadios" value="female"> Female
+            </label>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-xs-offset-3 col-xs-9">
+            <label class="checkbox-inline">
+                <input type="checkbox" value="news"> Send me latest news and updates.
+            </label>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-xs-offset-3 col-xs-9">
+            <label class="checkbox-inline">
+                <input type="checkbox" value="agree">  I agree to the <a href="#">Terms and Conditions</a>.
+            </label>
+        </div>
+      </div>
+      <br>
+      <div class="form-group">
+        <div class="col-xs-offset-3 col-xs-9">
+            <input type="submit" class="btn btn-primary" value="Submit">
+            <input type="reset" class="btn btn-default" value="Reset">
+        </div>
+      </div>
+    </form>
+
+    <h3>Prepending and Appending</h3>
+    
+    <form>
+      <div class="row">
+        <div class="col-xs-4">
+            <div class="input-group">
+                <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                <input type="text" class="form-control" placeholder="Username">
+            </div>
+        </div>
+        <div class="col-xs-4">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Amount">
+                <span class="input-group-addon">.00</span>
+            </div>
+        </div>
+        <div class="col-xs-4">
+            <div class="input-group">
+                <span class="input-group-addon">$</span>
+                <input type="text" class="form-control" placeholder="US Dollar">
+                <span class="input-group-addon">.00</span>
+            </div>
+        </div>
+      </div>
+    </form>
+    
+    <h3>Button Addons</h3>
+  
+    <form>
+      <div class="row">
+         <div class="col-xs-5">
+           <div class="input-group">
+             <input type="text" class="form-control" placeholder="Search&hellip;">
+             <span class="input-group-btn">
+               <button type="button" class="btn btn-default">Go</button>
+             </span>
+           </div>
+         </div>
+         <div class="col-xs-7">
+           <div class="input-group">
+             <input type="text" class="form-control"  placeholder="Type something&hellip;">
+             <span class="input-group-btn">
+               <button type="button" class="btn btn-default">Action</button>
+               <button type="button" class="btn btn-default">Options</button>
+             </span>
+           </div>
+        </div>
+      </div>
+    </form>
+    
+    <h3>Button Dropdowns</h3>
+    
+    <form>
+      <div class="row">
+        <div class="col-xs-6">
+          <div class="input-group">
+            <div class="input-group-btn">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </div>
+            <input type="text" class="form-control">
+          </div>
+        </div>
+        <div class="col-xs-6">
+          <div class="input-group">
+            <input type="text" class="form-control">
+              <div class="input-group-btn">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span></button>
+                <ul class="dropdown-menu pull-right">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div>
+           </div>
+        </div>
+      </div>
+    </form>
+    
+    <div class="example">
+      For more information, please see <a href="http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-forms.php">
+      Bootstrap Forms on Tutorial Republic</a>.
+    </div>
+    
+    <script src="script/jquery.min.js"></script>
+    <script src="script/bootstrap.min.js"></script>    
+  </body> 
+</html>

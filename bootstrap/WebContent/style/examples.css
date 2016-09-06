@@ -1,0 +1,28 @@
+@import url("bootstrap.min.css");
+@import url("bootstrap-theme.min.css");
+
+body {
+  margin: 0px 10px;
+}
+
+.box:nth-of-type(odd) {
+  background-color: LightGray;
+  color: black;
+}
+
+.box:nth-of-type(even) {
+  background-color: gray;
+  color: white;
+}
+
+div.example {
+  margin-top: 10px;
+}
+
+.carousel {
+    background: #2f4357;
+    margin-top: 20px;
+}
+.carousel .item img {
+    margin: 0 auto; 
+}

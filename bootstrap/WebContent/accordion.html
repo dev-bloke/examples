@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style/examples.css">
+    <title>Accordion</title>
+  </head>
+  <body>
+    <h1>Accordion</h1>
+    
+    <div id="accordion" class="panel-group">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">1. What is HTML?</a>
+          </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse">
+          <div class="panel-body">
+            <p>HTML stands for HyperText Markup Language. HTML is the main markup language for describing the structure of Web pages. <a href="http://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn more.</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">2. What is Bootstrap?</a>
+          </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse in">
+          <div class="panel-body">
+            <p>Bootstrap is a powerful front-end framework for faster and easier web development. It is a collection of CSS and HTML conventions. <a href="http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank">Learn more.</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">3. What is CSS?</a>
+          </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse">
+          <div class="panel-body">
+            <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc. <a href="http://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <input type="button" class="btn" data-toggle="collapse" data-target="#toggleDemo" value="Toggle Button">
+    <div id="toggleDemo" class="collapse in">
+      <p>This is a simple example of expanding and collapsing individual element via data attribute. 
+      Click on the <b>Toggle Button</b> button to see the effect.</p>
+    </div>    
+        
+    <div class="example">
+      For more information, please see <a href="http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-accordion.php">
+      Bootstrap Accordion on Tutorial Republic</a>.
+    </div>
+    
+    <script src="script/jquery.min.js"></script>
+    <script src="script/bootstrap.min.js"></script>
+    <script src="script/examples.js"></script>    
+  </body> 
+</html>

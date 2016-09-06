@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style/examples.css">
+    <title>Carousel</title>
+  </head>
+  <body>
+    <h1>Carousel</h1>
+
+    <div class="container">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>   
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="image/avatar.png" alt="First Slide">
+          </div>
+          <div class="item">
+            <img src="image/avatar.png" alt="Second Slide">
+          </div>
+          <div class="item">
+            <img src="image/avatar.png" alt="Third Slide">
+          </div>
+        </div>
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div>
+    </div> 
+    
+    <div class="example">
+      For more information, please see <a href="http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-carousel.php">
+      Bootstrap Carousel on Tutorial Republic</a>.
+    </div>
+       
+    
+    <script src="script/jquery.min.js"></script>
+    <script src="script/bootstrap.min.js"></script>
+    <script src="script/examples.js"></script>    
+  </body> 
+</html>

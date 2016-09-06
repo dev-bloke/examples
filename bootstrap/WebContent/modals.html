@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style/examples.css">
+    <title>Modals</title>
+  </head>
+  <body>
+  
+    <div class="example">
+      <a href="#myModal" role="button" class="btn btn-large btn-primary" data-toggle="modal">Launch With No JavaScript</a>
+    </div>
+    
+    <div class="example">
+      <button id="showModal" type="button" class="btn btn-default">Launch With JavaScript</button>
+    </div>    
+
+    <div class="example">
+      <a href="#smallModal" role="button" class="btn btn-large btn-primary" data-toggle="modal" data-title="Small Modal">Small Modal</a>
+    </div>
+    
+    <div class="example">
+      <a href="remote.html" role="button" class="btn btn-large btn-primary" data-toggle="modal" data-target="#remoteModal">Remote Modal</a>
+    </div> 
+    
+    <div class="example">
+      For more information, please see <a href="http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-modals.php">
+      Bootstrap Modals on Tutorial Republic</a>.
+    </div>
+
+    <div id="myModal" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Confirmation</h4>
+          </div>
+          <div class="modal-body">
+            <p>Do you want to save changes you made to document before closing?</p>
+            <p class="text-warning"><small>If you don't save, your changes will be lost.</small></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="smallModal" class="modal fade">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Confirmation</h4>
+          </div>
+          <div class="modal-body">
+            <p>Do you want to save changes you made to document before closing?</p>
+            <p class="text-warning"><small>If you don't save, your changes will be lost.</small></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div> 
+    
+    <div id="remoteModal" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+        </div>
+      </div>
+    </div> 	  
+      
+    <script src="script/jquery.min.js"></script>
+    <script src="script/bootstrap.min.js"></script> 
+    <script src="script/examples.js"></script>   
+  </body> 
+</html>
