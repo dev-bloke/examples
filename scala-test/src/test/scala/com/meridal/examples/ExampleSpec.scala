@@ -3,11 +3,6 @@ package com.meridal.examples
 import collection.mutable.Stack
 import org.scalatest._
 
-/**
- * A simple ScalaTest example specification.
- * @see <a href="http://www.scalatest.org/quick_start">the ScalaTest Quick Start guide</a>.
- * @author Martin Ingram
- */
 class ExampleSpec extends FlatSpec with Matchers {
 
   "A Stack" should "pop values in last-in-first-out order" in {
@@ -17,11 +12,16 @@ class ExampleSpec extends FlatSpec with Matchers {
     stack.pop() should be (2)
     stack.pop() should be (1)
   }
-
+  
   it should "throw NoSuchElementException if an empty stack is popped" in {
     val emptyStack = new Stack[Int]
     a [NoSuchElementException] should be thrownBy {
       emptyStack.pop()
     } 
+  }
+  
+  it should "know about integers" in {
+    val x = 1
+    x should be (1)
   }
 }

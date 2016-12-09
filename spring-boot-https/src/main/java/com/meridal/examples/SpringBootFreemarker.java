@@ -7,12 +7,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class SpringBootFreemarker {
-    
+
     private static final Logger LOG = LoggerFactory.getLogger(SpringBootFreemarker.class);
 
     public static void main(String[] args) {
-	LOG.debug("Starting Spring Boot...");
-	SpringApplication.run(SpringBootFreemarker.class, args);
-	LOG.debug("Spring Boot startup complete.");
+        LOG.debug("Starting Spring Boot...");
+        SpringApplication.run(SpringBootFreemarker.class, args);
+        LOG.debug("Spring Boot startup complete.");
     }
 }
