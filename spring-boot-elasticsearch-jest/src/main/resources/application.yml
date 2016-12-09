@@ -1,0 +1,24 @@
+swagger:
+  title: Spring Boot ElasticSearch
+  description: An example Spring Boot microservice with ElasticSearch persistence.
+  regex: /api/.*
+  version: 1.0
+  contact:
+    name: Developer Bloke
+    url: http://www.devbloke.me.uk/
+    email: this.will.bounce@devbloke.me.uk
+  license:
+    type: License Type
+    url: http://license.url/
+  tos:
+    url: http://termsofservice.url/
+
+spring:
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchDataAutoConfiguration 
+      - org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration
+  data:
+    jest:
+      uri: http://localhost:9200/
+   

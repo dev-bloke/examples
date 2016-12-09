@@ -1,0 +1,54 @@
+{
+  "settings" : {
+    "number_of_shards" : 2,
+    "number_of_replicas" : 1,
+    "index": {
+      "analysis": {
+        "analyzer": {
+          "sandboxAnalyzer": {
+            "type": "custom",
+            "tokenizer": "sandboxTokenizer",
+            "filter": ["sandboxFilterLowerCase", "sandboxFilterKStem"],
+            "char_filter": ["sandboxCharFilter"]
+          }
+        },
+        "tokenizer": {
+          "sandboxTokenizer": {
+            "type": "letter"
+          }
+        },
+        "filter": {
+          "sandboxFilterLowerCase": {
+            "type": "lowercase"
+          },
+          "sandboxFilterKStem": {
+            "type": "kstem"
+          }
+        },
+        "char_filter": {
+          "sandboxCharFilter": {
+            "type": "mapping",
+            "mappings": ["ph=>f", " u => you ", "ES=>Elasticsearch"]
+          }
+        }
+      }
+    }
+  },
+  "mappings" : {
+    "recording" : {
+      "_source" : {
+        "enabled" : true
+      },
+      "_all" : {
+        "enabled" : true
+      },
+      "properties" : {
+          "id" : { "type" : "string" },
+    	  "title" : { "type" : "string" },
+    	  "artist" : { "type" : "string" },
+    	  "year" : { "type" : "string" },
+          "format" : { "type" : "string" }  	  
+      }
+    }
+  }
+}

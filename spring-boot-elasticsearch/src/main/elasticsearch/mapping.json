@@ -1,0 +1,67 @@
+{
+  "settings" : {
+    "number_of_shards" : 2,
+    "number_of_replicas" : 1,
+    "index": {
+      "analysis": {
+        "analyzer": {
+          "locationDiscoveryAnalyzer": {
+            "type": "custom",
+            "tokenizer": "locationDiscoveryTokenizer",
+            "filter": ["locationDiscoveryFilterLowerCase", "locationDiscoveryFilterKStem"],
+            "char_filter": ["locationDiscoveryCharFilter"]
+          }
+        },
+        "tokenizer": {
+          "locationDiscoveryTokenizer": {
+            "type": "letter"
+          }
+        },
+        "filter": {
+          "locationDiscoveryFilterLowerCase": {
+            "type": "lowercase"
+          },
+          "locationDiscoveryFilterKStem": {
+            "type": "kstem"
+          }
+        },
+        "char_filter": {
+          "locationDiscoveryCharFilter": {
+            "type": "mapping",
+            "mappings": ["ph=>f", " u => you ", "ES=>Elasticsearch"]
+          }
+        }
+      }
+    }
+  },
+  "mappings" : {
+    "hotel-search" : {
+      "_source" : {
+        "enabled" : true
+      },
+      "_all" : {
+        "enabled" : true
+      },
+      "properties" : {
+    	  "siteId" : { "type" : "string" },
+    	  "siteName" : { "type" : "string" },
+    	  "hotelId" : { "type" : "string" },
+    	  "adultCount" : { "type" : "integer" },
+    	  "childCount" : { "type" : "integer" },
+    	  "checkInDate" : { "type" : "date" },
+    	  "checkOutDate" : { "type" : "date" },
+    	  "destination" : { "type" : "string" },
+    	  "regionId" : { "type" : "string" },
+    	  "numberOfRooms" : { "type" : "integer" },
+    	  "partialStay" : { "type" : "boolean" },
+    	  "location" : { "type" : "geo_point" },
+    	  "city" : { "type" : "string" },
+    	  "state" : { "type" : "string" },
+    	  "country" : { "type" : "string" },
+    	  "starRating" : { "type" : "float" },
+    	  "hotelName" : { "type" : "string" },
+    	  "amenities" : { "type" : "string" }    	  
+      }
+    }
+  }
+}

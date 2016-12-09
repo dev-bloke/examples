@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="example" verbose="10">
+
+  <parameter name="example-subtract" value="1" />
+  <parameter name="example-subtract-result" value="0" />
+  
+  <test name="all">
+    <packages>
+      <package name="com.meridal.*" />
+    </packages>
+  </test>
+  
+</suite>

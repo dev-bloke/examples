@@ -1,0 +1,23 @@
+{
+  "siteId" : "1",
+  "siteName" : "us",
+  "hotelId" : "115663",
+  "adultCount" : 2,
+  "childCount" : 2,
+  "checkInDate" : "02/01/2017",
+  "checkOutDate" : "08/01/2017",
+  "destination" : "Sitges",
+  "regionId" : "Catalunya",
+  "numberOfRooms" : 1,
+  "partialStay" : false,
+  "location" : {
+	  "lat" : 53.2345,
+	  "long" -12.54: 
+  }
+  "city" : "Sitges",
+  "state" : "Catalunya",
+  "country" : "Spain",
+  "starRating" : 4.5,
+  "hotelName" : "Port Sitges Resort",
+  "amenities" : "Pool, Bar, Restaurant, Wifi" 
+}
