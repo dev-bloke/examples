@@ -21,7 +21,7 @@ public class RecordingService {
      * @param recording
      */
     public void deleteRecording(Recording recording) {
-	this.repository.delete(recording);
+	    this.repository.delete(recording);
     }
     
     /**
@@ -29,8 +29,8 @@ public class RecordingService {
      * @return Full list of recordings
      */
     public List<Recording> findAllRecordings() {
-	Iterable<Recording> recordings = this.repository.findAll();
-	return Lists.newArrayList(recordings);
+	    Iterable<Recording> recordings = this.repository.findAll();
+	    return Lists.newArrayList(recordings);
     }
     
     /**
@@ -39,7 +39,7 @@ public class RecordingService {
      * @return Recording
      */
     public Recording findRecording(String id) {
-	return this.repository.findOne(id);	
+	    return this.repository.findById(id).orElse(null);	
     }
     
     /**
@@ -48,8 +48,8 @@ public class RecordingService {
      * @return List of recordings
      */
     public List<Recording> findRecordings(Collection<String> ids) {
-	Iterable<Recording> recordings = this.repository.findAll(ids);
-	return Lists.newArrayList(recordings);
+	    Iterable<Recording> recordings = this.repository.findAllById(ids);
+	    return Lists.newArrayList(recordings);
     }
     
     /**
@@ -57,6 +57,6 @@ public class RecordingService {
      * @param recording Recording
      */
     public void saveRecording(Recording recording) {
-	this.repository.save(recording);
+	    this.repository.save(recording);
     }
 }

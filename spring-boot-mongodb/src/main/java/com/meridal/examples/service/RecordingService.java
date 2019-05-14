@@ -38,7 +38,7 @@ public class RecordingService {
      * @return Recording
      */
     public Recording findRecording(String id) {
-	return this.repository.findOne(id);	
+	return this.repository.findById(id).orElse(null);	
     }
     
     /**
@@ -47,7 +47,7 @@ public class RecordingService {
      * @return List of recordings
      */
     public List<Recording> findRecordings(Collection<String> ids) {
-	Iterable<Recording> recordings = this.repository.findAll(ids);
+	Iterable<Recording> recordings = this.repository.findAllById(ids);
 	return Lists.newArrayList(recordings);
     }
     

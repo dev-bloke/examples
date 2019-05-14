@@ -26,14 +26,14 @@ public class VehicleRepositoryIT extends TestFramework {
         this.repository.save(vehicle);
         VehicleModel id = vehicle.getId();
         assertNotNull(id);
-        Vehicle other = this.repository.findOne(id);
+        Vehicle other = this.repository.findById(id).orElse(null);
         this.checkVehicle(other, WRONG_DOORS);
         vehicle.setDoors(DOORS);
         this.repository.save(vehicle);
-        other = this.repository.findOne(id);
+        other = this.repository.findById(id).orElse(null);
         this.checkVehicle(other, DOORS);
         this.repository.delete(vehicle);
-        other = this.repository.findOne(id);
+        other = this.repository.findById(id).orElse(null);
         assertNull(other);
     }
 }

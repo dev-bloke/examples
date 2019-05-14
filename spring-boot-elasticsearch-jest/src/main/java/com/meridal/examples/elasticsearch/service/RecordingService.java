@@ -3,6 +3,7 @@ package com.meridal.examples.elasticsearch.service;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -40,7 +41,7 @@ public class RecordingService {
      * @return Recording
      */
     public Recording findRecording(String id) {
-        return this.repository.findOne(id);	
+        return this.repository.findById(id).orElse(null);	
     }
 
     /**
@@ -51,9 +52,9 @@ public class RecordingService {
     public List<Recording> findRecordings(Collection<String> ids) {
         List<Recording> recordings = new ArrayList<>();
         for (String id : ids) {
-            Recording recording = this.repository.findOne(id);
-            if (recording != null) {
-                recordings.add(recording);
+            Optional<Recording> recording = this.repository.findById(id);
+            if (recording.isPresent()) {
+                recordings.add(recording.get());
             }
         }
         return recordings;

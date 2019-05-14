@@ -34,8 +34,8 @@ public class UIController {
      */
     @PostConstruct
     public void config() {
-	LOG.info("{}={}", FOO, this.foo);
-	LOG.info("{}={}", BAR, this.bar);
+		LOG.info("{}={}", FOO, this.foo);
+		LOG.info("{}={}", BAR, this.bar);
     }
     
     /**
@@ -44,10 +44,10 @@ public class UIController {
      */
     @RequestMapping("/")
     public ModelAndView welcome() {
-	LOG.debug("WELCOME request.");
-	ModelAndView mav = new ModelAndView("welcome");
-	mav.addObject("foo", this.foo);
-	mav.addObject("bar", this.bar);
-	return mav;
+		LOG.debug("WELCOME request.");
+		ModelAndView mav = new ModelAndView("welcome");
+		mav.addObject("foo", this.foo);
+		mav.addObject("bar", this.bar);
+		return mav;
     }
 }

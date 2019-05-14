@@ -22,7 +22,7 @@ public class VehicleService {
      * @param vehicle
      */
     public void deleteVehicle(Vehicle vehicle) {
-	this.repository.delete(vehicle);
+	    this.repository.delete(vehicle);
     }
     
     /**
@@ -31,7 +31,7 @@ public class VehicleService {
      */
     public List<Vehicle> findAllVehicles() {
 	Iterable<Vehicle> vehicles = this.repository.findAll();
-	return Lists.newArrayList(vehicles);
+	    return Lists.newArrayList(vehicles);
     }
     
     /**
@@ -42,7 +42,7 @@ public class VehicleService {
      */
     public Vehicle findVehicle(String make, String model) {
 	VehicleModel id = new VehicleModel(make, model);
-	return this.findVehicle(id);
+	    return this.findVehicle(id);
     }
     
     /**
@@ -51,7 +51,7 @@ public class VehicleService {
      * @return Vehicle
      */
     public Vehicle findVehicle(VehicleModel id) {
-	return this.repository.findOne(id);	
+	    return this.repository.findById(id).orElse(null);	
     }
     
     /**
@@ -60,8 +60,8 @@ public class VehicleService {
      * @return List of vehicles
      */
     public List<Vehicle> findVehicles(Collection<VehicleModel> ids) {
-	Iterable<Vehicle> vehicles = this.repository.findAll(ids);
-	return Lists.newArrayList(vehicles);
+	Iterable<Vehicle> vehicles = this.repository.findAllById(ids);
+	    return Lists.newArrayList(vehicles);
     }
     
     /**
@@ -69,6 +69,6 @@ public class VehicleService {
      * @param vehicle Vehicle
      */
     public void saveVehicle(Vehicle vehicle) {
-	this.repository.save(vehicle);
+	    this.repository.save(vehicle);
     }
 }

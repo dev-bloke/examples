@@ -25,14 +25,14 @@ public class RecordingRepositoryIT extends TestFramework {
         this.repository.save(recording);
         String id = recording.getId();
         assertNotNull(id);
-        Recording other = this.repository.findOne(id);
+        Recording other = this.repository.findById(id).orElse(null);
         this.checkRecording(other, WRONG_YEAR);
         recording.setYear(YEAR);
         this.repository.save(recording);
-        other = this.repository.findOne(id);
+        other = this.repository.findById(id).orElse(null);
         this.checkRecording(other, YEAR);
         this.repository.delete(recording);
-        other = this.repository.findOne(id);
+        other = this.repository.findById(id).orElse(null);
         assertNull(other);
     }
 }

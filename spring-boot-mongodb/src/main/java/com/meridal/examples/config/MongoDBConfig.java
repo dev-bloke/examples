@@ -8,7 +8,6 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.mongodb.config.AbstractMongoConfiguration;
 
-import com.mongodb.Mongo;
 import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
 
@@ -33,8 +32,8 @@ public class MongoDBConfig extends AbstractMongoConfiguration {
      */
     @PostConstruct
     public void config() {
-	LOG.info("{}={}", URI, this.uri);
-	LOG.info("{}={}", DATABASE, this.database);
+		LOG.info("{}={}", URI, this.uri);
+		LOG.info("{}={}", DATABASE, this.database);
     }
     
     /** 
@@ -42,15 +41,15 @@ public class MongoDBConfig extends AbstractMongoConfiguration {
      */
     @Override
     protected String getDatabaseName() {
-	return this.database;
+	    return this.database;
     }
     
     /** 
      * {@inheritDoc}
      */
     @Override
-    public Mongo mongo() throws Exception {
-	final MongoClientURI uri = new MongoClientURI(this.uri);
-	return new MongoClient(uri);
+    public MongoClient mongoClient() {
+		final MongoClientURI uri = new MongoClientURI(this.uri);
+		return new MongoClient(uri);
     }  
 }

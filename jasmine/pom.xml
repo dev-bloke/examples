@@ -9,7 +9,6 @@
     <groupId>com.meridal.examples</groupId>
     <artifactId>examples-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <relativePath>..</relativePath>
   </parent>
   
   <artifactId>jasmine</artifactId>

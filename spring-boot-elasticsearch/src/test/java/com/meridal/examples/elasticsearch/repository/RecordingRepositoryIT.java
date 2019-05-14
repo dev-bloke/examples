@@ -30,15 +30,15 @@ public class RecordingRepositoryIT extends TestFramework {
         LOG.info("{}", recording);
         this.repository.save(recording);
         LOG.info("{}", recording);
-        Recording other = this.repository.findOne(id);
+        Recording other = this.repository.findById(id).orElse(null);
         LOG.info("{}", other);
         this.checkRecording(other, WRONG_YEAR);
         recording.setYear(YEAR);
         this.repository.save(recording);
-        other = this.repository.findOne(id);
+        other = this.repository.findById(id).orElse(null);
         this.checkRecording(other, YEAR);
         this.repository.delete(recording);
-        other = this.repository.findOne(id);
+        other = this.repository.findById(id).orElse(null);
         assertNull(other);
     }
 }
