@@ -6,7 +6,7 @@ import com.meridal.examples.domain.Song;
 /**
  * Test framework with helper methods.
  */
-public abstract class KafkaTestFramework {
+public abstract class RabbitMQTestFramework {
 	
 	protected static final String ID = "CAT001";
 	protected static final String ARTIST = "An Artist";

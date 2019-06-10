@@ -6,12 +6,12 @@ import java.util.List;
 
 import org.junit.Test;
 
-import com.meridal.examples.test.KafkaTestFramework;
+import com.meridal.examples.test.RabbitMQTestFramework;
 
 /**
  * Unit tests for {@link Recording}.
  */
-public class RecordingTest extends KafkaTestFramework {
+public class RecordingTest extends RabbitMQTestFramework {
 	
 	@Test
 	public void testGettersAndSetters() {

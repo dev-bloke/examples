@@ -5,10 +5,8 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.meridal.examples</groupId>
   <artifactId>spring-boot-rabbitmq</artifactId>
   <packaging>pom</packaging>
-  <version>1.0-SNAPSHOT</version>
   <name>Spring Boot RabbitMQ Examples</name>
   <description>Example modules illustrating RabbitMQ pub/sub in Spring Boot.</description>
   
@@ -17,6 +15,20 @@
     <artifactId>examples-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
+  
+  <dependencyManagement>
+  
+    <dependencies>
+          
+      <dependency>
+        <groupId>com.meridal.examples</groupId>
+        <artifactId>rabbitmq-domain</artifactId>
+        <version>1.0-SNAPSHOT</version>
+      </dependency>
+      
+    </dependencies>
+    
+  </dependencyManagement>
   
   <modules>
     <module>rabbitmq-domain</module>

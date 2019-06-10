@@ -4,12 +4,12 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import com.meridal.examples.test.KafkaTestFramework;
+import com.meridal.examples.test.RabbitMQTestFramework;
 
 /**
  * Unit tests for {@link Song} domain object.
  */
-public class SongTest extends KafkaTestFramework {
+public class SongTest extends RabbitMQTestFramework {
 			
 	@Test
 	public void testSettersAndGetters() {
