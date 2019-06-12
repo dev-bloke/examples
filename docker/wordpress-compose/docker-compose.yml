@@ -1,0 +1,57 @@
+version: "3.7"
+
+services:
+
+  nginx:
+    container_name: wordpress-nginx
+    image: nginx:latest
+    networks:
+      - wordpress-bridge-network
+    ports:
+      - '80:80'
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+      - wordpress:/var/www/html
+    links:
+        - wordpress
+    restart: always
+
+  mysql:
+    container_name: wordpress-mysql-server
+    image: mariadb
+    networks:
+      - wordpress-bridge-network
+    ports:
+      - '3306:3306'
+    environment:
+      - MYSQL_ROOT_PASSWORD=wprootpassword
+    restart: always
+
+  wordpress:
+    container_name: wordpress-php-fpm
+    image: wordpress:5.2.1-php7.3-fpm-alpine
+    networks:
+      - wordpress-bridge-network
+    ports:
+      - '9000:9000'
+    volumes:
+      - wordpress:/var/www/html
+    environment:
+      - WORDPRESS_DB_NAME=wordpress
+      - WORDPRESS_TABLE_PREFIX=wp_
+      - WORDPRESS_DB_HOST=mysql
+      - WORDPRESS_DB_PASSWORD=wprootpassword
+    links:
+      - mysql
+    restart: always
+
+networks:
+
+  wordpress-bridge-network:
+    name: wordpress-bridge-network
+
+volumes:
+ 
+  wordpress:
+    name: wordpress-volume
+    
