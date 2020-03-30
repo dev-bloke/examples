@@ -22,7 +22,7 @@ To build and start the environment, simply use
 Running the Application
 =======================
 
-To complete the setup of your Wordpress instance, visit [http://localhost:8080/wp-admin/install.php](http://localhost:8080//wp-admin/install.php).
+To complete the setup of your Wordpress instance, visit [http://localhost/wp-admin/install.php](http://localhost/wp-admin/install.php).
 
 To stop the services in the environment, with all data persisted for the next run
 
