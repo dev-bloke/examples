@@ -1,0 +1,26 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+      
+messaging:
+  exchange: example-exchange
+  topic: examples
+
+service:
+  title: Example Spring Boot RabbitMQ Publisher
+  description: A simple microservice that publishes to a RabbitMQ queue.
+  api:
+    endpoint: /api/.*
+    version: 1.0
+    status: live
+  contact:
+    name: Martin Ingram
+    url: https://github.com/dev-bloke
+    email: dev.bloke@devbloke.me.uk
+  licence:
+    type: License Type
+    url: http://license.url/
+    tos: http://termsofservice.url/
