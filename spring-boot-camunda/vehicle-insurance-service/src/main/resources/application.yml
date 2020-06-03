@@ -1,0 +1,17 @@
+server:
+  port: 8082
+swagger:
+  title: Vehicle Insurance Service
+  version: 1.0
+  description: An example Vehicle Insurance Spring Boot microservice.
+  contact:
+    name: Developer Bloke
+    url: http://www.devbloke.me.uk/
+    email: this.will.bounce@devbloke.me.uk
+  license:
+    type: License Type
+    url: http://license.url/
+  regex: /api/.*
+  tos:
+    url: http://termsofservice.url/
+    
