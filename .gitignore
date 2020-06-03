@@ -2,6 +2,7 @@
 .cache-tests
 .classpath
 .DS_Store
+.factorypath
 .project
 .settings/
 target/
