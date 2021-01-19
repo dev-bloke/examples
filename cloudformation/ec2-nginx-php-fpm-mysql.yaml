@@ -1,0 +1,148 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: 
+  Provision an Ubuntu Server running Nginx and PHP with public IP, 
+  plus a MySQL RDS instance. When deleting this stack, remember to delete 
+  the associated S3 bucket.
+
+Parameters:
+  VPCID:
+    Description: VPC ID
+    Type: AWS::EC2::VPC::Id
+
+  SubnetID:
+    Description: Subnet ID
+    Type: AWS::EC2::Subnet::Id
+  
+  KeyPairName:
+    Description: The name of an existing EC2 KeyPair to enable SSH access to the instance
+    Type: AWS::EC2::KeyPair::KeyName
+  
+  EC2InstanceType:
+    Description: EC2 instance type
+    Type: String
+    Default: t2.micro
+    
+  InstanceImageId:
+    Description: EC2 Image ID
+    Type: AWS::EC2::Image::Id
+    Default: ami-0ff4c8fb495a5a50d
+    
+  RDSInstanceType:
+    Description: RDS instance type
+    Type: String
+    Default: db.t3.micro   
+    
+Resources:
+
+  WebServerSG:
+    Type: AWS::EC2::SecurityGroup
+    Properties: 
+      GroupDescription: Enable HTTP and SSH access
+      GroupName: ExampleWebServerSG
+      VpcId: !Ref VPCID
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 80
+          ToPort: 80
+          CidrIp: 0.0.0.0/0
+        - IpProtocol: tcp
+          FromPort: 22
+          ToPort: 22
+          CidrIp: 0.0.0.0/0
+      Tags: 
+       - Key: Name
+         Value: example-webserver-sg
+       - Key: Application
+         Value:
+           Ref: AWS::StackName
+  
+  SGBaseIngress:
+    Type: AWS::EC2::SecurityGroupIngress
+    Properties:
+      GroupId: !Ref WebServerSG
+      IpProtocol: -1
+      FromPort: -1
+      ToPort: -1
+      SourceSecurityGroupId: !Ref WebServerSG
+  
+  EC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: !Ref EC2InstanceType
+      SubnetId: !Ref SubnetID   
+      SecurityGroupIds:
+        - !Sub ${WebServerSG.GroupId}
+      KeyName: !Ref KeyPairName
+      ImageId: !Ref InstanceImageId
+      UserData: 
+        Fn::Base64: |
+          #!/bin/bash -xe
+          apt update
+          apt -y upgrade
+          apt-get -y install nginx mysql-client php-fpm php-mysql
+      Tags: 
+       - Key: Name
+         Value: example-ubuntu-instance
+       - Key: Application
+         Value:
+           Ref: AWS::StackName
+
+  ElasticIP:
+    Type: AWS::EC2::EIP
+    Properties:
+      InstanceId: !Ref EC2Instance
+      
+  DatabaseServerSG:
+    Type: AWS::EC2::SecurityGroup
+    Properties: 
+      GroupDescription: Enable MySQL access
+      GroupName: ExampleDatabaseServerSG
+      VpcId: !Ref VPCID
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 3306
+          ToPort: 3306
+          SourceSecurityGroupId: !Ref WebServerSG
+      Tags: 
+       - Key: Name
+         Value: example-database-server-sg
+       - Key: Application
+         Value:
+           Ref: AWS::StackName  
+
+  RDSInstance:
+    Type: AWS::RDS::DBInstance
+    DeletionPolicy: Snapshot
+    Properties:
+      StorageType: gp2
+      AllocatedStorage: 5
+      BackupRetentionPeriod: 0
+      DBInstanceClass: !Ref RDSInstanceType
+      Engine: MySQL
+      EngineVersion: 8.0.21
+      MasterUsername: admin
+      MasterUserPassword: MY5QL4dm1n
+      VPCSecurityGroups:
+      - !Sub ${DatabaseServerSG.GroupId}
+             
+Outputs:
+
+  InstanceId:
+    Description: Instance ID of the EC2 instance
+    Value: !Ref EC2Instance
+  
+  PublicDNS:
+    Description: Public DNS Name of the EC2 instance
+    Value: !GetAtt 
+      - EC2Instance
+      - PublicDnsName
+      
+  PublicIP:
+    Description: Public IP address of the EC2 instance
+    Value: !GetAtt 
+      - EC2Instance
+      - PublicIp
+      
+  ElasticIPAddress:
+    Description: Elastic (Static) IP address
+    Value: !Ref ElasticIP
