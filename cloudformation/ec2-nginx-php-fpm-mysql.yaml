@@ -143,6 +143,8 @@ Outputs:
       - EC2Instance
       - PublicIp
       
-  ElasticIPAddress:
-    Description: Elastic (Static) IP address
-    Value: !Ref ElasticIP
+  DBEndpoint:
+    Description: Database endpoint
+    Value: !GetAtt
+      - RDSInstance
+      - Endpoint.Address
