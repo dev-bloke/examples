@@ -72,7 +72,7 @@ Resources:
           #!/bin/bash -xe
           apt update
           apt -y upgrade
-          apt-get -y install nginx php-fpm php-mysql
+          apt-get -y install nginx
       Tags: 
        - Key: Name
          Value: example-ubuntu-instance
