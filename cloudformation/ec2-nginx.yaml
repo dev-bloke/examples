@@ -67,12 +67,23 @@ Resources:
         - !Sub ${WebServerSG.GroupId}
       KeyName: !Ref KeyPairName
       ImageId: !Ref InstanceImageId
+      UserData: 
+        Fn::Base64: |
+          #!/bin/bash -xe
+          apt update
+          apt -y upgrade
+          apt-get -y install nginx php-fpm php-mysql
       Tags: 
        - Key: Name
          Value: example-ubuntu-instance
        - Key: Application
          Value:
            Ref: AWS::StackName
+
+  ElasticIP:
+    Type: AWS::EC2::EIP
+    Properties:
+      InstanceId: !Ref EC2Instance    
            
 Outputs:
 
@@ -91,3 +102,7 @@ Outputs:
     Value: !GetAtt 
       - EC2Instance
       - PublicIp
+      
+  ElasticIPAddress:
+    Description: Elastic (Static) IP address
+    Value: !Ref ElasticIP
