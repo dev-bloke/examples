@@ -1,0 +1,93 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: 
+  Provision an Ubuntu Server running Nginx with public IP. 
+  When deleting this stack, remember to delete the associated S3 bucket.
+
+Parameters:
+  VPCID:
+    Description: VPC ID
+    Type: AWS::EC2::VPC::Id
+
+  SubnetID:
+    Description: Subnet ID
+    Type: AWS::EC2::Subnet::Id
+  
+  KeyPairName:
+    Description: The name of an existing EC2 KeyPair to enable SSH access to the instance
+    Type: AWS::EC2::KeyPair::KeyName
+  
+  InstanceType:
+    Description: EC2 instance type
+    Type: String
+    Default: t2.micro
+    
+  InstanceImageId:
+    Description: EC2 Image ID
+    Type: AWS::EC2::Image::Id
+    Default: ami-0ff4c8fb495a5a50d 
+    
+Resources:
+  WebServerSG:
+    Type: AWS::EC2::SecurityGroup
+    Properties: 
+      GroupDescription: Enable HTTP and SSH access
+      GroupName: ExampleWebServerSG
+      VpcId: !Ref VPCID
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 80
+          ToPort: 80
+          CidrIp: 0.0.0.0/0
+        - IpProtocol: tcp
+          FromPort: 22
+          ToPort: 22
+          CidrIp: 0.0.0.0/0
+      Tags: 
+       - Key: Name
+         Value: example-webserver-sg
+       - Key: Application
+         Value:
+           Ref: AWS::StackName
+  
+  SGBaseIngress:
+    Type: AWS::EC2::SecurityGroupIngress
+    Properties:
+      GroupId: !Ref WebServerSG
+      IpProtocol: -1
+      FromPort: -1
+      ToPort: -1
+      SourceSecurityGroupId: !Ref WebServerSG
+  
+  EC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: !Ref InstanceType
+      SubnetId: !Ref SubnetID   
+      SecurityGroupIds:
+        - !Sub ${WebServerSG.GroupId}
+      KeyName: !Ref KeyPairName
+      ImageId: !Ref InstanceImageId
+      Tags: 
+       - Key: Name
+         Value: example-ubuntu-instance
+       - Key: Application
+         Value:
+           Ref: AWS::StackName
+           
+Outputs:
+
+  InstanceId:
+    Description: Instance ID of the EC2 instance
+    Value: !Ref EC2Instance
+  
+  PublicDNS:
+    Description: Public DNS Name of the EC2 instance
+    Value: !GetAtt 
+      - EC2Instance
+      - PublicDnsName
+      
+  PublicIP:
+    Description: Public IP address of the EC2 instance
+    Value: !GetAtt 
+      - EC2Instance
+      - PublicIp
