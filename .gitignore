@@ -13,3 +13,4 @@ pom.xml.next
 release.properties
 golang/bin/
 golang/pkg/
+golang/src/github.com/
