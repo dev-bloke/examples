@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "greetings",
+			"path": "greetings"
+		},
+		{
+			"name": "hello",
+			"path": "hello"
+		},
+		{
+			"path": "hello-greetings"
+		},
+		{
+			"path": "hello-http"
+		}
+	],
+	"settings": {}
+}
