@@ -68,7 +68,7 @@ public class StringDomainObjectTest {
 	 */
 	@Test
 	public void testDifferentType() {
-		Integer different = new Integer(1);
+		Integer different = Integer.valueOf(1);
 		assertNotEquals(this.testObject, different);		
 	}
 	
