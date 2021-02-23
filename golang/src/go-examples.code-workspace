@@ -13,6 +13,9 @@
 		},
 		{
 			"path": "hello-http"
+		},
+		{
+			"path": "channel"
 		}
 	],
 	"settings": {}
