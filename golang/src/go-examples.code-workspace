@@ -1,6 +1,18 @@
 {
 	"folders": [
 		{
+			"name": "channel",
+			"path": "channel"
+		},
+		{
+			"name": "flags",
+			"path": "flags"
+		},
+		{
+			"name": "gnuflags",
+			"path": "gnuflags"
+		},
+		{
 			"name": "greetings",
 			"path": "greetings"
 		},
@@ -9,13 +21,12 @@
 			"path": "hello"
 		},
 		{
+			"name": "hello-greetings",
 			"path": "hello-greetings"
 		},
 		{
+			"name": "hello-http",
 			"path": "hello-http"
-		},
-		{
-			"path": "channel"
 		}
 	],
 	"settings": {}
