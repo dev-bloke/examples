@@ -1,26 +1,26 @@
 package main
 
 import (
-    "fmt"
+	"fmt"
 	"log"
-    "example.com/greetings"
+
+	"example.com/greetings"
 )
 
+func init() {
+	log.SetPrefix("greetings: ")
+	log.SetFlags(0)
+}
+
 func main() {
-	setup()
 	sayHello("Martin")
 	sayHello("")
 }
 
-func setup() {
-	log.SetPrefix("greetings: ")
-    log.SetFlags(0)    
-}
-
 func sayHello(name string) {
-    message, err := greetings.Hello(name)
-    if err != nil {
-    	log.Fatal(err)
-    }
-    fmt.Println(message)
+	message, error := greetings.Hello(name)
+	if error != nil {
+		log.Fatal(error)
+	}
+	fmt.Println(message)
 }
