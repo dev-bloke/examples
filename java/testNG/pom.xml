@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<project 
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" 
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>testNG</artifactId>
+  <name>TestNG Examples</name>
+  <url>http://www.devbloke.me.uk/testNG/</url>
+ 
+  <parent>
+    <groupId>com.meridal.examples</groupId>
+    <artifactId>java-parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+  
+  <dependencies>
+  
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>6.9.10</version>
+      <scope>test</scope>
+    </dependency>
+    
+  </dependencies>
+  
+  <build>
+  
+    <pluginManagement>
+      <plugins>
+      
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>2.19.1</version>
+          <configuration>
+            <suiteXmlFiles>
+              <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+            </suiteXmlFiles>
+            <properties>
+              <property>
+                <name>surefire.testng.verbose</name>
+                <value>2</value>
+              </property>
+            </properties>
+          </configuration>
+        </plugin>  
+           
+      </plugins>  
+    </pluginManagement>
+    
+  </build>
+  
+</project>
