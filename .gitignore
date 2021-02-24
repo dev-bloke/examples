@@ -17,3 +17,4 @@ go/src/github.com/
 .metals/
 node_modules/
 */*/data/elasticsearch
+*/*/test-output/
