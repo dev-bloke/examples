@@ -15,3 +15,5 @@ go/bin/
 go/pkg/
 go/src/github.com/
 .metals/
+node_modules/
+*/*/data/elasticsearch
