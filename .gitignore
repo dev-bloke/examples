@@ -11,7 +11,7 @@ pom.xml.releaseBackup
 pom.xml.versionsBackup
 pom.xml.next
 release.properties
-golang/bin/
-golang/pkg/
-golang/src/github.com/
+go/bin/
+go/pkg/
+go/src/github.com/
 .metals/
