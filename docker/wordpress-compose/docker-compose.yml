@@ -12,13 +12,16 @@ services:
     volumes:
       - ./nginx:/etc/nginx/conf.d
       - wordpress:/var/www/html
+      - ../plugins:/var/www/html/wp-content/plugins
+      - ../themes:/var/www/html/wp-content/themes
+      - ../uploads:/var/www/html/wp-content/uploads
     links:
         - wordpress
     restart: always
 
   mysql:
     container_name: wordpress-mysql-server
-    image: mariadb
+    image: mysql:latest
     networks:
       - wordpress-bridge-network
     ports:
@@ -29,13 +32,16 @@ services:
 
   wordpress:
     container_name: wordpress-php-fpm
-    image: wordpress:5.3.2-php7.4-fpm-alpine
+    image: wordpress:5.6.1-php7.4-fpm-alpine
     networks:
       - wordpress-bridge-network
     ports:
       - '9000:9000'
     volumes:
       - wordpress:/var/www/html
+      - ../plugins:/var/www/html/wp-content/plugins
+      - ../themes:/var/www/html/wp-content/themes
+      - ../uploads:/var/www/html/wp-content/uploads
     environment:
       - WORDPRESS_DB_NAME=wordpress
       - WORDPRESS_TABLE_PREFIX=wp_
@@ -54,4 +60,4 @@ volumes:
  
   wordpress:
     name: wordpress-volume
-    
+        
