@@ -14,6 +14,7 @@
 *.ear
 */*/data/elasticsearch
 */*/test-output/
+!gradle-wrapper.jar
 go/bin/
 go/pkg/
 go/src/github.com/
