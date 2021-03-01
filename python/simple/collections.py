@@ -81,3 +81,11 @@ eleventh_list = ["one", "three", "five"]
 tuple = zip(tenth_list, eleventh_list)
 print(tuple)
 
+# Comprehension
+
+twelfth_list = [item * item for item in tenth_list]
+print(twelfth_list)
+
+second_map = {item: item * item for item in tenth_list}
+print(second_map)
+
