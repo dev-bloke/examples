@@ -53,3 +53,33 @@ def add_to_global(x):
 
 add_to_global(2)
 print(global_var)
+
+# Simple functional programming
+
+def add(x, y):
+    return x + y
+
+def multiply(x, y):
+    return x * y
+
+def calc(function, x, y):
+    print(repr(function))
+    return function(x, y)
+
+print(calc(add, 2, 3))
+print(calc(multiply, 2, 3))
+
+dictionary = {"add2": lambda x: x + 2, "sub2": lambda x: x - 2}
+print(dictionary["add2"](4))
+print(dictionary["sub2"](4))
+
+# Generator
+
+def four_times():
+    x = 0
+    while x < 4:
+        yield x
+        x += 1
+
+for i in four_times():
+    print(i)
