@@ -53,6 +53,24 @@ if "Alan" in sixth_list:
 if "Bob" not in sixth_list:
     print("Bob is not in the list.")
 
-map1 = {"key1": "value1", "key2": "value2"}
-value1 = map1.get("key1")
+# Dictionaries (maps)
+
+map = {"key1": "value1", "key2": "value2"}
+value1 = map.get("key1")
 print(value1)
+map["key3"] = "value3"
+del map["key2"]
+eighth_list = map.keys()
+print(eighth_list)
+print("key3" in map)
+print("key2" in map)
+value2 = map.get("value2", "missing")
+print(value2)
+
+# Sets
+
+ninth_list = [1, 2, 3, 1, 2, 4]
+first_set = set(ninth_list)
+print(first_set)
+print(3 in first_set)
+
