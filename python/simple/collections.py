@@ -74,3 +74,10 @@ first_set = set(ninth_list)
 print(first_set)
 print(3 in first_set)
 
+# Tuples
+
+tenth_list = [1, 3, 5]
+eleventh_list = ["one", "three", "five"]
+tuple = zip(tenth_list, eleventh_list)
+print(tuple)
+
