@@ -8,6 +8,7 @@
 .metals/
 .project
 .settings/
+.vs/
 *.class
 *.jar
 *.war
@@ -15,7 +16,8 @@
 */*/data/elasticsearch
 */*/test-output/
 !gradle-wrapper.jar
-go/bin/
+bin/
+obj/
 go/pkg/
 go/src/github.com/
 kotlin/*/build/
