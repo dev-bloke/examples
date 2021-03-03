@@ -11,6 +11,7 @@
 .project
 .settings/
 .vs/
+.vscode/
 *.class
 *.jar
 *.war
