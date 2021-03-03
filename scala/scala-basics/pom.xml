@@ -1,11 +1,13 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" 
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+<?xml version="1.0" encoding="UTF-8"?>
+<project 
+  xmlns="http://maven.apache.org/POM/4.0.0" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   
   <modelVersion>4.0.0</modelVersion>
-  <artifactId>scala-webapp</artifactId>
-  <name>Example Scala Web Application</name>
-  <description>A simple Scala web application.</description>
+  <artifactId>scala-basics</artifactId>
+  <name>Scala Basics</name>
+  <description>Basic Scala examples.</description>
   <url>http://www.devbloke.me.uk/scala-examples/</url>
   
   <parent>
@@ -25,17 +27,27 @@
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
     </dependency>
-    
+
     <dependency>
       <groupId>org.specs2</groupId>
       <artifactId>specs2-core_${scala.compat.version}</artifactId>
     </dependency>
-    
+
+    <dependency>
+      <groupId>org.specs2</groupId>
+      <artifactId>specs2-junit_${scala.compat.version}</artifactId>
+    </dependency>
+
     <dependency>
       <groupId>org.scalatest</groupId>
       <artifactId>scalatest_${scala.compat.version}</artifactId>
     </dependency>
     
+    <dependency>
+      <groupId>org.scalatestplus</groupId>
+      <artifactId>junit-4-13_${scala.compat.version}</artifactId>
+    </dependency>    
+       
   </dependencies>
-  
+ 
 </project>

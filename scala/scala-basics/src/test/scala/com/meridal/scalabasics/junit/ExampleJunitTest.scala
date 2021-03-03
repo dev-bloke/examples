@@ -1,17 +1,13 @@
-package samples
+package com.meridal.scalabasics.junit
 
 import org.junit._
 import Assert._
 
 @Test
-class AppTest {
+class ExampleJunitTest {
 
     @Test
     def testOK() = assertTrue(true)
-
-//    @Test
-//    def testKO() = assertTrue(false)
-
 }
 
 
