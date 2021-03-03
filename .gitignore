@@ -19,6 +19,7 @@
 */*/data/elasticsearch
 */*/test-output/
 !gradle-wrapper.jar
+a.out
 bin/
 obj/
 go/pkg/
