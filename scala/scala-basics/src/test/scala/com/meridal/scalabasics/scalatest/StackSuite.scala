@@ -6,7 +6,7 @@ import org.junit.Test
 
 class StackSuite extends Assertions {
 
-  @Test def stackShouldPopValuesIinLastInFirstOutOrder() {
+  @Test def stackShouldPopValuesIinLastInFirstOutOrder: Unit = {
     val stack = new Stack[Int]
     stack.push(1)
     stack.push(2)
@@ -14,7 +14,7 @@ class StackSuite extends Assertions {
     assert(stack.pop() === 1)
   }
 
-  @Test def stackShouldThrowNoSuchElementExceptionIfAnEmptyStackIsPopped() {
+  @Test def stackShouldThrowNoSuchElementExceptionIfAnEmptyStackIsPopped: Unit = {
     val emptyStack = new Stack[String]
     intercept[NoSuchElementException] {
       emptyStack.pop()

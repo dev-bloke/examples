@@ -9,13 +9,13 @@ import org.scalatestplus.junit.JUnitRunner
 class ListSuite extends AnyFunSuite with Matchers {
 
   test("An empty list should be empty") {
-    List() should be ('empty)
-    Nil should be ('empty)
+    List() should be (Symbol("empty"))
+    Nil should be (Symbol("empty"))
   }
 
   test("A non-empty list should not be empty") {
-    List(1, 2, 3) should not be ('empty)
-    List("fee", "fie", "foe", "fum") should not be ('empty)
+    List(1, 2, 3) should not be (Symbol("empty"))
+    List("fee", "fie", "foe", "fum") should not be (Symbol("empty"))
   }
 
   test("A list's length should equal the number of elements it contains") {

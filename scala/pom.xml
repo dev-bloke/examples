@@ -17,8 +17,8 @@
   <properties>
     <java.version>11</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <scala.version>2.12.10</scala.version>
-    <scala.compat.version>2.12</scala.compat.version>
+    <scala.version>2.13.5</scala.version>
+    <scala.compat.version>2.13</scala.compat.version>
   </properties>
   
   <build>
@@ -57,7 +57,7 @@
       <plugin>
         <groupId>net.alchim31.maven</groupId>
         <artifactId>scala-maven-plugin</artifactId>
-        <version>4.0.2</version>
+        <version>4.4.1</version>
         <executions>
           <execution>
             <goals>
@@ -69,6 +69,8 @@
            <!-- <arg>-make:transitive</arg> -->
                 <arg>-dependencyfile</arg>
                 <arg>${project.build.directory}/.scala_dependencies</arg>
+                <arg>-deprecation</arg>
+                <arg>-feature</arg>
               </args>
             </configuration>
           </execution>
