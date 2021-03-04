@@ -1,4 +1,4 @@
-package com.meridal.scalabasics.scalatest
+package com.meridal.examples.scalabasics.scalatest
 
 import org.scalatest.funsuite.AnyFunSuite
 import org.scalatest.matchers.should.Matchers

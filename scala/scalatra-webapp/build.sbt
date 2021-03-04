@@ -3,6 +3,11 @@ val ScalatraVersion = "2.7.1"
 ThisBuild / scalaVersion := "2.13.4"
 ThisBuild / organization := "com.meridal"
 
+scalacOptions ++= Seq(
+    "-deprecation",
+    "-unchecked"
+)
+
 lazy val scalatraWebapp = (project in file("."))
   .settings(
     name := "Scalatra Example",

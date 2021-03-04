@@ -1,4 +1,4 @@
-package com.meridal.scalabasics.scalatest
+package com.meridal.examples.scalabasics.scalatest
 
 import scala.collection.mutable.Stack
 import org.scalatest.Assertions

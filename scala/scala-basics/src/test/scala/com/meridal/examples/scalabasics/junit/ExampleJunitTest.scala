@@ -1,4 +1,4 @@
-package com.meridal.scalabasics.junit
+package com.meridal.examples.scalabasics.junit
 
 import org.junit._
 import Assert._

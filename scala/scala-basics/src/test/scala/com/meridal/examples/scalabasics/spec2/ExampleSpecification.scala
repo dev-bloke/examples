@@ -1,4 +1,4 @@
-package com.meridal.scalabasics.spec2
+package com.meridal.examples.scalabasics.spec2
 
 import org.junit.runner._
 import org.specs2.runner._
