@@ -1,0 +1,9 @@
+2021-03-05 15:16:50,179 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.internal-dispatcher-3 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    filters.ExampleFilter
+
+2021-03-05 15:16:50,313 [INFO] from play.api.Play in play-dev-mode-akka.actor.internal-dispatcher-3 - Application started (Dev) (no global state)
+2021-03-05 15:16:50,349 [INFO] from play.core.server.AkkaHttpServer in play-dev-mode-akka.actor.internal-dispatcher-3 - Running provided shutdown stop hooks
