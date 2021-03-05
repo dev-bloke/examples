@@ -25,6 +25,7 @@ obj/
 go/pkg/
 go/src/github.com/
 kotlin/*/build/
+metals.sbt
 node_modules/
 pom.xml.tag
 pom.xml.releaseBackup
