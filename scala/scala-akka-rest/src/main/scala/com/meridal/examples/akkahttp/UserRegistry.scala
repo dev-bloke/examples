@@ -1,18 +1,15 @@
 package com.meridal.examples.akkahttp
 
-//#user-registry-actor
 import akka.actor.typed.ActorRef
 import akka.actor.typed.Behavior
 import akka.actor.typed.scaladsl.Behaviors
 import scala.collection.immutable
 
-//#user-case-classes
 final case class User(name: String, age: Int, countryOfResidence: String)
 final case class Users(users: immutable.Seq[User])
-//#user-case-classes
 
 object UserRegistry {
-  // actor protocol
+ 
   sealed trait Command
   final case class GetUsers(replyTo: ActorRef[Users]) extends Command
   final case class CreateUser(user: User, replyTo: ActorRef[ActionPerformed]) extends Command
@@ -40,4 +37,3 @@ object UserRegistry {
         registry(users.filterNot(_.name == name))
     }
 }
-//#user-registry-actor
