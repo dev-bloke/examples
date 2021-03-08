@@ -29,6 +29,10 @@ lazy val scalaWebapp = (project in file("scala-webapp"))
       specs2,
     )
   )
+  
+lazy val scalaAkkaSimple = (project in file("scala-akka-simple"))
+
+lazy val scalaAkkaRest = (project in file("scala-akka-rest"))
 
 lazy val scalaPlaySimple = (project in file("scala-play-simple"))
   

@@ -13,9 +13,10 @@
 .vs/
 .vscode/
 *.class
-*.jar
-*.war
 *.ear
+*.jar
+*.log
+*.war
 */*/data/elasticsearch
 */*/test-output/
 !gradle-wrapper.jar
