@@ -1,8 +1,7 @@
 package com.meridal.examples.scalabasics
 
-class ExampleClass(keyc: String, namec: String) {
-    var key: String = keyc
-    var name: String = namec
+class ExampleClass(var key: String, var name: String) {
+ 
     var description: String = null
 
     def concat(): String = key + name
