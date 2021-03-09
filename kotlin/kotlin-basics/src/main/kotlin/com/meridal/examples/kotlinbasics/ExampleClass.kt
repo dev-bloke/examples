@@ -1,4 +1,4 @@
-package com.meridal.examples.scalabasics
+package com.meridal.examples.kotlinbasics
 
 class ExampleClass(var key: String, var name: String) {
  
