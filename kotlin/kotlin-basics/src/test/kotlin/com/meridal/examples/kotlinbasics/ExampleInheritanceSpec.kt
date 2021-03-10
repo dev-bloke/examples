@@ -5,6 +5,7 @@ import org.spekframework.spek2.style.specification.describe
 
 private const val FIRST = "one"
 private const val SECOND = "two"
+private const val THIRD = "three"
 
 class ExampleInheritanceSpec: Spek({
 
@@ -18,7 +19,11 @@ class ExampleInheritanceSpec: Spek({
         }
 
         it ("should have an additional property") {
-            assert(exampleInheritance.third == "three")
+            assert(exampleInheritance.third == THIRD)
+        }
+
+        it ("should have an overridden function") {
+            assert(exampleInheritance.concatWithSpaceDelimiter() == "$FIRST $SECOND $THIRD")
         }
     }
 })
