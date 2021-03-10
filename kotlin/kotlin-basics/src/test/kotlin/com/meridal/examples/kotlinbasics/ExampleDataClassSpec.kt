@@ -33,5 +33,15 @@ class ExampleDataClassSpec: Spek({
             other.description = DESCRIPTION
             assert(other == exampleData)
         }
+
+        it ("ignores counts that are less than zero") {
+            exampleData.count = -1
+            assert(exampleData.count == 0)
+        }
+
+        it ("accepts counts that are greater than zero") {
+            exampleData.count = 10
+            assert(exampleData.count == 10)
+        }
     }
 })
