@@ -8,6 +8,7 @@ class KotlinSpringBootApplicationTests {
 
 	@Test
 	fun contextLoads() {
+		assert(1 == 1)
 	}
 
 }
