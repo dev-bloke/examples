@@ -6,19 +6,21 @@ import org.junit.Test
 
 class ExampleClassTest {
 
-    private val key = "hello"
-    private val name = "world"
+    companion object {
+        const val KEY = "hello"
+        const val NAME = "world"
+    }
 
     private var exampleClass: ExampleClass? = null
 
     @Before
     fun setup() {
-        exampleClass = ExampleClass(key, name)
+        exampleClass = ExampleClass(KEY, NAME)
     }
 
     @Test
     fun testAttributesAreSet() {
-        assertEquals(exampleClass?.key, key)
-        assertEquals(exampleClass?.name, name)
+        assertEquals(exampleClass?.key, KEY)
+        assertEquals(exampleClass?.name, NAME)
     }
 }
