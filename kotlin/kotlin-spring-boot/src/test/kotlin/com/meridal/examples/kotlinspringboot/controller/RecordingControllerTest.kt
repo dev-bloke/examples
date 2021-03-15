@@ -29,6 +29,7 @@ class RecordingControllerTest(@Autowired val mockMvc: MockMvc) {
     private lateinit var jsonWriter: ObjectWriter
     private val bowie = Recording("David Bowie", "Lodger", "BOWLP1")
     private val genesis = Recording("Genesis", "Three Sides Live", "GENLP1")
+    private val id = 1234L
 
 
     @BeforeEach
@@ -49,7 +50,6 @@ class RecordingControllerTest(@Autowired val mockMvc: MockMvc) {
 
     @Test
     fun `Get a recording by ID returns a recording`() {
-        val id = 1234L
         every { service.getRecording(id) } returns bowie
         mockMvc.perform(get("/api/recording/$id").accept(MediaType.APPLICATION_JSON))
             .andExpect(status().isOk)
@@ -59,7 +59,6 @@ class RecordingControllerTest(@Autowired val mockMvc: MockMvc) {
 
     @Test
     fun `Get a recording by an invalid ID returns status not found`() {
-        val id = 1234L
         val nonexistent: Recording? = null
         every { service.getRecording(id) } returns nonexistent
         mockMvc.perform(get("/api/recording/$id").accept(MediaType.APPLICATION_JSON))
@@ -82,7 +81,6 @@ class RecordingControllerTest(@Autowired val mockMvc: MockMvc) {
 
     @Test
     fun `Put a recording updates a recording in the repository`() {
-        val id = 1234L
         val json = jsonWriter.writeValueAsString(bowie)
         val slot = slot<Recording>()
         every { service.saveRecording(recording = capture(slot)) } returns bowie
@@ -97,7 +95,6 @@ class RecordingControllerTest(@Autowired val mockMvc: MockMvc) {
 
     @Test
     fun `Delete a recording by valid ID removes a recording from the repository and returns it`() {
-        val id = 1234L
         every { service.deleteRecording(id) } returns bowie
         mockMvc.perform(delete("/api/recording/$id").accept(MediaType.APPLICATION_JSON))
             .andExpect(status().isOk)
@@ -107,7 +104,6 @@ class RecordingControllerTest(@Autowired val mockMvc: MockMvc) {
 
     @Test
     fun `Delete a recording by an invalid ID returns status not found`() {
-        val id = 1234L
         val nonexistent: Recording? = null
         every { service.deleteRecording(id) } returns nonexistent
         mockMvc.perform(delete("/api/recording/$id").accept(MediaType.APPLICATION_JSON))
