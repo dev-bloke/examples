@@ -35,5 +35,7 @@ lazy val scalaAkkaSimple = (project in file("scala-akka-simple"))
 lazy val scalaAkkaRest = (project in file("scala-akka-rest"))
 
 lazy val scalaPlaySimple = (project in file("scala-play-simple"))
-  
+ 
+lazy val scalaSpringBoot = (project in file("scala-spring-boot"))
+
 lazy val scalatraWebapp = (project in file("scalatra-webapp"))
