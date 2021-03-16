@@ -29,6 +29,10 @@ lazy val scalaSpringBoot = (project in file(".")).
       junit,
       scalatest,
       scalatestJunit,
-      springBootTest
+      springBootTest,
+      "com.novocode" % "junit-interface" % "0.11" % Test
+        exclude("junit", "junit-dep")
     )
   )
+
+  testOptions in Test := Seq(Tests.Argument(TestFrameworks.JUnit, "-a"))
