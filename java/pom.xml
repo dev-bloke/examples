@@ -133,6 +133,7 @@
     <module>spring-boot-mongodb</module>
     <module>spring-boot-mysql</module>
     <module>spring-boot-rabbitmq</module>
+    <module>spring-boot-simple</module>
     <module>spring-webapp-freemarker</module>
     <module>testNG</module>
   </modules>
