@@ -1,3 +1,4 @@
+.apt_generated
 .bloop
 .bsp
 .cache-main
@@ -10,10 +11,15 @@
 .metals/
 .project
 .settings/
+.springBeans
+.sts4-cache
 .vs/
 .vscode/
 *.class
 *.ear
+*.iws
+*.iml
+*.ipr
 *.jar
 *.log
 *.war
