@@ -6,6 +6,7 @@ val h2             = "com.h2database" % "h2" % "1.4.200"
 val jaxb           = "javax.xml.bind" % "jaxb-api" % "2.3.1"
 
 val junit          = "junit" % "junit" % "4.13.2" % Test
+val junitInterface = "com.novocode" % "junit-interface" % "0.11" % Test exclude("junit", "junit-dep")
 val scalatest      = "org.scalatest" %% "scalatest" % "3.2.5" % Test
 val scalatestJunit = "org.scalatestplus" %% "junit-4-13" % "3.2.5.0" % Test
 val springBootTest = "org.springframework.boot" % "spring-boot-starter-test" % "2.4.3" % Test
@@ -28,8 +29,7 @@ lazy val scalaSpringBoot = (project in file(".")).
       scalatest,
       scalatestJunit,
       springBootTest,
-      "com.novocode" % "junit-interface" % "0.11" % Test
-        exclude("junit", "junit-dep")
+      junitInterface
     )
   )
 
