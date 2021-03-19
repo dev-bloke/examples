@@ -1,1 +1,9 @@
-
+swagger:
+  title: A Simple Spring Boot REST Microservice
+  version: 1.0
+  description: An example Spring Boot microservice written in Java.
+  regex: /api/.*
+  contact:
+    name: Martin Ingram
+    url: http://www.martiningram.uk/
+    email: this.will.bounce@devbloke.me.uk

@@ -28,7 +28,7 @@ class RecordingServiceTest {
   val genesis = new Recording("Genesis", "Three Sides Live", "GENLP1")
 
   @Before
-  def setup() {
+  def setup(): Unit = {
       service = new RecordingService(repository)
   }
 
@@ -48,7 +48,7 @@ class RecordingServiceTest {
   }
 
   @Test
-  def testSave() {
+  def testSave(): Unit = {
     val saved = service.saveRecording(bowie)
     val id = saved.id
     val found = entityManager.find(classOf[Recording], id)
@@ -56,7 +56,7 @@ class RecordingServiceTest {
   }
 
   @Test
-  def testDelete() {
+  def testDelete(): Unit = {
     val id = saveRecording(bowie)
     service.deleteRecording(id)
     val other = entityManager.find(classOf[Recording], id)

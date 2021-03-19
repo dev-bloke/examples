@@ -43,7 +43,7 @@ class RecordingRepositoryTest {
   }
 
   @Test
-  def testSave() {
+  def testSave(): Unit = {
     val saved = repository.save(bowie)
     val id = saved.id
     val found = entityManager.find(classOf[Recording], id)
@@ -51,7 +51,7 @@ class RecordingRepositoryTest {
   }
 
   @Test
-  def testDelete() {
+  def testDelete(): Unit = {
     val id = saveRecording(bowie)
     repository.deleteById(id)
     val other = entityManager.find(classOf[Recording], id)
