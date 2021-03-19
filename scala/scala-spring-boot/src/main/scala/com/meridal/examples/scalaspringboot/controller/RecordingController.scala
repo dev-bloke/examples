@@ -31,7 +31,10 @@ class RecordingController(@Autowired val service: RecordingService) {
   def saveRecording(@RequestBody recording: Recording) = service.saveRecording(recording)
 
   @PutMapping(Array("/{id}"))
-  def updateRecording(@RequestBody recording: Recording) = service.saveRecording(recording)
+  def updateRecording(@PathVariable id: Long, @RequestBody recording: Recording): Recording = {
+    recording.id = id
+    service.saveRecording(recording)
+  }
 
   @DeleteMapping(Array("/{id}"))
   def deleteRecording(@PathVariable id: Long): Recording = {

@@ -70,8 +70,21 @@ class RecordingControllerTest {
   @Test
   def testPost(): Unit = {
      val json = jsonWriter.writeValueAsString(bowie)
-     when(service.saveRecording(any(classOf[Recording]))).thenReturn(bowie)
+     when(service.saveRecording(bowie)).thenReturn(bowie)
      mvc.perform(post("/api/recording/")
+      .contentType(MediaType.APPLICATION_JSON)
+      .content(json))
+      .andExpect(status().isOk)
+      .andExpect(content().contentType(MediaType.APPLICATION_JSON))
+      .andExpect(content().string(containsString("David Bowie")))
+  }
+
+  @Test
+  def testPut(): Unit = {
+    val json = jsonWriter.writeValueAsString(bowie)
+    bowie.id = id
+    when(service.saveRecording(bowie)).thenReturn(bowie)
+    mvc.perform(put("/api/recording/" + id)
       .contentType(MediaType.APPLICATION_JSON)
       .content(json))
       .andExpect(status().isOk)
