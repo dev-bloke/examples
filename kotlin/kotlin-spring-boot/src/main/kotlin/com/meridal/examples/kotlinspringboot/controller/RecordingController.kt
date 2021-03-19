@@ -22,7 +22,10 @@ class RecordingController @Autowired constructor(private val service: RecordingS
     fun saveRecording(@RequestBody recording: Recording): Recording = service.saveRecording(recording)
 
     @PutMapping("/{id}")
-    fun updateRecording(@RequestBody recording: Recording): Recording = service.saveRecording(recording)
+    fun updateRecording(@PathVariable id: Long, @RequestBody recording: Recording): Recording {
+        recording.id = id
+        return service.saveRecording(recording)
+    }
 
     @DeleteMapping("/{id}")
     fun deleteRecording(@PathVariable id: Long) = service.deleteRecording(id) ?:
