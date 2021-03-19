@@ -50,17 +50,12 @@
     <dependency>
       <groupId>org.springframework.amqp</groupId>
       <artifactId>spring-rabbit</artifactId>
-    </dependency>    
-    
-    <dependency>
-      <groupId>io.springfox</groupId>
-      <artifactId>springfox-swagger2</artifactId>
     </dependency>
-    
+
     <dependency>
       <groupId>io.springfox</groupId>
-      <artifactId>springfox-swagger-ui</artifactId>
-    </dependency>  
+      <artifactId>springfox-boot-starter</artifactId>
+    </dependency>
 
     <dependency>
       <groupId>org.springframework.boot</groupId>
