@@ -12,7 +12,6 @@ import springfox.documentation.service.ApiInfo
 import springfox.documentation.builders.ApiInfoBuilder
 import springfox.documentation.service.Contact
 
-@EnableSwagger2
 @Configuration
 class SwaggerConfiguration {
   

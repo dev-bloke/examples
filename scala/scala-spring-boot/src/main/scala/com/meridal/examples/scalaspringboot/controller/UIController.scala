@@ -7,5 +7,5 @@ import org.springframework.web.bind.annotation.RequestMapping
 class UIController {
   
   @RequestMapping(Array("/"))
-  def redirect() = "redirect:/swagger-ui.html"
+  def redirect() = "redirect:/swagger-ui/index.html"
 }

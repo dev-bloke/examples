@@ -1,7 +1,6 @@
 val springBootJpa  = "org.springframework.boot" % "spring-boot-starter-data-jpa" % "2.4.3"
 val springBootWeb  = "org.springframework.boot" % "spring-boot-starter-web" % "2.4.3"
-val swagger2       = "io.springfox" % "springfox-swagger2" % "2.7.0"
-val swaggerUi      = "io.springfox" % "springfox-swagger-ui" % "2.7.0"
+val swagger        = "io.springfox" % "springfox-boot-starter" % "3.0.0"
 
 val h2             = "com.h2database" % "h2" % "1.4.200"
 val jaxb           = "javax.xml.bind" % "jaxb-api" % "2.3.1"
@@ -22,8 +21,7 @@ lazy val scalaSpringBoot = (project in file(".")).
     libraryDependencies ++= Seq(
       springBootJpa,
       springBootWeb,
-      swagger2,
-      swaggerUi,
+      swagger,
       h2,
       jaxb,
       junit,
