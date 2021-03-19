@@ -17,12 +17,6 @@ object Spec2 {
     const val junit5Runner = "org.spekframework.spek2:spek-runner-junit5:$version"
 }
 
-object Swagger {
-    const val version = "2.7.0"
-    const val swagger2 = "io.springfox:springfox-swagger2:$version"
-    const val swaggerUi = "io.springfox:springfox-swagger-ui:$version"
-}
-
 plugins {
     id("org.jetbrains.kotlin.jvm")
 }

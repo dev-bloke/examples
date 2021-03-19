@@ -21,11 +21,10 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
+	implementation("io.springfox:springfox-boot-starter:3.0.0")
 	runtimeOnly("com.h2database:h2")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("com.ninja-squad:springmockk:1.1.3")
-	implementation(Com_meridal_examples_kotlin_common_conventions_gradle.Swagger.swagger2)
-	implementation(Com_meridal_examples_kotlin_common_conventions_gradle.Swagger.swaggerUi)
 }
 
 tasks.withType<KotlinCompile> {
