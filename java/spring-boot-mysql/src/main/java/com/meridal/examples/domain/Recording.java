@@ -16,7 +16,7 @@ import javax.persistence.Table;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
-@Table(name="recordings")
+@Table(name="recording")
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Recording {
     
@@ -26,6 +26,9 @@ public class Recording {
     
     @Column(name="artist")
     private String artist;
+
+    @Column(name="catalogue_number")
+    private String catalogueNumber;
     
     @OneToMany(cascade=CascadeType.ALL, fetch=FetchType.EAGER, orphanRemoval=true)
     @JoinColumn(name="recording_id")
@@ -40,7 +43,11 @@ public class Recording {
     public String getArtist() {
         return this.artist;
     }
-    
+
+    public String getCatalogueNumber() {
+        return catalogueNumber;
+    }
+
     public String getId() {
         return this.id;
     }
@@ -59,6 +66,10 @@ public class Recording {
     
     public void setArtist(String artist) {
         this.artist = artist;
+    }
+
+    public void setCatalogueNumber(String catalogueNumber) {
+        this.catalogueNumber = catalogueNumber;
     }
     
     public void setId(String id) {
