@@ -22,20 +22,11 @@ public class SwaggerConfig {
     @Value("${swagger.contact.email}")
     private String email;	  
 
-    @Value("${swagger.license.type}")
-    private String license;
-
-    @Value("${swagger.licence.url}")
-    private String licenseUrl;
-
     @Value("${swagger.contact.name}")
     private String name;
     
     @Value("${swagger.regex}")
     private String regex;
-
-    @Value("${swagger.tos.url}")
-    private String termsOfServiceUrl;
 
     @Value("${swagger.title}")
     private String title;
@@ -60,10 +51,7 @@ public class SwaggerConfig {
 	return new ApiInfoBuilder()
 	    .contact(new Contact(this.name, this.url, this.email))
 	    .description(this.description)
-	    .license(this.license)
-	    .licenseUrl(this.licenseUrl)
 	    .title(this.title)
-	    .termsOfServiceUrl(this.termsOfServiceUrl)
 	    .version(this.version)
 	    .build();
     }	
