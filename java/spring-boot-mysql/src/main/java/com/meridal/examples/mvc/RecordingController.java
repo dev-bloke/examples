@@ -23,7 +23,7 @@ public class RecordingController {
     private RecordingService service;
 
     @GetMapping("/")
-    public List<Recording> getAllRecordings(@RequestParam Optional<List<String>> ids) {
+    public List<Recording> getAllRecordings(@RequestParam(required=false) Optional<List<String>> ids) {
         return (ids.isPresent()) ? this.service.getRecordings(ids.get()) : this.service.getAllRecordings();
     }
 
