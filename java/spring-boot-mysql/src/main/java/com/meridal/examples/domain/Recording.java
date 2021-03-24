@@ -15,7 +15,7 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import org.apache.commons.lang.builder.ToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringBuilder;
 
 @Entity
 @Table(name="recording")
@@ -96,7 +96,7 @@ public class Recording {
         if (this == o) {
             result = true;
         }
-        else if (this.id != null && o != null && o instanceof Recording) {
+        else if (this.id != null && o instanceof Recording) {
             final Recording other = (Recording) o;
             result = Objects.equals(id, other.id);
         }
