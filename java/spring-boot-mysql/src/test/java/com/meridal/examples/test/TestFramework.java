@@ -4,10 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import org.apache.commons.lang.RandomStringUtils;
-
 import com.meridal.examples.domain.Recording;
 import com.meridal.examples.domain.Song;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
 
 public abstract class TestFramework {
@@ -79,7 +78,6 @@ public abstract class TestFramework {
 	}
 
 	private String randomStringWithMaxLength(int max) {
-		final int length = randomPositiveInteger(max);
-		return RandomStringUtils.randomAlphanumeric(length);
+		return RandomStringUtils.randomAlphanumeric(1, max);
 	}
 }
