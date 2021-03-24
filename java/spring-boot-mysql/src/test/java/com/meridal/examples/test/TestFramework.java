@@ -6,65 +6,27 @@ import java.util.Random;
 
 import org.apache.commons.lang.RandomStringUtils;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
-
 import com.meridal.examples.domain.Recording;
 import com.meridal.examples.domain.Song;
+import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
 
 public abstract class TestFramework {
 
-	private static final String ARTIST = "Yes";
-	private static final String TITLE =  "Close To The Edge";
-	protected static final Integer WRONG_YEAR = 1971;
-	protected static final Integer YEAR = 1972;
-
-	private static final String[] SONGS = { "Close To The Edge", "And You And I", "Siberian Khatru" };
-	private static final String[] TIMES = { "18:12", "10:40", "9:50" };
-
-	private static final int TRACKS = SONGS.length;
-
-	private Random random = new Random();
-
-	protected Recording createRecording() {
-		Recording recording = new Recording();
-		recording.setArtist(ARTIST);
-		recording.setTitle(TITLE);
-		recording.setYear(WRONG_YEAR);
-		List<Song> songs = new ArrayList<>();
-		for (int i = 0; i < TRACKS; i++) {
-			Song song = new Song();
-			song.setTitle(SONGS[i]);
-			song.setDuration(TIMES[i]);
-			songs.add(song);
-		}
-		recording.setSongs(songs);
-		return recording;
-	}
-
-	protected void checkRecording(Recording recording, Integer year) {
-		assertNotNull(recording);
-		assertEquals(ARTIST, recording.getArtist());
-		assertEquals(TITLE, recording.getTitle());
-		assertEquals(year, recording.getYear());
-		List<Song> songs = recording.getSongs();
-		assertNotNull(songs);
-		assertEquals(TRACKS, songs.size());
-		for (int i = 0; i < TRACKS; i++) {
-			Song song = songs.get(i);
-			assertNotNull(song);
-			assertEquals(SONGS[i], song.getTitle());
-			assertEquals(TIMES[i], song.getDuration());
-		}
-	}
+	private final Random random = new Random();
 
 	protected Recording randomRecording() {
-		Recording recording = new Recording();
-		recording.setArtist(RandomStringUtils.randomAscii(16));
-		recording.setTitle(RandomStringUtils.randomAscii(64));
-		recording.setYear(1965 + (random.nextInt() % 50));
-		int tracks = random.nextInt() % 20;
-		List<Song> songs = new ArrayList<>();
+		return this.randomRecording(null);
+	}
+
+	protected Recording randomRecording(String id) {
+		final Recording recording = new Recording();
+		recording.setId(id);
+		recording.setArtist(this.randomStringWithMaxLength(32));
+		recording.setTitle(this.randomStringWithMaxLength(64));
+		recording.setCatalogueNumber(this.randomStringWithMaxLength(16));
+		recording.setYear(1965 + this.randomPositiveInteger(50));
+		int tracks = this.randomPositiveInteger(20);
+		final List<Song> songs = new ArrayList<>();
 		for (int i = 0; i < tracks; i++) {
 			songs.add(this.randomSong());
 		}
@@ -72,12 +34,52 @@ public abstract class TestFramework {
 		return recording;
 	}
 
+	protected Recording cloneRecording(final String id, final Recording recording) {
+		final Recording clone = new Recording();
+		clone.setId(id);
+		clone.setArtist(recording.getArtist());
+		clone.setTitle(recording.getTitle());
+		clone.setYear(recording.getYear());
+		clone.setCatalogueNumber(recording.getCatalogueNumber());
+		final List<Song> songs = new ArrayList<>(recording.getSongs());
+		clone.setSongs(songs);
+		return clone;
+	}
+
 	protected Song randomSong() {
-		Song song = new Song();
-		song.setTitle(RandomStringUtils.randomAscii(64));
-		String mins = Integer.toString(random.nextInt() % 20);
-		String secs = Integer.toString(random.nextInt() % 60);
+		return this.randomSong(null);
+	}
+
+	protected Song randomSong(final Integer id) {
+		final Song song = new Song();
+		song.setId(id);
+		song.setTitle(this.randomStringWithMaxLength(64));
+		String mins = Integer.toString(this.randomPositiveInteger(20));
+		String secs = Integer.toString(this.randomPositiveInteger(59));
 		song.setDuration(mins + ":" + secs);
 		return song;
+	}
+
+	protected Song cloneSong(final Integer id, final Song song) {
+		final Song clone = new Song();
+		clone.setId(id);
+		clone.setDuration(song.getDuration());
+		clone.setTitle(song.getTitle());
+		return clone;
+	}
+
+	protected String saveRecording(final Recording recording, TestEntityManager entityManager) {
+		final Recording saved = entityManager.persist(recording);
+		entityManager.flush();
+		return saved.getId();
+	}
+
+	private int randomPositiveInteger(int max) {
+		return Math.floorMod(random.nextInt(), max - 1) + 1;
+	}
+
+	private String randomStringWithMaxLength(int max) {
+		final int length = randomPositiveInteger(max);
+		return RandomStringUtils.randomAlphanumeric(length);
 	}
 }

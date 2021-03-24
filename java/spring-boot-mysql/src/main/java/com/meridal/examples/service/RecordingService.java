@@ -13,24 +13,30 @@ import com.meridal.examples.repository.RecordingRepository;
 @Component
 public class RecordingService {
    
-    @Autowired
     private RecordingRepository repository;
+
+    public RecordingService(@Autowired RecordingRepository repository) {
+        this.repository = repository;
+    }
  
     /**
      * Delete a recording.
-     * @param recording
+     * @param id ID
      */
-    public void deleteRecording(Recording recording) {
-	    this.repository.delete(recording);
+    public Recording deleteRecording(final String id) {
+	    final Recording recording = this.repository.findById(id).orElse(null);
+	    if (recording != null) {
+            this.repository.deleteById(id);
+        }
+	    return recording;
     }
     
     /**
      * Find all recordings.
      * @return Full list of recordings
      */
-    public List<Recording> findAllRecordings() {
-		Iterable<Recording> recordings = this.repository.findAll();
-		return Lists.newArrayList(recordings);
+    public List<Recording> getAllRecordings() {
+		return Lists.newArrayList(this.repository.findAll());
     }
     
     /**
@@ -38,7 +44,7 @@ public class RecordingService {
      * @param id ID
      * @return Recording
      */
-    public Recording findRecording(String id) {
+    public Recording getRecording(final String id) {
 	    return this.repository.findById(id).orElse(null);	
     }
     
@@ -47,7 +53,7 @@ public class RecordingService {
      * @param ids IDs
      * @return List of recordings
      */
-    public List<Recording> findRecordings(Collection<String> ids) {
+    public List<Recording> getRecordings(final Collection<String> ids) {
 		Iterable<Recording> recordings = this.repository.findAllById(ids);
 		return Lists.newArrayList(recordings);
     }
@@ -56,7 +62,7 @@ public class RecordingService {
      * Save a recording.
      * @param recording Recording
      */
-    public void saveRecording(Recording recording) {
-	    this.repository.save(recording);
+    public Recording saveRecording(final Recording recording) {
+	    return this.repository.save(recording);
     }
 }

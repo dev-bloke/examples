@@ -1,6 +1,7 @@
 package com.meridal.examples.domain;
 
 import java.util.List;
+import java.util.Objects;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -14,6 +15,7 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import org.apache.commons.lang.builder.ToStringBuilder;
 
 @Entity
 @Table(name="recording")
@@ -86,5 +88,28 @@ public class Recording {
     
     public void setYear(Integer year) {
         this.year = year;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        boolean result = false;
+        if (this == o) {
+            result = true;
+        }
+        else if (this.id != null && o != null && o instanceof Recording) {
+            final Recording other = (Recording) o;
+            result = Objects.equals(id, other.id);
+        }
+        return result;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id);
+    }
+
+    @Override
+    public String toString() {
+        return ToStringBuilder.reflectionToString(this);
     }
 }
