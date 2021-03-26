@@ -1,9 +1,10 @@
-package com.meridal.examples.springbootmysql;
+package com.meridal.examples.springbootmongo;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
 /**
  * Spring Boot application launcher.

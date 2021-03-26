@@ -1,4 +1,4 @@
-package com.meridal.examples.springbootmysql.domain;
+package com.meridal.examples.springbootmongo.domain;
 
 public class Song {
     
