@@ -1,4 +1,4 @@
-package com.meridal.examples.springbootmysql.springboot.model;
+package com.meridal.examples.springboot.model;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 

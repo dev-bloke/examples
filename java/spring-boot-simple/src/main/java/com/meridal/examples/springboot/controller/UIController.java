@@ -1,4 +1,4 @@
-package com.meridal.examples.springbootmysql.springboot.controller;
+package com.meridal.examples.springboot.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

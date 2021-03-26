@@ -1,7 +1,9 @@
-package com.meridal.examples.springbootmysql.springboot.service;
+package com.meridal.examples.springboot.repository;
 
-import com.meridal.examples.springbootmysql.springboot.model.Recording;
-import com.meridal.examples.springbootmysql.springboot.repository.RecordingRepository;
+import static org.junit.jupiter.api.Assertions.*;
+
+import com.google.common.collect.Lists;
+import com.meridal.examples.springboot.model.Recording;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,12 +11,13 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
 
 import java.util.List;
+import java.util.Optional;
 
-import static org.junit.jupiter.api.Assertions.*;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
+/**
+ * Unit tests for each of the methods in {@link RecordingRepository} that we rely on.
+ */
 @DataJpaTest
-public class RecordingServiceTest {
+public class RecordingRepositoryTest {
 
     @Autowired
     private TestEntityManager entityManager;
@@ -22,50 +25,47 @@ public class RecordingServiceTest {
     @Autowired
     private RecordingRepository repository;
 
-    private RecordingService service;
-
     private Recording bowie;
     private Recording genesis;
 
     @BeforeEach
     public void setup() {
-        this.service = new RecordingService(this.repository);
         this.bowie = new Recording("David Bowie", "Lodger", "BOWLP1");
         this.genesis = new Recording("Genesis", "Three Sides Live", "GENLP1");
     }
 
     @Test
-    public void testGetRecording() {
+    public void testFindById() {
         final Long id = this.saveRecording(bowie);
-        this.bowie.setId(id);
-        final Recording recording = this.service.getRecording(id);
-        assertEquals(bowie, recording);
+        final Optional found = this.repository.findById(id);
+        assertTrue(found.isPresent());
+        assertEquals(bowie, found.get());
     }
 
     @Test
-    public void testGetAllRecordings() {
+    public void testFindAll() {
         final Long bowieId = this.saveRecording(bowie);
         this.bowie.setId(bowieId);
         final Long genesisId = this.saveRecording(genesis);
         this.genesis.setId(genesisId);
-        final List<Recording> found = this.service.getAllRecordings();
+        final List<Recording> found = Lists.newArrayList(this.repository.findAll());
         assertTrue(found.contains(bowie));
         assertTrue(found.contains(genesis));
     }
 
     @Test
-    public void testSaveRecording() {
-        final Recording recording = this.service.saveRecording(bowie);
+    public void testSave() {
+        final Recording recording = this.repository.save(bowie);
         final Recording found = this.entityManager.find(Recording.class, recording.getId());
         assertEquals(recording, found);
     }
 
     @Test
-    public void testDeleteRecording() {
+    public void testDelete() {
         final Long bowieId = this.saveRecording(bowie);
         final Long genesisId = this.saveRecording(genesis);
         this.genesis.setId(genesisId);
-        this.service.deleteRecording(bowieId);
+        this.repository.deleteById(bowieId);
         final Recording deleted = this.entityManager.find(Recording.class, bowieId);
         assertNull(deleted);
         final Recording found = this.entityManager.find(Recording.class, genesisId);
@@ -77,4 +77,5 @@ public class RecordingServiceTest {
         this.entityManager.flush();
         return saved.getId();
     }
+
 }

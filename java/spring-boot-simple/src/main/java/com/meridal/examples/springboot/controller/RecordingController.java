@@ -1,7 +1,7 @@
-package com.meridal.examples.springbootmysql.springboot.controller;
+package com.meridal.examples.springboot.controller;
 
-import com.meridal.examples.springbootmysql.springboot.model.Recording;
-import com.meridal.examples.springbootmysql.springboot.service.RecordingService;
+import com.meridal.examples.springboot.model.Recording;
+import com.meridal.examples.springboot.service.RecordingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

@@ -1,8 +1,8 @@
-package com.meridal.examples.springbootmysql.springboot.service;
+package com.meridal.examples.springboot.service;
 
 import com.google.common.collect.Lists;
-import com.meridal.examples.springbootmysql.springboot.model.Recording;
-import com.meridal.examples.springbootmysql.springboot.repository.RecordingRepository;
+import com.meridal.examples.springboot.model.Recording;
+import com.meridal.examples.springboot.repository.RecordingRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

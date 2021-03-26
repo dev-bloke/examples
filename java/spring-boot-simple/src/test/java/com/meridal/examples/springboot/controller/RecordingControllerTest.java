@@ -1,4 +1,4 @@
-package com.meridal.examples.springbootmysql.springboot.controller;
+package com.meridal.examples.springboot.controller;
 
 import static org.hamcrest.Matchers.*;
 import static org.mockito.Mockito.*;
@@ -8,8 +8,8 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.databind.SerializationFeature;
-import com.meridal.examples.springbootmysql.springboot.model.Recording;
-import com.meridal.examples.springbootmysql.springboot.service.RecordingService;
+import com.meridal.examples.springboot.model.Recording;
+import com.meridal.examples.springboot.service.RecordingService;
 import org.assertj.core.util.Lists;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
