@@ -1,4 +1,4 @@
-package com.meridal.examples.springbootmysql.elasticsearch;
+package com.meridal.examples.springbootelasticsearch;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,4 +1,4 @@
-package com.meridal.examples.springbootmysql.elasticsearch;
+package com.meridal.examples.springbootelasticsearch;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.builder.SpringApplicationBuilder;
