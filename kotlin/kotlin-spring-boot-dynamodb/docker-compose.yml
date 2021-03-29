@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+
+  dynamodb-local:
+    command: "-jar DynamoDBLocal.jar -sharedDb"
+    image: "amazon/dynamodb-local:latest"
+    container_name: dynamodb-local
+    ports:
+      - "8000:8000"
+    working_dir: /home/dynamodblocal
+
+  dynamodb-init:
+    depends_on:
+      - dynamodb-local
+    image: vfarcic/aws-cli
+    container_name: dynamodb-init
+    environment:
+      AWS_ACCESS_KEY_ID: 'DUMMYIDEXAMPLE'
+      AWS_SECRET_ACCESS_KEY: 'DUMMYEXAMPLEKEY'
+      AWS_DEFAULT_REGION: "us-west-1"
+    restart: "no"
+    command: sh -c "source /docker-entrypoint-initdb.d/create-table.sh"
+    volumes:
+      - ./src/main/dynamodb:/docker-entrypoint-initdb.d

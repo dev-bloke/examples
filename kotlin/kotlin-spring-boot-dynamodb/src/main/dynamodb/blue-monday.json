@@ -1,0 +1,22 @@
+{
+  "id": { "S": "1" },
+  "artist": { "S": "New Order" },
+  "title": { "S": "Blue Monday" },
+  "year": { "N": "1983" },
+  "catalogueNumber": { "S": "FAC73" },
+  "songs": { "L": [
+      {
+        "M": {
+          "duration": { "S": "7:28" },
+          "title": { "S": "Blue Monday" }
+        }
+      },
+      {
+        "M": {
+          "duration": { "S": "7:12" },
+          "title": { "S": "The Beach" }
+        }
+      }
+    ]
+  }
+}

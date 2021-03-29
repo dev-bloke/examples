@@ -1,0 +1,22 @@
+{
+  "id": { "S": "2" },
+  "artist": { "S": "Mike Oldfield" },
+  "title": { "S": "Tubular Bells" },
+  "year": { "N": "1973" },
+  "catalogueNumber": { "S": "V2001" },
+  "songs": { "L": [
+      {
+        "M": {
+          "duration": { "S": "25:00" },
+          "title": { "S": "Part One" }
+        }
+      },
+      {
+        "M": {
+          "duration": { "S": "23:18" },
+          "title": { "S": "Part Two" }
+        }
+      }
+    ]
+  }
+}
