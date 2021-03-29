@@ -1,0 +1,46 @@
+{
+  "id": { "S": "3" },
+  "artist": { "S": "Porcupine Tree" },
+  "title": { "S": "Fear Of A Blank Planet" },
+  "year": { "N": "2007" },
+  "catalogueNumber": { "S": "FOABP1" },
+  "songs": { "L": [
+      {
+        "M": {
+          "duration": { "S": "7:30" },
+          "title": { "S": "Fear Of A Blank Planet" }
+        }
+      },
+      {
+        "M": {
+          "duration": { "S": "5:06" },
+          "title": { "S": "My Ashes" }
+        }
+      },
+      {
+        "M": {
+          "duration": { "S": "17:42" },
+          "title": { "S": "Anesthetise" }
+        }
+      },
+      {
+        "M": {
+          "duration": { "S": "5:27" },
+          "title": { "S": "Sentimental" }
+        }
+      },
+      {
+        "M": {
+          "duration": { "S": "7:38" },
+          "title": { "S": "Way Out Of Here" }
+        }
+      },
+      {
+        "M": {
+          "duration": { "S": "7:33" },
+          "title": { "S": "Sleep Together" }
+        }
+      }
+    ]
+  }
+}

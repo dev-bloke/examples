@@ -11,7 +11,8 @@
       "title": "The Beach"
     }
   ],
-  "year": 1983
+  "year": 1983,
+  "catalogueNumber": "FAC73"
 }
 
 
@@ -28,7 +29,8 @@
       "title": "Part Two"
     }
   ],
-  "year": 1973
+  "year": 1973,
+  "catalogueNumber": "V2001"
 }
 
 {
@@ -60,5 +62,6 @@
       "title": "Sleep Together"
     }
   ],
-  "year": 2007
+  "year": 2007,
+  "catalogueNumber": "FOABP1"
 }
