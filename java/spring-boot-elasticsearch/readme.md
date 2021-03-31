@@ -8,9 +8,9 @@ The project also uses [SpringFox](http://springfox.github.io/springfox/docs/curr
 [Swagger](http://swagger.io) JSON specification for the API which is rendered at the root of the 
 deployed service.
 
-A Docker Compose file is also included that will spin up a suitable DynamoDB instance for local
+A Docker Compose file is also included that will spin up a suitable ElasticSearch instance for local
 runtime testing. This is prepopulated with a small amount of sample data. If you have Docker and
-Compose installed, simply cd to the project directory and use this command to start the DynamoDB instance.
+Compose installed, simply cd to the project directory and use this command to start the ElasticSearch instance.
 
     docker-compose up -d
 
