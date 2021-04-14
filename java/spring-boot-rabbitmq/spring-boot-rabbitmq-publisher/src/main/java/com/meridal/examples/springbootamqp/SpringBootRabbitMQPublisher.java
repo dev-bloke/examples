@@ -1,4 +1,4 @@
-package com.meridal.examples.springbootmysql;
+package com.meridal.examples.springbootamqp;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,7 +15,7 @@ public class SpringBootRabbitMQPublisher {
 	private static final Logger LOG = LoggerFactory.getLogger(SpringBootRabbitMQPublisher.class);
 
 	public static void main(String[] args) {
-		LOG.info("Starting Spring Boot with Kafka publishing support.");
+		LOG.info("Starting Spring Boot with RabbitMQ publishing support.");
 		SpringApplication.run(SpringBootRabbitMQPublisher.class, args);
 		LOG.info("Spring Boot startup complete.");
 	}

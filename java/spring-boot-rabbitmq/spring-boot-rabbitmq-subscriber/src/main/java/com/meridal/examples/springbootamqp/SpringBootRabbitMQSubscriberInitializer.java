@@ -1,4 +1,4 @@
-package com.meridal.examples.springbootmysql;
+package com.meridal.examples.springbootamqp;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.builder.SpringApplicationBuilder;
@@ -13,13 +13,13 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @EnableAutoConfiguration
 @ComponentScan
-public class SpringBootRabbitMQPublisherInitializer extends SpringBootServletInitializer {
+public class SpringBootRabbitMQSubscriberInitializer extends SpringBootServletInitializer {
 
 	/**
 	 * {@inheritDoc}
 	 */
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(SpringBootRabbitMQPublisherInitializer.class);
+		return application.sources(SpringBootRabbitMQSubscriberInitializer.class);
 	}  	
 }
