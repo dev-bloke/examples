@@ -2,12 +2,15 @@ package com.meridal.examples.springbootrabbitmq.domain;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-public class Recording {
-    
+public class Recording implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+
     private String id;
     
     private String artist;

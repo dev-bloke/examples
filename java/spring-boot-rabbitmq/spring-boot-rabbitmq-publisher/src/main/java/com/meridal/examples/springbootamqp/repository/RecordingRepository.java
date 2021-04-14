@@ -1,5 +1,6 @@
 package com.meridal.examples.springbootamqp.repository;
 
+import com.meridal.examples.springbootrabbitmq.domain.Recording;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -17,7 +18,7 @@ public class RecordingRepository {
         this.template = template;
     }
 
-    public void publish(String message) {
-        this.template.convertAndSend(this.queueName, message);
+    public void publish(Recording recording) {
+        this.template.convertAndSend(this.queueName, recording);
     }
 }

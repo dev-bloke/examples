@@ -2,10 +2,13 @@ package com.meridal.examples.springbootrabbitmq.domain;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
+import java.io.Serializable;
 import java.util.Locale;
 
-public class Song {
-    
+public class Song implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+
     private String title;
     private String duration;
     
