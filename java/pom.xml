@@ -117,6 +117,7 @@
     <module>functional-java</module>
     <module>itunes-library</module>
     <module>scalatest</module>
+    <module>spring-boot-cors</module>
     <module>spring-boot-docker</module>
     <module>spring-boot-dynamodb</module>
     <module>spring-boot-elasticsearch</module>

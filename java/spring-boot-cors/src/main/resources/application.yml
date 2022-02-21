@@ -1,0 +1,20 @@
+swagger:
+  title: A Simple Spring Boot REST Microservice with CORS filtering
+  version: 1.0
+  description: An example Spring Boot microservice with CORS filtering written in Java.
+  regex: /api/.*
+  contact:
+    name: Martin Ingram
+    url: http://www.martiningram.uk/
+    email: this.will.bounce@devbloke.me.uk
+
+# Enable CORS in development.
+
+cors:
+  enabled: true
+  mapping: "/api/**"
+  origins: "*"
+  methods: "GET"
+  credentials: false
+  maxAge: 3600
+
