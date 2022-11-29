@@ -1,0 +1,13 @@
+swagger:
+  title: Twitter Proxy
+  description: An example Spring Boot Twitter Proxy written in Java.
+  version: 1.0
+  regex: /api/.*
+  contact:
+    name: Martin Ingram
+    url: http://www.martiningram.uk/
+    email: this.will.bounce@devbloke.me.uk
+
+api2:
+  baseUrl: https://api.twitter.com/2/users/
+  authorization: YOUR-AUTH-TOKEN-GOES-HERE
