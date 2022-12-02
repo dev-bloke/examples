@@ -1,20 +1,14 @@
 package com.meridal.example.twitter.repository;
 
-import com.fasterxml.jackson.databind.DeserializationFeature;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.meridal.example.twitter.domain.User;
+import com.meridal.example.twitter.domain.api.User;
 import com.meridal.example.twitter.domain.api.UserData;
 import com.meridal.example.twitter.domain.api.UserListData;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.http.codec.json.Jackson2JsonDecoder;
-import org.springframework.http.codec.json.Jackson2JsonEncoder;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.reactive.function.client.WebClient;
 import org.springframework.web.reactive.function.client.WebClient.ResponseSpec;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 @Repository
@@ -24,7 +18,8 @@ public class UserRepository {
     private static final String GET_USER = "by/username/";
     private static final String GET_FOLLOWERS = "/followers";
     private static final String GET_FOLLOWING = "/following";
-    private static final String MAX_RESULTS = "?max_results=";
+    private static final String MAX_RESULTS = "&max_results=";
+    private static final String USER_FIELDS = "?user.fields=description,location,public_metrics";
 
     private final WebClient client;
     private final String authorization;
@@ -37,7 +32,7 @@ public class UserRepository {
     }
 
     public User getUserByUsername(final String username) {
-        final ResponseSpec responseSpec = this.getResponseSpec(GET_USER + username);
+        final ResponseSpec responseSpec = this.getResponseSpec(GET_USER + username + USER_FIELDS);
         final UserData data = responseSpec.bodyToMono(UserData.class).block();
         return data.getData();
     }
@@ -78,7 +73,9 @@ public class UserRepository {
     }
 
     private String getUriWithMaxResults(final String uri, final String userID, int maxResults) {
-        final StringBuilder builder = new StringBuilder(userID).append(uri);
+        final StringBuilder builder = new StringBuilder(userID)
+            .append(uri)
+            .append(USER_FIELDS);
         if (maxResults > 0) {
             builder.append(MAX_RESULTS).append(maxResults);
         }

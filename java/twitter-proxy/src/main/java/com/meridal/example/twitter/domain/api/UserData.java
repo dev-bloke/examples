@@ -1,7 +1,5 @@
 package com.meridal.example.twitter.domain.api;
 
-import com.meridal.example.twitter.domain.User;
-
 public class UserData {
 
     private User data;

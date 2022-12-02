@@ -8,16 +8,13 @@ import java.util.Objects;
 public class User {
 
     private String id;
+    private String description;
+    private String location;
     private String name;
     private String username;
 
     public User() {
         // Does nothing.
-    }
-
-    public User(final String id, final String name, final String username) {
-        this(name, username);
-        this.setId(id);
     }
 
     public User(final String username, final String name) {
@@ -33,6 +30,21 @@ public class User {
         this.id = id;
     }
 
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
     public String getName() {
         return name;
     }
