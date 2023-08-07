@@ -1,0 +1,17 @@
+swagger:
+  title: Record Collection
+  description: An example Spring Boot Record Collection Microservice written in Java.
+  version: 1.0
+  contact:
+    name: Martin Ingram
+    url: http://www.martiningram.uk/
+    email: this.will.bounce@devbloke.me.uk
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
+discogs:
+  baseUrl: https://api.discogs.com
+  keySecret: Discogs key=TYIebePzQdNvOvYOhyjt, secret=qJsSDgnRjnaeMOwpApYmSAtRcUYwusmm
+  token: Discogs token=HaMlMPZNyJSjbMLrFUTvILxgJlfHMctJgQKsEZVV
