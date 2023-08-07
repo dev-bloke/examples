@@ -1,0 +1,17 @@
+[workspace]
+
+members = [
+	"control_flow",
+	"collections",
+	"data_types",
+	"enums",
+	"functions",
+	"guess",
+	"hello_again",
+	"hello_world",
+	"modules",
+	"options",
+	"ownership",
+	"slices",
+	"structures",
+]
