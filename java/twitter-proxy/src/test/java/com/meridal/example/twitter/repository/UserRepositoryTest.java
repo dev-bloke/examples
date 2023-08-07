@@ -81,6 +81,15 @@ public class UserRepositoryTest {
     }
 
     @Test
+    public void testGetFollowersWithNullMaxResults() throws Exception {
+        this.enqueueResponse(new UserListData(USER_LIST));
+        final List<User> followers = this.repository.getFollowersByUserID(ID, null);
+        assertEquals(USER_LIST, followers);
+        this.checkRequest("/" + ID + "/followers" + USER_FIELDS);
+    }
+
+
+    @Test
     public void testGetFollowing() throws Exception {
         this.enqueueResponse(new UserListData(USER_LIST));
         final List<User> following = this.repository.getFollowingByUserID(ID);
@@ -90,6 +99,14 @@ public class UserRepositoryTest {
 
     @Test
     public void testGetFollowingWithMaxResults() throws Exception {
+        this.enqueueResponse(new UserListData(USER_LIST));
+        final List<User> following = this.repository.getFollowingByUserID(ID, null);
+        assertEquals(USER_LIST, following);
+        this.checkRequest("/" + ID + "/following" + USER_FIELDS);
+    }
+
+    @Test
+    public void testGetFollowingWithNullMaxResults() throws Exception {
         this.enqueueResponse(new UserListData(USER_LIST));
         final List<User> following = this.repository.getFollowingByUserID(ID, NUM_RESULTS);
         assertEquals(USER_LIST, following);

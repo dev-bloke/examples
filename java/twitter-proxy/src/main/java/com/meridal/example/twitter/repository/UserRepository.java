@@ -3,6 +3,8 @@ package com.meridal.example.twitter.repository;
 import com.meridal.example.twitter.domain.api.User;
 import com.meridal.example.twitter.domain.api.UserData;
 import com.meridal.example.twitter.domain.api.UserListData;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Repository;
@@ -12,9 +14,9 @@ import org.springframework.web.reactive.function.client.WebClient.ResponseSpec;
 import java.util.List;
 
 @Repository
-@ConfigurationProperties(prefix = "api2")
 public class UserRepository {
 
+    private static final Logger LOG = LoggerFactory.getLogger(UserRepository.class);
     private static final String GET_USER = "by/username/";
     private static final String GET_FOLLOWERS = "/followers";
     private static final String GET_FOLLOWING = "/following";
@@ -25,8 +27,10 @@ public class UserRepository {
     private final String authorization;
 
     public UserRepository(
-        @Value("baseUrl") final String baseUrl,
-        @Value("authorization") final String authorization) {
+        @Value("${api2.baseUrl}") final String baseUrl,
+        @Value("${api2.authorization}") final String authorization) {
+        LOG.debug("baseUrl={}", baseUrl);
+        LOG.debug("authorization={}", authorization);
         this.client = this.createWebClient(baseUrl);
         this.authorization = authorization;
     }
@@ -41,7 +45,7 @@ public class UserRepository {
         return this.getFollowersByUserID(userID, 0);
     }
 
-    public List<User> getFollowersByUserID(final String userID, final int maxResults) {
+    public List<User> getFollowersByUserID(final String userID, final Integer maxResults) {
         final String uri = this.getUriWithMaxResults(GET_FOLLOWERS, userID, maxResults);
         final ResponseSpec responseSpec = this.getResponseSpec(uri);
         final UserListData followers = responseSpec.bodyToMono(UserListData.class).block();
@@ -52,7 +56,7 @@ public class UserRepository {
         return this.getFollowingByUserID(userID, 0);
     }
 
-    public List<User> getFollowingByUserID(final String userID, final int maxResults) {
+    public List<User> getFollowingByUserID(final String userID, final Integer maxResults) {
         final String uri = this.getUriWithMaxResults(GET_FOLLOWING, userID, maxResults);
         final ResponseSpec responseSpec = this.getResponseSpec(uri);
         final UserListData followers = responseSpec.bodyToMono(UserListData.class).block();
@@ -72,11 +76,11 @@ public class UserRepository {
             .retrieve();
     }
 
-    private String getUriWithMaxResults(final String uri, final String userID, int maxResults) {
+    private String getUriWithMaxResults(final String uri, final String userID, Integer maxResults) {
         final StringBuilder builder = new StringBuilder(userID)
             .append(uri)
             .append(USER_FIELDS);
-        if (maxResults > 0) {
+        if (maxResults != null && maxResults > 0) {
             builder.append(MAX_RESULTS).append(maxResults);
         }
         return builder.toString();

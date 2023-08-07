@@ -7,8 +7,8 @@ import org.junit.jupiter.api.Test;
 
 public class UserTest {
 
-    private static final String USERNAME = "David Bowie";
-    private static final String NAME = "Lodger";
+    private static final String USERNAME = "davidbowieofficial";
+    private static final String NAME = "David Bowie";
     private static final String ID = "12345678";
     private static final String OTHER_ID = "87654321";
 
@@ -20,6 +20,12 @@ public class UserTest {
         this.user = new User(USERNAME, NAME);
         this.user.setId(ID);
         this.other = new User(USERNAME, NAME);
+    }
+
+    @Test
+    public void testHasId() {
+        assertTrue(this.user.hasId());
+        assertFalse(this.other.hasId());
     }
 
     @Test

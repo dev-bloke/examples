@@ -7,8 +7,8 @@
   <artifactId>twitter-proxy</artifactId>
   <packaging>jar</packaging>
 
-  <name>Spring Boot MySQL Example</name>
-  <url>http://www.martiningram.uk/spring-boot-mysql</url>
+  <name>Spring Boot Twitter Proxy</name>
+  <url>http://www.martiningram.uk/twitter-proxy</url>
 
   <parent>
     <groupId>com.meridal.examples</groupId>
@@ -29,8 +29,9 @@
     </dependency>
 
     <dependency>
-      <groupId>io.springfox</groupId>
-      <artifactId>springfox-boot-starter</artifactId>
+      <groupId>org.springdoc</groupId>
+      <artifactId>springdoc-openapi-ui</artifactId>
+      <version>1.6.13</version>
     </dependency>
 
     <dependency>

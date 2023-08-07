@@ -2,6 +2,7 @@ package com.meridal.example.twitter.domain.api;
 
 import com.fasterxml.jackson.databind.PropertyNamingStrategies;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
+import com.meridal.example.twitter.domain.UserProfile;
 
 @JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
 public class User extends com.meridal.example.twitter.domain.User {
@@ -27,5 +28,19 @@ public class User extends com.meridal.example.twitter.domain.User {
 
 	public void setPublicMetrics(Metrics publicMetrics) {
 		this.publicMetrics = publicMetrics;
+	}
+
+	public UserProfile getUserProfile() {
+		final UserProfile profile = new UserProfile(this.getUsername(), this.getName());
+		profile.setId(this.getId());
+		profile.setDescription(this.getDescription());
+		profile.setLocation(this.getLocation());
+		if (this.publicMetrics != null) {
+			profile.setFollowerCount(this.publicMetrics.getFollowersCount());
+			profile.setFollowingCount(this.publicMetrics.getFollowingCount());
+			profile.setListed(this.publicMetrics.getListedCount());
+			profile.setTweets(this.publicMetrics.getTweetCount());
+		}
+		return profile;
 	}
 }

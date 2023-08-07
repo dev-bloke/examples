@@ -30,6 +30,10 @@ public class User {
         this.id = id;
     }
 
+    public boolean hasId() {
+        return this.id != null;
+    }
+
     public String getDescription() {
         return description;
     }
