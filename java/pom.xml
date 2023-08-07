@@ -123,6 +123,8 @@
     <module>example-domain</module>
     <module>functional-java</module>
     <module>itunes-library</module>
+    <module>twitter-proxy</module>
+    <module>mastodon-proxy</module>
     <module>scalatest</module>
     <module>spring-boot-cors</module>
     <module>spring-boot-docker</module>
