@@ -1,0 +1,16 @@
+swagger:
+  title: Mastodon Proxy
+  description: An example Spring Boot Mastodon Proxy written in Java.
+  version: 1.0
+  contact:
+    name: Martin Ingram
+    url: http://www.martiningram.uk/
+    email: this.will.bounce@devbloke.me.uk
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
+api2:
+  baseUrl: https://mastodonapp.uk/api/v2
+  authorization: Bearer AAAAAAAAAAAAAAAAAAAAAFJ2jgEAAAAAmRK2DTJNTCb2gvrEE5VVgfPbP9E%3DvJk3YBuR3unSf6JOyz6kUkmWbw2IVqRqnudjBHPiet0izw4jqX
