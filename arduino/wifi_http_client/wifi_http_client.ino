@@ -1,6 +1,9 @@
 /*
  * Set up a connection to a WiFi access point and get content from an HTTP server.
  * Based on the WiFiClientBasic example at https://github.com/espressif/arduino-esp32/.
+ * 
+ * Note that this uses a basic socket connection, similar to using Telnet to fetch the
+ * content. This will NOT work if you are serving multiple sites from the same server.
  */
 
 #include <WiFi.h>
