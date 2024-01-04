@@ -6,8 +6,8 @@
 #include <WiFiMulti.h>
 #include <HTTPClient.h>
 
-const char *SSID = "Meridal N12";
-const char *PASSWORD = "rad10wav35";
+const char *SSID = "<your-ssid>";
+const char *PASSWORD = "<your-password>";
 const char *ENDPOINT = "http://demo.martiningram.uk/api/test/";
 
 const int WIFI_TIMEOUT = 500;
