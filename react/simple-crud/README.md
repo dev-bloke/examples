@@ -1,7 +1,5 @@
 # Simple CRUD
 
-# Getting Started
-
 This project is based on [https://www.freecodecamp.org/news/how-to-perform-crud-operations-using-react/](this CRUD tutorial), but updated so that it works in the latest version of React.
 
 ## Available Scripts
