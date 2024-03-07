@@ -1,4 +1,4 @@
-# Simple CRUD
+# Simple CRUD with Axios and MockAPI.io.
 
 This project is based on [this CRUD tutorial](https://www.freecodecamp.org/news/how-to-perform-crud-operations-using-react/), but updated so that it works in the latest version of React.
 
