@@ -12,7 +12,7 @@ export default function Update() {
     const [id, setID] = useState(null);
 
     const updateAPIData = () => {
-        axios.put(`https://65e8766a4bb72f0a9c4f6aab.mockapi.io/api/product/${id}`, {
+        axios.put(`/api/product/${id}`, {
             productCode,
             name,
             description

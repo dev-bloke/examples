@@ -10,7 +10,7 @@ export default function Create() {
     const [description, setDescription] = useState('');
 
     const postData = () => {
-        axios.post(`https://65e8766a4bb72f0a9c4f6aab.mockapi.io/api/product`, {
+        axios.post(`/api/product`, {
             productCode,
             name,
             description

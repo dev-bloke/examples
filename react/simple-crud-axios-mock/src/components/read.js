@@ -6,14 +6,14 @@ export default function Read() {
 
     const [APIData, setAPIData] = useState([]);
     useEffect(() => {
-        axios.get(`https://65e8766a4bb72f0a9c4f6aab.mockapi.io/api/product`)
+        axios.get(`/api/product`)
             .then((response) => {
                 setAPIData(response.data);
             })
     }, [])
 
     const getData = () => {
-        axios.get(`https://65e8766a4bb72f0a9c4f6aab.mockapi.io/api/product`)
+        axios.get(`/api/product`)
             .then((getData) => {
                 setAPIData(getData.data);
             })
@@ -28,7 +28,7 @@ export default function Read() {
     }
 
     const onDelete = (id) => {
-        axios.delete(`https://65e8766a4bb72f0a9c4f6aab.mockapi.io/api/product/${id}`)
+        axios.delete(`/api/product/${id}`)
             .then(() => { getData(); })
     }
 
