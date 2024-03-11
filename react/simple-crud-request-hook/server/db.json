@@ -17,6 +17,12 @@
       "productCode": "P3",
       "name": "My product",
       "description": "Its a product"
+    },
+    {
+      "id": "6ee7",
+      "productCode": "NF",
+      "name": "Nils Frahm",
+      "description": "A composer from Berlin."
     }
   ]
 }
