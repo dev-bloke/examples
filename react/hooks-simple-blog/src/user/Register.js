@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 
-export default function Register({ setUser }) {
+export default function Register({ dispatch }) {
 
-    const [ userName, setUserName ] = useState('')
+    const [ username, setUsername ] = useState('')
     const [ password, setPassword ] = useState('')
     const [ repeatPassword, setRepeatPassword ] = useState('')
 
-    function handleUserName (event) {
-        setUserName(event.target.value)
+    function handleUsername (event) {
+        setUsername(event.target.value)
     }
 
     function handlePassword(event) {
@@ -19,10 +19,10 @@ export default function Register({ setUser }) {
     }
 
     return (
-        <form onSubmit={e => { e.preventDefault(); setUser(userName) }}>
-            <label htmlFor="register-username">Username:</label>
+        <form onSubmit={e => { e.preventDefault(); dispatch({type: "REGISTER", username}) }}>
+            <label htmlFor="register-username">username:</label>
             <input type="text" name="register-username" id="register-username"
-                value={userName} onChange={handleUserName} />
+                value={username} onChange={handleUsername} />
             <label htmlFor="register-password">Password:</label>
             <input type="password" name="register-password" id="register-password"
                 value={password} onChange={handlePassword} />
@@ -30,7 +30,7 @@ export default function Register({ setUser }) {
             <input type="password" name="register-password-repeat" id="register-password-repeat"
                 value={repeatPassword} onChange={handleRepeatPassword} />
             <input type="submit" value="Register"
-                disabled={userName.length === 0 || password.length === 0 || password !== repeatPassword} />
+                disabled={username.length === 0 || password.length === 0 || password !== repeatPassword} />
         </form>
     )
 }

@@ -1,20 +1,20 @@
 import React, { useState } from 'react'
 
-export default function Login ({ setUser }) {
+export default function Login ({ dispatch }) {
 
-    const [ userName, setUserName ] = useState('')
+    const [ username, setUsername ] = useState('')
 
-    function handleUserName(event) {
-        setUserName(event.target.value)
+    function handleUsername(event) {
+        setUsername(event.target.value)
     }
 
     return (
-        <form onSubmit={e => { e.preventDefault(); setUser(userName) }}>
+        <form onSubmit={e => { e.preventDefault(); dispatch({ type: "LOGIN", username }) }}>
             <label htmlFor="login-username">Username:</label>
-            <input type="text" name="login-username" id="login-username" value={userName} onChange={handleUserName} />
+            <input type="text" name="login-username" id="login-username" value={username} onChange={handleUsername} />
             <label htmlFor="login-password">Password:</label>
             <input type="password" name="login-password" id="login-password" />
-            <input type="submit" value="Login" disabled={userName.length === 0} />
+            <input type="submit" value="Login" disabled={username.length === 0} />
         </form>
     )
 }
