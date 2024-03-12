@@ -1,10 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import CreatePost from "./post/CreatePost";
 import PostList from './post/PostList'
 import UserBar from "./user/UserBar";
-
-const user = "Martin Ingram"
 
 const posts = [
   { title: "My First Post", content: "Nothing to see here, move along.", author: "Barney" },
@@ -13,11 +11,14 @@ const posts = [
 ]
 
 export default function App () {
+
+  const [ user, setUser ] = useState('')
+
   return (
       <div style={{ padding: 8 }}>
-        <UserBar user={user} />
+        <UserBar user={user} setUser={setUser} />
         <br/>
-        <CreatePost user={user} />
+          {user && <CreatePost user={user} />}
         <hr/>
         <PostList posts={posts} />
       </div>
