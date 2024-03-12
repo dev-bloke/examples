@@ -1,13 +1,31 @@
-import React from 'react'
-export default function CreatePost ({ user }) {
+import React, { useState } from 'react'
+
+export default function CreatePost ({ user, posts, setPosts }) {
+
+    const [ title, setTitle ] = useState('')
+    const [ content, setContent ] = useState('')
+
+    function handleContent(event) {
+        setContent(event.target.value)
+    }
+
+    function handleTitle(event) {
+        setTitle(event.target.value)
+    }
+
+    function handleCreate(event) {
+        const post = { title, content, author: user }
+        setPosts([ post, ...posts])
+    }
+
     return (
-        <form onSubmit={e => e.preventDefault()}>
+        <form onSubmit={e => { e.preventDefault(); handleCreate() }}>
             <div>Author: <b>{user}</b></div>
             <div>
                 <label htmlFor="create-title">Title:</label>
-                <input type="text" name="create-title" id="create-title" />
+                <input type="text" name="create-title" id="create-title" value={title} onChange={handleTitle}/>
             </div>
-            <textarea />
+            <textarea name="create-content" value={content} onChange={handleContent} />
             <input type="submit" value="Create" />
         </form>
     )
