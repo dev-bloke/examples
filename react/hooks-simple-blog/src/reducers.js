@@ -4,6 +4,8 @@ function postReducer(state, action) {
         case "CREATE_POST":
             const post = { title: action.title, content: action.content, author: action.author }
             return [ post, ...state ]
+        case "FETCH_POSTS":
+            return action.posts
         default:
             return state
     }
