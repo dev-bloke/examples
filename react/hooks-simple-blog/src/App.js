@@ -1,9 +1,11 @@
 import React, { useReducer, useEffect } from 'react'
 
+import appReducer from "./reducers";
 import CreatePost from "./post/CreatePost";
 import PostList from './post/PostList'
+import { StateContext } from "./contexts";
 import UserBar from "./user/UserBar";
-import appReducer from "./reducers";
+
 
 const defaultPosts = [
   { title: "My First Post", content: "Nothing to see here, move along.", author: "Barney" },
@@ -26,12 +28,14 @@ export default function App () {
     }, [user])
 
     return (
-        <div style={{ padding: 8 }}>
-            <UserBar user={user} dispatch={dispatch} />
-            <br/>
-              {user && <CreatePost user={user} posts={posts} dispatch={dispatch} />}
-            <hr/>
-            <PostList posts={posts} />
-        </div>
+        <StateContext.Provider value={{ state, dispatch }}>
+            <div style={{ padding: 8 }}>
+                <UserBar />
+                <br/>
+                  {user && <CreatePost />}
+                <hr/>
+                <PostList />
+            </div>
+        </StateContext.Provider>
    )
 }
