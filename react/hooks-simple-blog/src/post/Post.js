@@ -1,6 +1,6 @@
 import React from 'react'
-export default function Post ({ title, content, author }) {
-    return (
+function Post ({ title, content, author }) {
+     return (
         <div>
             <h3>{title}</h3>
             <div>{content}</div>
@@ -9,3 +9,5 @@ export default function Post ({ title, content, author }) {
         </div>
     )
 }
+
+export default React.memo(Post)
