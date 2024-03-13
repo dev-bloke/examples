@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "concurrently": "^8.2.2",
     "http-proxy-middleware": "^2.0.6",
-    "json-server": "^1.0.0-alpha.23",
+    "json-server": "0.17.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "npx concurrently \"npm run start:server\" \"npm run start:client\"",
-    "start:server": "npx json-server server/db.json --port=4000",
+    "start:server": "npx json-server server/db.json --port=4000 --routes server/routes.json",
     "start:client": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
