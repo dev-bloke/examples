@@ -1,0 +1,16 @@
+{
+  "product": [
+    {
+      "id": "1",
+      "productCode": "P1",
+      "name": "First product",
+      "description": "Our very first product!"
+    },
+    {
+      "productCode": "ABC",
+      "name": "Apple Banana Corer",
+      "description": "Removes cores from bananas and apples",
+      "id": "5b04"
+    }
+  ]
+}

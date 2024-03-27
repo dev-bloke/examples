@@ -1,0 +1,35 @@
+{
+  "post": [
+    {
+      "id": 1,
+      "title": "My First Post",
+      "content": "Nothing to see here, move along.",
+      "author": "Barney"
+    },
+    {
+      "id": 2,
+      "title": "My Second Post",
+      "content": "Still nothing to see here, move along.",
+      "author": "Pepper"
+    },
+    {
+      "id": 3,
+      "title": "My Third Post",
+      "content": "Read mine! Read mine!",
+      "author": "Boo"
+    },
+    {
+      "title": "Fourth Post",
+      "content": "Don't upset Mr Flibble. You wouldn't like that!",
+      "author": "Mr Flibble",
+      "id": 4
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "username": "Martin Ingram",
+      "password": "bananas"
+    }
+  ]
+}
