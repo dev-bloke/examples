@@ -31,11 +31,14 @@ class RestaurantDetailsViewModel @Inject constructor(
     }
 
     private suspend fun getRemoteRestaurant(id: Int): Restaurant {
+        // JSON Server sends HTTP 304 unless you add a random query parameter.
+        val rand = (0..9999999).random()
         return withContext(Dispatchers.IO) {
-            val responses = restInterface.getRestaurant(id)
-            return@withContext responses.values.first().let {
-                Restaurant(id = it.id, title = it.title, description = it.description)
-            }
+            val restaurant = restInterface.getRestaurant(id, rand)
+            return@withContext Restaurant(
+                id = restaurant.id,
+                title = restaurant.title,
+                description = restaurant.description)
         }
     }
 }

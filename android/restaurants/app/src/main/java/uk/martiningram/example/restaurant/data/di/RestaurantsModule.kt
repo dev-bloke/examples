@@ -35,12 +35,13 @@ object RestaurantsModule {
             .fallbackToDestructiveMigration().build()
     }
 
+    // TIP: 10.0.2.2 routes to localhost on your development machine.
     @Singleton
     @Provides
     fun provideRetrofit(): Retrofit {
         return Retrofit.Builder()
             .addConverterFactory(GsonConverterFactory.create())
-            .baseUrl("https://restaurants-651b0-default-rtdb.europe-west1.firebasedatabase.app/")
+            .baseUrl("http://10.0.2.2:8080/")
             .build()
     }
 

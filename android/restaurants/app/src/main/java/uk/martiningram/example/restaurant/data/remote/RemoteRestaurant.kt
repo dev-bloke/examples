@@ -3,10 +3,10 @@ package uk.martiningram.example.restaurant.data.remote
 import com.google.gson.annotations.SerializedName
 
 data class RemoteRestaurant (
-    @SerializedName("r_id")
+    @SerializedName("id")
     val id: Int,
-    @SerializedName("r_title")
+    @SerializedName("title")
     val title: String,
-    @SerializedName("r_description")
+    @SerializedName("description")
     val description: String
 )
