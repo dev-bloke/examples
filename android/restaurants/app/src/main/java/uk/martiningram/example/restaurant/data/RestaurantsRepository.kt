@@ -3,30 +3,24 @@ package uk.martiningram.example.restaurant.data
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import retrofit2.HttpException
-import retrofit2.Retrofit
-import retrofit2.converter.gson.GsonConverterFactory
 import uk.martiningram.example.restaurant.data.remote.RestaurantsAPIService
-import uk.martiningram.example.restaurant.RestaurantsApplication
 import uk.martiningram.example.restaurant.data.local.LocalRestaurant
 import uk.martiningram.example.restaurant.data.local.PartialLocalRestaurant
-import uk.martiningram.example.restaurant.data.local.RestaurantsDb
+import uk.martiningram.example.restaurant.data.local.RestaurantsDao
 import uk.martiningram.example.restaurant.domain.Restaurant
 import java.net.ConnectException
 import java.net.UnknownHostException
+import javax.inject.Inject
+import javax.inject.Singleton
 
 /*
  * TIP: A repository manages online and offline caching.
  */
-class RestaurantsRepository {
-
-    private var restInterface: RestaurantsAPIService =
-        Retrofit.Builder()
-            .addConverterFactory(GsonConverterFactory.create())
-            .baseUrl("https://restaurants-651b0-default-rtdb.europe-west1.firebasedatabase.app/")
-            .build()
-            .create(RestaurantsAPIService::class.java)
-
-    private var restaurantsDao = RestaurantsDb.getDaoInstance(RestaurantsApplication.getAppContext())!!
+@Singleton
+class RestaurantsRepository @Inject constructor(
+    private var restInterface: RestaurantsAPIService,
+    private var restaurantsDao: RestaurantsDao
+    ) {
 
     suspend fun loadRestaurants() {
         return withContext(Dispatchers.IO) {

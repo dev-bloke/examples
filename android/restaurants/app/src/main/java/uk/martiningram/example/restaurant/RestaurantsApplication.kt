@@ -2,14 +2,10 @@ package uk.martiningram.example.restaurant
 
 import android.app.Application
 import android.content.Context
+import dagger.hilt.android.HiltAndroidApp
 
 /*
- * TIP This is how to establish context.
+ * TIP Hilt establishes application context with this annotation.
  */
-class RestaurantsApplication: Application() {
-    init { app = this }
-    companion object {
-        private lateinit var app: RestaurantsApplication
-        fun getAppContext(): Context = app.applicationContext
-    }
-}
+@HiltAndroidApp
+class RestaurantsApplication: Application()

@@ -4,18 +4,21 @@ import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.launch
 import uk.martiningram.example.restaurant.domain.GetInitialRestaurantsUseCase
 import uk.martiningram.example.restaurant.domain.ToggleFavouriteRestaurantUseCase
+import javax.inject.Inject
 
-class RestaurantsViewModel(): ViewModel() {
-
-    /*
-     * TIP: Use cases separate data logic from business logic (sorting etc.).
-     */
-    private val getInitialRestaurantsUseCase = GetInitialRestaurantsUseCase()
-    private val toggleFavouriteRestaurantUseCase = ToggleFavouriteRestaurantUseCase()
+/*
+ * TIP: Use cases separate data logic from business logic (sorting etc.).
+ */
+@HiltViewModel
+class RestaurantsViewModel @Inject constructor(
+    private val getInitialRestaurantsUseCase: GetInitialRestaurantsUseCase,
+    private val toggleFavouriteRestaurantUseCase: ToggleFavouriteRestaurantUseCase
+    ) : ViewModel() {
 
     /*
      * TIP: Screen state object with a backing property, updated with _state.value.copy.

@@ -4,6 +4,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -11,17 +12,17 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import uk.martiningram.example.restaurant.data.remote.RestaurantsAPIService
 import uk.martiningram.example.restaurant.domain.Restaurant
+import javax.inject.Inject
 
-class RestaurantDetailsViewModel(private val stateHandle: SavedStateHandle): ViewModel() {
+@HiltViewModel
+class RestaurantDetailsViewModel @Inject constructor(
+    private val stateHandle: SavedStateHandle,
     private var restInterface: RestaurantsAPIService
+    ) : ViewModel() {
+
     val state = mutableStateOf<Restaurant?>(null)
 
     init {
-        val retrofit: Retrofit = Retrofit.Builder()
-            .addConverterFactory(GsonConverterFactory.create())
-            .baseUrl("https://restaurants-651b0-default-rtdb.europe-west1.firebasedatabase.app/")
-            .build()
-        restInterface = retrofit.create(RestaurantsAPIService::class.java)
         val id = stateHandle.get<Int>("restaurant_id")?: 0
         viewModelScope.launch {
             val restaurant = getRemoteRestaurant(id)
