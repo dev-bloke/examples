@@ -1,0 +1,88 @@
+{
+  "restaurants": [
+    {
+      "is_shutdown": true,
+      "description": "At Alfredo's, we provide the best seafood dishes.",
+      "id": 0,
+      "title": "Alfredo's dishes"
+    },
+    {
+      "is_shutdown": true,
+      "description": "At Jamie's, we serve the best meat and vegan burgers!",
+      "id": 1,
+      "title": "Jamie's burgers"
+    },
+    {
+      "is_shutdown": false,
+      "description": "Get the best pizza in town. We also serve vegan burgers!",
+      "id": 2,
+      "title": "Pizza John"
+    },
+    {
+      "is_shutdown": true,
+      "description": "At DitC, you can experience the full immersive dining experience.",
+      "id": 3,
+      "title": "Dinner in the Clouds"
+    },
+    {
+      "is_shutdown": false,
+      "description": "At Eternity lunch, you will get the best American dishes.",
+      "id": 4,
+      "title": "Eternity lunch"
+    },
+    {
+      "is_shutdown": true,
+      "description": "Drink your coffee and then have lunch at FaC!",
+      "id": 5,
+      "title": "Food and Coffee"
+    },
+    {
+      "is_shutdown": true,
+      "description": "Get your best burgers and pizza here in Brazil!",
+      "id": 6,
+      "title": "Pizza and burgers Brazil"
+    },
+    {
+      "is_shutdown": true,
+      "description": "Get the Christmas experience at Merry Dinner with Santa!",
+      "id": 7,
+      "title": "Merry Dinner"
+    },
+    {
+      "is_shutdown": true,
+      "description": "Relieve the childhood pizza experience at Uncle Ben's pizza shop!",
+      "id": 8,
+      "title": "Uncle Ben's Pizza shop"
+    },
+    {
+      "is_shutdown": true,
+      "description": "Get the best culinary experience in Toronto.",
+      "id": 9,
+      "title": "Spicy Grill Toronto"
+    },
+    {
+      "is_shutdown": false,
+      "description": "Cheesy meals with cheesy ingredients, it's all about cheese!",
+      "id": 10,
+      "title": "Cheese Food shop"
+    },
+    {
+      "is_shutdown": true,
+      "description": "Get your spicy food dose here in Atlanta at Mexican Spicy Food!",
+      "id": 11,
+      "title": "Mexican Spicy Food in Atlanta"
+    },
+    {
+      "is_shutdown": true,
+      "description": "Check out the true culinary experience with spanish dishes in NYC!",
+      "id": 12,
+      "title": "Spanish Kitchen Reinvented"
+    },
+    {
+      "is_shutdown": true,
+      "description": "Come get the best food in New Jersey, now at Mike and Ben's!",
+      "id": 13,
+      "title": "Mike and Ben's food pub"
+    }
+  ]
+}
