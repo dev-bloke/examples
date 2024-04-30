@@ -7,10 +7,10 @@ import java.util.HexFormat;
 
 public class FileFinder {
 
-    private static final String DIVIDER = "+------------+-----------------------------------------------+" +
-            "----+----+----+----+----+";
-    private static final String TITLES = "|Offset      |Bytes                                          |" +
-            "512 |1024|2048|4096|8192|";
+    private static final String DIVIDER = "+--------------+-------------------------------------------------+" +
+            "------+------+------+------+------+";
+    private static final String TITLES = "| Offset       | Bytes                                           |" +
+            " 512  | 1024 | 2048 | 4096 | 8192 |";
     private static final HexFormat hexFormat = HexFormat.ofDelimiter(" ").withUpperCase();
     private final String filename;
     private final String hex;
@@ -58,7 +58,7 @@ public class FileFinder {
     }
 
     private void searchFile(final InputStream input) throws Exception {
-        int offset = 0;
+        long offset = 0;
         boolean more = true;
         this.printHeadings();
         while (more) {
@@ -84,10 +84,10 @@ public class FileFinder {
         return builder.toString();
     }
 
-    private void searchSixteenBytes(final String sixteen, final int offset) {
+    private void searchSixteenBytes(final String sixteen, final long offset) {
         if (sixteen.startsWith(this.hex) && (offset % 512 == 0)) {
             final String strOffset = String.format("%012d", offset);
-            System.out.println("|" + strOffset + "|" + sixteen +
+            System.out.println("| " + strOffset + " | " + sixteen + " " +
                 this.startOfBuffer(offset,512) +
                 this.startOfBuffer(offset, 1024) +
                 this.startOfBuffer(offset, 2048) +
@@ -96,7 +96,7 @@ public class FileFinder {
         }
     }
 
-    private String startOfBuffer(final int offset, final int bufferSize) {
-        return (offset % bufferSize == 0) ? "|Yes " : "|No  ";
+    private String startOfBuffer(final long offset, final long bufferSize) {
+        return (offset % bufferSize == 0) ? "| Yes  " : "| No   ";
     }
 }
