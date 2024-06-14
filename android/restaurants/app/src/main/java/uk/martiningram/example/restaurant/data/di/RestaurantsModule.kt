@@ -1,6 +1,7 @@
 package uk.martiningram.example.restaurant.data.di
 
 import android.content.Context
+import android.util.Log
 import androidx.room.Room
 import dagger.Module
 import dagger.Provides
@@ -20,14 +21,19 @@ import javax.inject.Singleton
 @Module
 @InstallIn(SingletonComponent::class)
 object RestaurantsModule {
+
+    private val tag = "RestaurantsModule"
+
     @Provides
     fun provideRoomDao(database: RestaurantsDb): RestaurantsDao {
+        Log.d(tag, "Provide Room DAO")
         return database.dao
     }
 
     @Singleton
     @Provides
     fun provideRoomDatabase(@ApplicationContext appContext: Context): RestaurantsDb {
+        Log.d(tag, "Provide Room Database")
         return Room.databaseBuilder(
             appContext,
             RestaurantsDb::class.java,
@@ -39,6 +45,7 @@ object RestaurantsModule {
     @Singleton
     @Provides
     fun provideRetrofit(): Retrofit {
+        Log.d(tag, "Provide Retrofit")
         return Retrofit.Builder()
             .addConverterFactory(GsonConverterFactory.create())
             .baseUrl("http://10.0.2.2:8080/")
@@ -47,6 +54,7 @@ object RestaurantsModule {
 
     @Provides
     fun provideRetrofitApi(retrofit: Retrofit): RestaurantsAPIService {
+        Log.d(tag, "Provide API Service")
         return retrofit.create(RestaurantsAPIService::class.java)
     }
 }
