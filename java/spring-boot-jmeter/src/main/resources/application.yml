@@ -1,0 +1,18 @@
+spring:
+  config:
+    activate:
+      on-profile: default
+
+server:
+  servlet:
+    context-path: /api
+  forward-headers-strategy: framework
+
+swagger:
+  title: Spring Boot JMeter API Microservice
+  version: 1.0
+  description: A REST API microservice for testing JMeter plans.
+  contact:
+    name: Martin Ingram
+    url: https://www.southampton.ac.uk
+    email: mi2n23@soton.ac.uk
